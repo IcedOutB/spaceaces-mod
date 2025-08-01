@@ -1,0 +1,338 @@
+{
+    "shipIdToType": {
+        "6": 0,
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 11,
+        "7": 3,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "106": 17,
+        "13": 9,
+        "14": 10,
+        "15": 2,
+        "16": 2,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 14,
+        "23": 13,
+        "24": 13,
+        "25": 13,
+        "26": 13,
+        "27": 13,
+        "28": 14,
+        "107": 14,
+        "29": 15,
+        "30": 2,
+        "31": 14,
+        "78": 14,
+        "79": 14,
+        "80": 14,
+        "81": 14,
+        "82": 14,
+        "83": 12,
+        "91": 1,
+        "92": 1,
+        "93": 1,
+        "94": 1,
+        "95": 14
+    },
+    "shipTypeSlots": {
+        "0": {
+            "laser": 1,
+            "rLauncher": 1,
+            "generator": 1,
+            "extra": 0
+        },
+        "1": {
+            "laser": 15,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 1,
+            "module": 0,
+            "structureModule": 1
+        },
+        "15": {
+            "laser": 13,
+            "rLauncher": 1,
+            "generator": 12,
+            "extra": 1,
+            "module": 1,
+            "structureModule": 1
+        },
+        "14": {
+            "laser": 15,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 1,
+            "module": 2,
+            "structureModule": 1
+        },
+        "13": {
+            "laser": 15,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 1,
+            "module": 1,
+            "structureModule": 1
+        },
+        "12": {
+            "laser": 35,
+            "rLauncher": 1,
+            "generator": 35,
+            "extra": 5,
+            "module": 4,
+            "structureModule": 1
+        },
+        "10": {
+            "laser": 15,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 0
+        },
+        "2": {
+            "laser": 13,
+            "rLauncher": 1,
+            "generator": 12,
+            "extra": 1,
+            "module": 0,
+            "structureModule": 1
+        },
+        "11": {
+            "laser": 16,
+            "rLauncher": 1,
+            "generator": 10,
+            "extra": 0
+        },
+        "3": {
+            "laser": 2,
+            "rLauncher": 1,
+            "generator": 2,
+            "extra": 0
+        },
+        "4": {
+            "laser": 7,
+            "rLauncher": 1,
+            "generator": 10,
+            "extra": 1,
+            "module": 2,
+            "structureModule": 2
+        },
+        "5": {
+            "laser": 7,
+            "rLauncher": 1,
+            "generator": 8,
+            "extra": 0
+        },
+        "6": {
+            "laser": 5,
+            "rLauncher": 1,
+            "generator": 5,
+            "extra": 0
+        },
+        "7": {
+            "laser": 7,
+            "rLauncher": 1,
+            "generator": 6,
+            "extra": 0
+        },
+        "8": {
+            "laser": 7,
+            "rLauncher": 1,
+            "generator": 8,
+            "extra": 0
+        },
+        "17": {
+            "laser": 1,
+            "rLauncher": 1,
+            "generator": 8,
+            "extra": 0,
+            "module": 2,
+            "structureModule": 1
+        },
+        "9": {
+            "laser": 7,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 0,
+            "structureModule": 1
+        }
+    },
+    "palSlots": {
+        "0": {
+            "laser": 0,
+            "generator": 0,
+            "gear": 0,
+            "protocol": 0
+        },
+        "1": {
+            "laser": 1,
+            "generator": 1,
+            "gear": 0,
+            "protocol": 0
+        },
+        "2": {
+            "laser": 2,
+            "generator": 1,
+            "gear": 0,
+            "protocol": 0
+        },
+        "3": {
+            "laser": 2,
+            "generator": 2,
+            "gear": 0,
+            "protocol": 0
+        },
+        "4": {
+            "laser": 3,
+            "generator": 2,
+            "gear": 0,
+            "protocol": 0
+        },
+        "5": {
+            "laser": 3,
+            "generator": 3,
+            "gear": 0,
+            "protocol": 0
+        },
+        "6": {
+            "laser": 4,
+            "generator": 3,
+            "gear": 0,
+            "protocol": 0
+        },
+        "7": {
+            "laser": 4,
+            "generator": 4,
+            "gear": 0,
+            "protocol": 0
+        },
+        "8": {
+            "laser": 5,
+            "generator": 4,
+            "gear": 0,
+            "protocol": 0
+        },
+        "9": {
+            "laser": 5,
+            "generator": 5,
+            "gear": 0,
+            "protocol": 0
+        },
+        "10": {
+            "laser": 6,
+            "generator": 5,
+            "gear": 0,
+            "protocol": 0
+        },
+        "11": {
+            "laser": 6,
+            "generator": 6,
+            "gear": 0,
+            "protocol": 0
+        },
+        "12": {
+            "laser": 7,
+            "generator": 7,
+            "gear": 0,
+            "protocol": 0
+        },
+        "13": {
+            "laser": 8,
+            "generator": 8,
+            "gear": 0,
+            "protocol": 0
+        },
+        "14": {
+            "laser": 9,
+            "generator": 9,
+            "gear": 0,
+            "protocol": 0
+        },
+        "15": {
+            "laser": 10,
+            "generator": 10,
+            "gear": 0,
+            "protocol": 0
+        }
+    },
+    "equipmentAvailable": {
+        "laser": {
+            "1": {"id": 1, "popoverKey": "laser_lf4", "iconPath": "/weapon/laser", "name": "lf-4", "type": "laser", "sizes": ["30", "63", "100"]},
+            "2": {"id": 2, "popoverKey": "laser_prl", "iconPath": "/weapon/laser", "name": "pr-l", "type": "laser", "sizes": ["30"]},
+            "5": {"id": 5, "popoverKey": "laser_lf4u", "iconPath": "/weapon/laser", "name": "lf-4u", "type": "laser", "sizes": ["30"]},
+            "6": {"id": 6, "popoverKey": "laser_lf3", "iconPath": "/weapon/laser", "name": "lf-3", "type": "laser", "sizes": ["30"]}
+        },
+        "rLauncher": {
+            "3": {"id": 3, "subtype": "rlauncher", "popoverKey": "rl_hst1", "iconPath": "/weapon/rocketlauncher", "name": "hst-1", "type": "rLauncher", "sizes": ["30", "63", "100"]},
+            "4": {"id": 4, "subtype": "rlauncher", "popoverKey": "rl_hst2", "iconPath": "/weapon/rocketlauncher", "name": "hst-2", "type": "rLauncher", "sizes": ["30", "63", "100"]}
+        },
+        "generator": {
+            "1": {"id": 1, "popoverKey": "shd_sg3nb02", "iconPath": "/generator/shield", "name": "sg3n-b02", "type": "generator", "subtype": "shield", "sizes": ["30", "63", "100"]},
+            "2": {"id": 2, "popoverKey": "spd_g3n7900", "iconPath": "/generator/speed", "name": "g3n-7900", "type": "generator", "subtype": "speed", "sizes": ["30", "63", "100"]}
+        },
+        "extra": {
+            "1": {"id": 1, "popoverKey": "skm-01", "iconPath": "/skill/ship", "name": "skm-01", "compatibleShipClass": [1,12,13,14], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "2": {"id": 2, "popoverKey": "skm-02", "iconPath": "/skill/ship", "name": "skm-02", "compatibleShipClass": [1,12,13,14], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "3": {"id": 3, "popoverKey": "skm-03", "iconPath": "/skill/ship", "name": "skm-03", "compatibleShipClass": [1,12,13,14], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "4": {"id": 4, "popoverKey": "skm-04", "iconPath": "/skill/ship", "name": "skm-04", "compatibleShipClass": [1,12,13,14], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "5": {"id": 5, "popoverKey": "skm-05", "iconPath": "/skill/ship", "name": "skm-05", "compatibleShipClass": [1,12,13,14], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "6": {"id": 6, "popoverKey": "skm-06", "iconPath": "/skill/ship", "name": "skm-06", "compatibleShipClass": [2,15,12], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "7": {"id": 7, "popoverKey": "skm-07", "iconPath": "/skill/ship", "name": "skm-07", "compatibleShipClass": [4], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]}
+        },
+        "module": {
+            "1": {"id": 1, "popoverKey": "mhon-01", "iconPath": "/module", "name": "mhon-01", "type": "module", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "2": {"id": 2, "popoverKey": "mn-01", "iconPath": "/module", "name": "mn-01", "type": "module", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "3": {"id": 3, "popoverKey": "mx-01", "iconPath": "/module", "name": "mx-01", "type": "module", "subtype": "ship", "sizes": ["30", "63", "100"]}
+        },
+        "structureModule": {
+            "4": {"id": 4, "popoverKey": "md-01", "iconPath": "/structureModule", "name": "md-01", "type": "structureModule", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "5": {"id": 5, "popoverKey": "mh-01", "iconPath": "/structureModule", "name": "mh-01", "type": "structureModule", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "6": {"id": 6, "popoverKey": "ms-01", "iconPath": "/structureModule", "name": "ms-01", "type": "structureModule", "subtype": "ship", "sizes": ["30", "63", "100"]}
+        },
+        "dd": {
+            "5": {"id": 5, "popoverKey": "dd_havoc", "iconPath": "/drone", "name": "havoc", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]},
+            "6": {"id": 6, "popoverKey": "dd_hercules", "iconPath": "/drone", "name": "hercules", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]}
+        }
+    },
+    "shipSkillIdToChar": {
+        "1": "SG", 
+        "2": "PS", 
+        "3": "FT", 
+        "4": "NR", 
+        "5": "WS",
+        "6": "AB",
+        "7": "RF"
+    },
+    "droneTypeMaxSlots": {
+        "flax": 1,
+        "iris": 2,
+        "apis": 2,
+        "zeus": 2
+    },
+    "droneBonuses": {
+        "1": {"shd": 0, "dmg": 0},
+        "2": {"shd": 4, "dmg": 2},
+        "3": {"shd": 8, "dmg": 4},
+        "4": {"shd": 12, "dmg": 6},
+        "5": {"shd": 16, "dmg": 8},
+        "6": {"shd": 20, "dmg": 10}
+    },
+    "droneDesignBonuses": {
+        "5": {"shd": 0, "dmg": 10},
+        "6": {"shd": 15, "dmg": 0}
+    },
+    "droneDesignTypeToLoc": {
+        "0": "none",
+        "5": "havoc",
+        "6": "hercules"
+    }
+}

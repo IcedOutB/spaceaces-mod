@@ -1,0 +1,632 @@
+{
+    "1": {
+        "1": {
+            "name": "G-Enforcer",
+            "icon": "genforcer",
+            "rarity": false
+        },
+        "2": {
+            "name": "G-Bastion",
+            "icon": "gbastion",
+            "rarity": false
+        },
+        "3": {
+            "name": "V-Revenger",
+            "icon": "vrevenger",
+            "rarity": false
+        },
+        "4": {
+            "name": "V-Avenger",
+            "icon": "vavenger",
+            "rarity": false
+        },
+        "5": {
+            "name": "Vengeance",
+            "icon": "vengeance",
+            "rarity": false
+        },
+        "6": {
+            "name": "Phoenix",
+            "icon": "phoenix",
+            "rarity": false
+        },
+        "7": {
+            "name": "Yamato",
+            "icon": "yamato",
+            "rarity": false
+        },
+        "8": {
+            "name": "Defcom",
+            "icon": "defcom",
+            "rarity": false
+        },
+        "9": {
+            "name": "Leonov",
+            "icon": "leonov",
+            "rarity": false
+        },
+        "10": {
+            "name": "Liberator",
+            "icon": "liberator",
+            "rarity": false
+        },
+        "11": {
+            "name": "Piranha",
+            "icon": "piranha",
+            "rarity": false
+        },
+        "12": {
+            "name": "Nostormo",
+            "icon": "nostromo",
+            "rarity": false
+        },
+        "13": {
+            "name": "BigBoy",
+            "icon": "bigboy",
+            "rarity": false
+        },
+        "14": {
+            "name": "Goliath",
+            "icon": "goliath",
+            "rarity": false
+        },
+        "15": {
+            "name": "V-Honor",
+            "icon": "vhonor",
+            "rarity": false
+        },
+        "16": {
+            "name": "V-Experience",
+            "icon": "vexp",
+            "rarity": false
+        },
+        "17": {
+            "name": "G-Experience",
+            "icon": "gexp",
+            "rarity": false
+        },
+        "18": {
+            "name": "G-Honor",
+            "icon": "ghon",
+            "rarity": false
+        },
+        "19": {
+            "name": "G-Goal",
+            "icon": "goal",
+            "rarity": false
+        },
+        "20": {
+            "name": "G-Kick",
+            "icon": "kick",
+            "rarity": false
+        },
+        "21": {
+            "name": "G-Referee",
+            "icon": "referee",
+            "rarity": false
+        },
+        "22": {
+            "name": "G-Independence",
+            "icon": "american",
+            "rarity": false
+        },
+        "23": {
+            "name": "G-Spectrum",
+            "icon": "spectrum",
+            "rarity": false
+        },
+        "24": {
+            "name": "G-Solace",
+            "icon": "solace",
+            "rarity": false
+        },
+        "25": {
+            "name": "G-Venom",
+            "icon": "venom",
+            "rarity": false
+        },
+        "26": {
+            "name": "G-Diminisher",
+            "icon": "diminisher",
+            "rarity": false
+        },
+        "27": {
+            "name": "G-Sentinel",
+            "icon": "sentinel",
+            "rarity": false
+        },
+        "28": {
+            "name": "G-Turkey",
+            "icon": "gturkey",
+            "rarity": false
+        },
+        "29": {
+            "name": "V-Lightning",
+            "icon": "vlight",
+            "rarity": false
+        },
+        "30": {
+            "name": "V-Pusat",
+            "icon": "pusat",
+            "rarity": false
+        },
+        "31": {
+            "name": "G-Surgeon",
+            "icon": "surgeon",
+            "rarity": false
+        },
+        "78": {
+            "name": "G-Vanquisher",
+            "icon": "vanquisher",
+            "rarity": false
+        },
+        "79": {
+            "name": "G-Sovereign",
+            "icon": "sovereign",
+            "rarity": false
+        },
+        "80": {
+            "name": "G-Peacemaker",
+            "icon": "peacemaker",
+            "rarity": false
+        },
+        "82": {
+            "name": "G-Germany",
+            "icon": "ggerman",
+            "rarity": false
+        },
+        "83": {
+            "name": "G-Referee",
+            "icon": "referee",
+            "rarity": false
+        },
+        "95": {
+            "name": "G-RGB",
+            "icon": "rgbg",
+            "rarity": false
+        }
+    },
+    "2": {
+        "1": {
+            "name": "LF-4",
+            "icon": "lf4",
+            "rarity": true
+        },
+        "2": {
+            "name": "PR-L",
+            "icon": "prl",
+            "rarity": true
+        },
+        "3": {
+            "name": "Rocket Launcher - Basic",
+            "icon": "hst1",
+            "rarity": false
+        },
+        "4": {
+            "name": "Rocket Launcher - Advanced",
+            "icon": "hst2",
+            "rarity": false
+        },
+        "5": {
+            "name": "LF-4-U",
+            "icon": "lf4u",
+            "rarity": true
+        },
+        "6": {
+            "name": "LF-3",
+            "icon": "lf3",
+            "rarity": false
+        }
+    },
+    "3": {
+        "1": {
+            "name": "Flax",
+            "icon": "flax",
+            "rarity": false
+        },
+        "2": {
+            "name": "Iris",
+            "icon": "iris",
+            "rarity": false
+        },
+        "3": {
+            "name": "Apis",
+            "showCurrency": [
+                "parts",
+                "ap"
+            ],
+            "icon": "apis",
+            "rarity": false
+        },
+        "4": {
+            "name": "Zeus",
+            "showCurrency": [
+                "parts",
+                "zp"
+            ],
+            "icon": "zeus",
+            "rarity": false
+        },
+        "5": {
+            "name": "Havoc",
+            "icon": "apis",
+            "rarity": false
+        },
+        "6": {
+            "name": "Hercules",
+            "icon": "zeus",
+            "rarity": false
+        },
+        "7": {
+            "name": "F-3D-DM",
+            "icon": "f-3d-dm",
+            "rarity": false
+        },
+        "8": {
+            "name": "F-3D-DR",
+            "icon": "f-3d-dr",
+            "rarity": false
+        },
+        "9": {
+            "name": "F-3D-RG",
+            "icon": "f-3d-rg",
+            "rarity": false
+        },
+        "10": {
+            "name": "F-3D-WL",
+            "icon": "f-3d-wl",
+            "rarity": false
+        },
+        "11": {
+            "name": "F-3D-VT",
+            "icon": "f-3d-vt",
+            "rarity": false
+        }
+    },
+    "4": {
+        "1": {
+            "name": "SG3N-B02",
+            "icon": "sg3n-b02",
+            "rarity": false
+        },
+        "2": {
+            "name": "G3N-7900",
+            "icon": "g3n-7900",
+            "rarity": false
+        }
+    },
+    "5": {
+        "1": {
+            "name": "SKM-01",
+            "icon": "skm-01",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "singularity"
+            ],
+            "rarity": false
+        },
+        "2": {
+            "name": "SKM-02",
+            "icon": "skm-02",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "prismaShield"
+            ],
+            "rarity": false
+        },
+        "3": {
+            "name": "SKM-03",
+            "icon": "skm-03",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "fortress"
+            ],
+            "rarity": false
+        },
+        "4": {
+            "name": "SKM-04",
+            "icon": "skm-04",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "nanoRepair"
+            ],
+            "rarity": false
+        },
+        "5": {
+            "name": "SKM-05",
+            "icon": "skm-05",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "weakShield"
+            ],
+            "rarity": false
+        },
+        "6": {
+            "name": "SKM-06",
+            "icon": "skm-06",
+            "refRate": 350,
+            "keyPath": [
+                "sfx",
+                "turbo"
+            ],
+            "rarity": false
+        },
+        "7": {
+            "name": "SKM-07",
+            "icon": "skm-07",
+            "iconBg": "shipRepre",
+            "keyPath": [
+                "sfx",
+                "rapidFire"
+            ],
+            "rarity": false
+        }
+    },
+    "6": {
+        "1": {
+            "name": "LCB-10",
+            "icon": "lcb",
+            "rarity": false
+        },
+        "2": {
+            "name": "MCB-25",
+            "icon": "mcb25",
+            "rarity": false
+        },
+        "3": {
+            "name": "MCB-50",
+            "icon": "mcb50",
+            "rarity": false
+        },
+        "4": {
+            "name": "SAB-50",
+            "icon": "sab",
+            "rarity": false
+        },
+        "5": {
+            "name": "UCB-100",
+            "icon": "ucb",
+            "rarity": false
+        },
+        "6": {
+            "name": "RSB-75",
+            "icon": "rsb",
+            "rarity": false
+        }
+    },
+    "7": {
+        "1": {
+            "name": "R-310",
+            "icon": "r310",
+            "rarity": false
+        },
+        "2": {
+            "name": "PLT-2026",
+            "icon": "plt2026",
+            "rarity": false
+        },
+        "3": {
+            "name": "PLT-2021",
+            "icon": "plt2021",
+            "rarity": false
+        },
+        "4": {
+            "name": "PLT-3030",
+            "icon": "plt3030",
+            "rarity": false
+        },
+        "5": {
+            "name": "PLD-8",
+            "icon": "pld",
+            "rarity": false
+        },
+        "6": {
+            "name": "DCR-250",
+            "icon": "dcr",
+            "rarity": false
+        },
+        "7": {
+            "name": "ECO-10",
+            "icon": "eco",
+            "rarity": false
+        },
+        "8": {
+            "name": "HSTRM-01",
+            "icon": "hstrm",
+            "rarity": false
+        },
+        "9": {
+            "name": "UBR-100",
+            "icon": "ubr",
+            "rarity": false
+        },
+        "10": {
+            "name": "SAR-01",
+            "icon": "sar01",
+            "rarity": false
+        },
+        "11": {
+            "name": "SAR-02",
+            "icon": "sar02",
+            "rarity": false
+        }
+    },
+    "8": {
+        "1": {
+            "name": "ACM-01",
+            "icon": "acm",
+            "rarity": false
+        },
+        "2": {
+            "name": "SABM-01",
+            "icon": "sabm",
+            "rarity": false
+        },
+        "3": {
+            "name": "DDM-01",
+            "icon": "ddm",
+            "rarity": false
+        },
+        "4": {
+            "name": "EMPM-01",
+            "icon": "empm",
+            "rarity": false
+        },
+        "5": {
+            "name": "SLM-01",
+            "icon": "slm",
+            "rarity": false
+        }
+    },
+    "9": {
+        "1": {
+            "name": "ISH-01",
+            "icon": "ish",
+            "rarity": false
+        },
+        "2": {
+            "name": "SMB-01",
+            "icon": "smb",
+            "rarity": false
+        },
+        "3": {
+            "name": "EMP-01",
+            "icon": "emp",
+            "rarity": false
+        },
+        "4": {
+            "name": "FWX-L",
+            "icon": "fwxl",
+            "rarity": false
+        },
+        "5": {
+            "name": "FWX-M",
+            "icon": "fwxm",
+            "rarity": false
+        },
+        "6": {
+            "name": "FWX-RZ",
+            "icon": "fwxrz",
+            "rarity": false
+        }
+    },
+    "10": {
+        "1": {
+            "name": "CLO4k-CH",
+            "icon": "clo4k",
+            "rarity": false
+        },
+        "2": {
+            "name": "BK-100",
+            "icon": "bk100",
+            "rarity": false
+        },
+        "3": {
+            "name": "BK-101",
+            "icon": "bk101",
+            "rarity": false
+        },
+        "4": {
+            "name": "BK-102",
+            "icon": "bk102",
+            "rarity": false
+        }
+    },
+    "11": {
+        "1": {
+            "name": "XP-B01",
+            "icon": "xp-b01",
+            "rarity": false
+        },
+        "2": {
+            "name": "XP-B02",
+            "icon": "xp-b02",
+            "rarity": false
+        },
+        "3": {
+            "name": "DMG-B01",
+            "icon": "dmg-b01",
+            "rarity": false
+        },
+        "4": {
+            "name": "DMG-B02",
+            "icon": "dmg-b02",
+            "rarity": false
+        },
+        "5": {
+            "name": "SHD-B01",
+            "icon": "shd-b01",
+            "rarity": false
+        },
+        "6": {
+            "name": "SHD-B02",
+            "icon": "shd-b02",
+            "rarity": false
+        },
+        "7": {
+            "name": "HP-B01",
+            "icon": "hp-b01",
+            "rarity": false
+        },
+        "8": {
+            "name": "HP-B02",
+            "icon": "hp-b02",
+            "rarity": false
+        },
+        "9": {
+            "name": "HON-B01",
+            "icon": "hon-b01",
+            "rarity": false
+        },
+        "10": {
+            "name": "HON-B02",
+            "icon": "hon-b02",
+            "rarity": false
+        },
+        "11": {
+            "name": "SHDRECH-B01",
+            "icon": "shdrech-b01",
+            "rarity": false
+        },
+        "12": {
+            "name": "SHDRECH-B02",
+            "icon": "shdrech-b02",
+            "rarity": false
+        },
+        "13": {
+            "name": "REP-B01",
+            "icon": "rep-b01",
+            "rarity": false
+        },
+        "14": {
+            "name": "REP-B02",
+            "icon": "rep-b02",
+            "rarity": false
+        },
+        "15": {
+            "name": "CD-B01",
+            "icon": "cd-b01",
+            "rarity": false
+        },
+        "16": {
+            "name": "CD-B02",
+            "icon": "cd-b02",
+            "rarity": false
+        },
+        "17": {
+            "name": "BOX-B01",
+            "icon": "box-b01",
+            "rarity": false
+        },
+        "18": {
+            "name": "QUEST-B01",
+            "icon": "quest-b01",
+            "rarity": false
+        }
+    }
+}

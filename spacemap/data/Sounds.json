@@ -1,0 +1,67 @@
+{
+    "effects": {
+        "emp": ["effects/emp", false, 0, true],
+        "firework": ["effects/firework", false, 0, true]
+    },
+    "explosions": {
+        "explosion0": ["explosions/explosion0", false, 0, true],
+        "rocketExplosion0": ["explosions/rocketExplosion0", false, 0, true],
+        "rocketExplosion1": ["explosions/rocketExplosion1", false, 0, true],
+        "smartbomb": ["explosions/smartbomb", false, 0, true]
+    },
+    "lasers": {
+        "0": ["lasers/laser0", false, 0, true],
+        "1": ["lasers/laser1", false, 0, true],
+        "2": ["lasers/laser2", false, 0, true],
+        "3": ["lasers/laser3", false, 0, true],
+        "4": ["lasers/laser4", false, 0, true],
+        "5": ["lasers/laser5", false, 0, true],
+        "beam": ["lasers/beam", false, 0]
+    },
+    "npcLasers": {
+        "1": ["npcLasers/laser1", false, 0, true],
+        "2": ["npcLasers/laser2", false, 0, true],
+        "3": ["npcLasers/laser2", false, 0, true],
+        "4": ["npcLasers/laser4", false, 0, true],
+        "5": ["npcLasers/laser5", false, 0, true],
+        "6": ["npcLasers/laser6", false, 0, true]
+    },
+    "mines": {
+        "default": ["mines/default", false, 0, true],
+        "emp": ["mines/emp", false, 0, true]
+    },
+    "misc": {
+        "flight": ["misc/flying", true, 0],
+        "levelUp": ["misc/levelUp", false, 0, true],
+        "beam": ["misc/beam", false, 0, true]
+    },
+    "portal": {
+        "mapChange": ["portal/mapChange", false, 0],
+        "portalJump": ["portal/portalJump", false, 0],
+        "voicePortalJump": ["portal/voicePortalJump", false, 0]
+    },
+    "robots": {
+        "robot": ["robots/robot", true, 0],
+        "battle": ["robots/robotBattle", true, 0, true]
+    },
+    "rockets": {
+        "rocket": ["rockets/rocket", false, 0, true],
+        "airstrike": ["rockets/airstrike", false, 0, true]
+    },
+    "shields": {
+        "advanced": ["shields/advancedShield", false, 0, true],
+        "ish": ["shields/instaShield", false, 0, true]
+    },
+    "start": {
+        "ready": ["start/voiceReady", false, 0],
+        "welcome": ["start/welcomeSound", false, 1]
+    },
+    "themes": {
+        "default": ["themes/default", true, 1],
+        "midi": ["themes/midi", true, 1]
+    },
+    "ui": {
+        "selectItem": ["ui/selectItem", false, 0],
+        "selectMenu": ["ui/selectMenu", false, 0]
+    }
+}

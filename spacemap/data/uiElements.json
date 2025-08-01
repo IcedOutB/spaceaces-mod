@@ -1,0 +1,1597 @@
+{
+    "ui": [{
+            "id": 0,
+            "name": "log",
+            "icon": "log",
+            "label": "log_label",
+            "hasComponent": true,
+            "resizeDragger": true,
+            "size": {
+                "minW": 405,
+                "minH": 291
+            },
+            "controller": {
+                "x": 0,
+                "y": 78,
+                "useDefPosition": true
+            },
+            "content": [],
+            "position": 4
+        },
+        {
+            "id": 1,
+            "position": 2,
+            "name": "userinfo",
+            "icon": "user",
+            "label": "user_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 0,
+                "y": 0,
+                "useDefPosition": true
+            },
+            "content": [{
+                    "name": "EP",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconEp",
+                    "popover": {
+                        "txtKey": "ep-ui",
+                        "keys": "EP"
+                    }
+                },
+                {
+                    "name": "CRED",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconCreds",
+                    "popover": {
+                        "txtKey": "cred-ui",
+                        "keys": "CRED"
+                    }
+                },
+                {
+                    "name": "LVL",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconLevel",
+                    "popover": {
+                        "txtKey": "lvl-ui",
+                        "keys": "LVL"
+                    }
+                },
+                {
+                    "name": "URI",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconUri",
+                    "popover": {
+                        "txtKey": "uri-ui",
+                        "keys": "URI"
+                    }
+                },
+                {
+                    "name": "HON",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconHon",
+                    "popover": {
+                        "txtKey": "hon-ui",
+                        "keys": "HON"
+                    }
+                },
+                {
+                    "name": "JP",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconJp",
+                    "popover": {
+                        "txtKey": "jp-ui",
+                        "keys": "JP"
+                    }
+                },
+                {
+                    "name": "KEY",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconKey",
+                    "popover": {
+                        "txtKey": "key-ui",
+                        "keys": ["GKEY", "RKEY", "BKEY"]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "position": 1,
+            "name": "shipinfo",
+            "icon": "ship",
+            "label": "ship_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": -20,
+                "y": 39,
+                "useDefPosition": true
+            },
+            "content": [{
+                "name": "HP",
+                "isBar": true,
+                "colorLight": "#d3f2d1",
+                "colorDark": "#66d05e",
+                "color": "#49BE40",
+                "icon": "star-of-life",
+                "isFontIcon": true,
+                "popover": {
+                    "txtKey": "hp-ui",
+                    "keys": "HP"
+                }
+            },
+            {
+                "name": "SHD",
+                "isBar": true,
+                "color": "#338FCC",
+                "colorLight": "#d1f0f2",
+                "colorDark": "#5ecad0",
+                "icon": "shield",
+                "isFontIcon": true,
+                "popover": {
+                    "txtKey": "shd-ui",
+                    "keys": "SHD"
+                }
+            },
+                {
+                    "name": "CFG",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconCfg",
+                    "hasEvent": true,
+                    "popover": {
+                        "txtKey": "cfg-ui",
+                        "keys": "CFG"
+                    }
+                },
+                {
+                    "name": "CARGO",
+                    "isBar": true,
+                    "color": "yellow",
+                    "icon": "iconCargo",
+                    "popover": {
+                        "txtKey": "cargo-ui",
+                        "keys": "CARGO"
+                    }
+                },
+                {
+                    "name": "SPEED",
+                    "isBar": false,
+                    "color": "white",
+                    "icon": "iconSpd",
+                    "popover": {
+                        "txtKey": "speed-ui",
+                        "keys": "SPEED"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "position": 3,
+            "name": "spacemap",
+            "icon": "minimap",
+            "resizeEnabled": true,
+            "label": "minimap_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 345,
+                "minH": 240
+            },
+            "controller": {
+                "x": 20,
+                "y": 39,
+                "useDefPosition": true
+            },
+            "content": []
+        },
+        {
+            "id": 4,
+            "name": "settings",
+            "icon": "settings",
+            "label": "settings_label",
+            "hasComponent": true,
+            "isOpen": false,
+            "controller": {
+                "bottomPop": true,
+                "right": 130,
+                "y": 0,
+                "useDefPosition": false
+            },
+            "content": [
+                [{
+                    "name": "bg",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "space_object",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "nebula",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }, {
+                    "name": "star",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "good", "val": "good"}, {"id": 3, "label": "high", "val": "high"}]
+                }, {
+                    "name": "explosion",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "good", "val": "good"}, {"id": 4, "label": "high", "val": "high"}]
+                }, {
+                    "name": "engine",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                }, {
+                    "name": "ships",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                }, {
+                    "name": "language",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "czech", "val": "cz"}, {"id": 2, "label": "english", "val": "en"}, {"id": 3, "label": "german", "val": "de"}, {"id": 4, "label": "turkish", "val": "tr"}, {"id": 5, "label": "russian", "val": "ru"}, {"id": 6, "label": "spanish", "val": "es"}, {"id": 7, "label": "french", "val": "fr"}]
+                },
+                {
+                    "name": "lasers",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "classic", "val": "classic"}, {"id": 2, "label": "modern", "val": "modern"}]
+                },
+                {
+                    "name": "laserflash",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                }
+                ],
+                [{
+                    "name": "actionbar_attack",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "dblclick_attack",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "win11rl_off",
+                    "isCheck": true,
+                    "options": []
+                }, 
+                {
+                    "name": "actionbar_doublestop",
+                    "isCheck": true,
+                    "options": []
+                }],
+                [{
+                    "name": "show_nick",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "hit_display",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "drone_display",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "minimap_bg",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "ship_hover",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "window_bg",
+                    "isCheck": true,
+                    "options": []
+                }, {
+                    "name": "eq_drag",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "gamectrl_hide",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "enable_tactical_mini",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "drone_own_display",
+                    "isCheck": true,
+                    "options": []
+                }
+            ],
+                [{
+                        "name": "game_sounds",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                    }, {
+                        "name": "game_music",
+                        "isCheck": false,
+                        "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                    }, {
+                        "name": "game_sounds_volume",
+                        "isRangeSlider": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "game_music_volume",
+                        "isRangeSlider": true,
+                        "min": 0,
+                        "max": 100
+                    }
+                ],
+                [{
+                    "name": "action_button_1",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_2",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_3",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_4",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_5",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_6",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_7",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_8",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_9",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_10",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "action_button_11",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_12",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_13",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_14",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_15",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_16",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_17",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_18",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_19",
+                    "isKeyInput": true
+                }, {
+                    "name": "action_button_20",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "ish_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "smb_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "emp_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "config_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "port_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "mattack_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "ab_submenu_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "fps_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "logout_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "skill_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_rep_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_ac_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_g_button",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_p_rep_button",
+                    "isKeyInput": true
+                }],
+                [{
+                    "name": "action_button_1",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_2",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_3",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_4",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_5",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_6",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_7",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_8",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_9",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_10",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "action_button_11",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_12",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_13",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_14",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_15",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_16",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_17",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_18",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_19",
+                    "isGamepadInput": true
+                }, {
+                    "name": "action_button_20",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ish_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "smb_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "emp_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "config_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "port_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "mattack_button",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_up",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_down",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_right",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "ab_left",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_movement",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "gamepad_targeting",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "gamepad_cursor",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_move_cursor",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "toggle_attack",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "lock_on",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "toggle_fps",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "press_cursor",
+                    "isGamepadInput": true
+                },
+                {
+                    "name": "gamepad_scroll_el",
+                    "isGamepadJoystick": true
+                },
+                {
+                    "name": "activate_ab_item",
+                    "isGamepadInput": true
+                }
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "position": 5,
+            "name": "spacemap_ov",
+            "icon": "spacemap",
+            "label": "spacemap_label",
+            "hasComponent": true,
+            "isOpen": false,
+            "controller": {
+                "x": -20,
+                "y": 117,
+                "useDefPosition": true
+            },
+            "content": {
+                "maps": {
+                    "unavailable": [30,31,32],
+                    "level": [],
+                    "available": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+                },
+                "sectorSizes": [
+                    [621, 427],
+                    [710, 432]
+                ],
+                "lvlUnlocks": {
+                    "1": {
+                        "1": [1],
+                        "2": [5],
+                        "3": [9]
+                    },
+                    "2": {
+                        "1": [2],
+                        "2": [6],
+                        "3": [10]
+                    },
+                    "3": {
+                        "1": [3],
+                        "2": [7],
+                        "3": [11]
+                    },
+                    "6": {
+                        "1": [4],
+                        "2": [8],
+                        "3": [12]
+                    },
+                    "8": {
+                        "1": [7,8,11,12],
+                        "2": [11,12,7,8],
+                        "3": [7,8,11,12]
+                    },
+                    "10": {
+                        "1": [13,14,15],
+                        "2": [13,14,15],
+                        "3": [13,14,15]
+                    },
+                    "12": {
+                        "1": [16,17],
+                        "2": [16,21],
+                        "3": [16,25]
+                    },
+                    "13": {
+                        "1": [18,19],
+                        "2": [22,23],
+                        "3": [26,27]
+                    },
+                    "14": {
+                        "1": [20,29],
+                        "2": [24,29],
+                        "3": [28,29]
+                    },
+                    "16": {
+                        "1": [6,10],
+                        "2": [2,10],
+                        "3": [6,2]
+                    },
+                    "17": {
+                        "1": [21,25],
+                        "2": [17,25],
+                        "3": [17,21]
+                    },
+                    "18": {
+                        "1": [22,23,26,27],
+                        "2": [18,19,26,27],
+                        "3": [18,19,22,23]
+                    },
+                    "19": {
+                        "1": [24,28],
+                        "2": [20,28],
+                        "3": [20,24]
+                    },
+                    "20": {
+                        "1": [5,9],
+                        "2": [1,9],
+                        "3": [1,5]
+                    }
+                },
+                "mapVectors": [
+                    [
+                        [0, 185],
+                        [107, 185],
+                        [204, 136],
+                        [204, 235],
+                        [506, 0],
+                        [408, 38],
+                        [303, 87],
+                        [508, 97],
+                        [506, 375],
+                        [407, 326],
+                        [508, 192],
+                        [301, 283],
+                        [302, 182],
+                        [398, 151],
+                        [401, 219]
+                    ],
+                    [
+                        [272, 138],
+                        [164, 171],
+                        [84, 107],
+                        [84, 238],
+                        [0, 171],
+                        [506, 131],
+                        [506, 43],
+                        [619, 93],
+                        [619, 0],
+                        [487, 269],
+                        [519, 363],
+                        [594, 269],
+                        [628, 363],
+                        [230, 297],
+                        [202, 60],
+                        [296, 18],
+                        [388, 60]
+                    ]
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "position": 6,
+            "name": "chat",
+            "icon": "chat",
+            "label": "chat_label",
+            "hasComponent": true,
+            "size": {
+                "minW": 300,
+                "minH": 164
+            },
+            "controller": {
+                "x": 20,
+                "y": 117,
+                "useDefPosition": true
+            },
+            "content": []
+        },
+        {
+            "id": 10,
+            "position": 9,
+            "name": "equipment",
+            "icon": "equipment",
+            "label": "equipment_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": []
+        },
+        {
+            "id": 7,
+            "name": "fullscreen",
+            "icon": "fullscreen",
+            "label": "fullscreen_label",
+            "isSeperateContr": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
+        },
+        {
+            "id": 8,
+            "name": "help",
+            "icon": "help",
+            "label": "help_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "right": 50,
+                "y": 0,
+                "bottomPop": true,
+                "useDefPosition": false
+            },
+            "content": {
+                "items": [
+                    {"id": 1, "name": "settings", "text": "settings_help", "action": "settings", "btnLabel": "go_to_settings"},
+                    {"id": 2, "name": "shop", "text": "shop_help", "action": "shop", "btnLabel": "go_to_shop"},
+                    {"id": 3, "name": "equipment", "text": "equipment_help", "action": "eq", "btnLabel": "go_to_equipment"},
+                    {"id": 4, "name": "movement", "text": "movement_help"},
+                    {"id": 5, "iconExt": ".gif", "name": "actionBar", "text": "actionBar_help"},
+                    {"id": 6, "name": "combat", "text": "combat_help"},
+                    {"id": 7, "name": "repair", "text": "repair_help"},
+                    {"id": 8, "name": "portal", "text": "portal_help"}
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "logout",
+            "icon": "logout",
+            "label": "logout_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132
+            },
+            "controller": {
+                "right": 10,
+                "y": 0,
+                "useDefPosition": false,
+                "bottomPop": true
+            },
+            "content": []
+        },
+        {
+            "id": 11,
+            "position": 8,
+            "name": "shop",
+            "icon": "shop",
+            "label": "shop_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": -20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": {
+                "sections": [
+                    {
+                        "id": 1,
+                        "label": "shop_ships",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 2,
+                        "label": "shop_weapons",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 3,
+                        "label": "shop_drones",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 4,
+                        "label": "shop_generators",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 5,
+                        "label": "shop_extras",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 6,
+                        "label": "shop_ammo",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 7,
+                        "label": "shop_missile",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 8,
+                        "label": "shop_mine",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 9,
+                        "label": "shop_special",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 10,
+                        "label": "shop_extras_cpu",
+                        "icon": "iconship"
+                    },
+                    {
+                        "id": 11,
+                        "label": "shop_boosters",
+                        "icon": "iconship"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "position": 7,
+            "name": "group",
+            "icon": "group",
+            "label": "group_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 20,
+            "position": 17,
+            "name": "boosters",
+            "icon": "booster",
+            "label": "boosters_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 256,
+                "minH": 132,
+                "maxW": 256,
+                "maxH": 132
+            },
+            "controller": {
+                "x": 20,
+                "y": 195,
+                "useDefPosition": true
+            },
+            "content": [
+            {
+                "name": "XP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "xp",
+                "popover": {
+                    "txtKey": "xp-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "HON",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "hon",
+                "popover": {
+                    "txtKey": "hon-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "SHD",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "shd",
+                "popover": {
+                    "txtKey": "shd-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "HP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "hp",
+                "popover": {
+                    "txtKey": "hp-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "DMG",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "dmg",
+                "popover": {
+                    "txtKey": "dmg-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "SHDRECH",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "shdrech",
+                "popover": {
+                    "txtKey": "shdrech-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "QUEST",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "quest",
+                "popover": {
+                    "txtKey": "quest-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "REP",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "repair",
+                "popover": {
+                    "txtKey": "repair-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "BOX",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "box",
+                "popover": {
+                    "txtKey": "box-ui",
+                    "keys": "VALUE"
+                }
+            },
+            {
+                "name": "CD",
+                "isBar": true,
+                "color": "#49BE40",
+                "icon": "cd",
+                "popover": {
+                    "txtKey": "cd-ui",
+                    "keys": "VALUE"
+                }
+            }
+        ]
+        },
+        {
+            "id": 13,
+            "position": 19,
+            "name": "commchannel",
+            "icon": "cli",
+            "label": "commchannel_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {}
+        },
+        {
+            "id": 13,
+            "position": 20,
+            "name": "assembly",
+            "icon": "assembly",
+            "label": "assembly_label",
+            "isOpen": false,
+            "adminOnly": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "bonus": {
+                    "dmg": {},
+                    "shd": {}
+                },
+                "valute": {
+                    "uri": {},
+                    "credits": {}
+                }
+            }
+        },
+        {
+            "id": 13,
+            "position": 21,
+            "name": "contacts",
+            "icon": "contacts",
+            "label": "contacts_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 13,
+            "position": 22,
+            "name": "clanstation",
+            "icon": "worldBoss",
+            "label": "clanstation_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {
+                "template": "userscript.html",
+                "hash": "dhdgffkkebhmkfjojejmpbldmpobfkfo"
+            }
+        },
+        {
+            "id": 14,
+            "position": 24,
+            "name": "pal",
+            "icon": "pet",
+            "label": "pal_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "adminOnly": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "levels": {
+                    "std": {
+                        "1": 10000,
+                        "2": 30000,
+                        "3": 70000,
+                        "4": 150000,
+                        "5": 470000,
+                        "6": 1430000,
+                        "7": 3158000,
+                        "8": 7253000,
+                        "9": 15253000,
+                        "10": 32829000,
+                        "11": 59829000,
+                        "12": 109829000,
+                        "13": 184829000,
+                        "14": 284829000,
+                        "15": 434829000
+                    },
+                    "pvp": {
+                        "1": 60,
+                        "2": 180,
+                        "3": 360,
+                        "4": 600,
+                        "5": 900,
+                        "6": 1260,
+                        "7": 1680,
+                        "8": 2160,
+                        "9": 2700,
+                        "10": 3300,
+                        "11": 3960,
+                        "12": 4680,
+                        "13": 5460,
+                        "14": 6300,
+                        "15": 7500
+                    },
+                    "pve": {
+                        "1": 100,
+                        "2": 300,
+                        "3": 600,
+                        "4": 1100,
+                        "5": 1700,
+                        "6": 2400,
+                        "7": 3200,
+                        "8": 4200,
+                        "9": 6200,
+                        "10": 9500,
+                        "11": 13000,
+                        "12": 17000,
+                        "13": 22000,
+                        "14": 30000,
+                        "15": 40000
+                    }
+                }
+            }
+        },
+        {
+            "id": 15,
+            "position": 23,
+            "name": "admin",
+            "icon": "log",
+            "label": "admin_label",
+            "isOpen": false,
+            "adminOnly": true,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 14,
+            "position": 10,
+            "name": "arena",
+            "icon": "traininggrounds",
+            "label": "arena_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 400,
+                "minH": 400
+            },
+            "controller": {
+                "x": 0,
+                "y": 234,
+                "useDefPosition": true
+            },
+            "content": {
+                "mutators": {
+                    
+                }
+            }
+        },
+        {
+            "id": 16,
+            "position": 12,
+            "name": "pilotsheet",
+            "icon": "pvp_summer",
+            "label": "pilotsheet_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 1025,
+                "minH": 425
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "section0": {
+                    "id": 0,
+                    "skills": [
+                        [
+                            {"id": 0, "lvl": 0, "name": "hp_pp_01", "maxPoints": 2, "coef": false, "lvlData": {"1": 5000, "2": 10000}},
+                            {"id": 1, "lvl": 0, "name": "rep_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 2, "lvl": 0, "name": "shd_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}}
+                        ],
+                        [
+                            {"id": 3, "lvl": 0, "name": "xp_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                        ],
+                        [
+                            {"id": 4, "lvl": 0, "name": "minedmg_pp_01", "maxPoints": 2, "lvlData": {"1": 7, "2": 14}},
+                            {"id": 5, "lvl": 0, "name": "minerange_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}},
+                            {"id": 6, "lvl": 0, "name": "missileacc_pp_01", "maxPoints": 5, "lvlData": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5}}
+                        ]
+                    ]
+                },
+                "section1": {
+                    "requires": [{"sId": 0, "minPoints": 5}],
+                    "id": 1,
+                    "skills": [
+                        [
+                            {"id": 0, "lvl": 0, "name": "ev_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 1, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 25000}}
+                        ],
+                        [
+                            {"id": 2, "lvl": 0, "name": "uri_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 3, "lvl": 0, "name": "cred_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                        ],
+                        [
+                            {"id": 4, "lvl": 0, "name": "pvp_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 5, "lvl": 0, "name": "missdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 10}},
+                            {"id": 6, "lvl": 0, "name": "npcdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 8, "4": 16, "5": 25}}
+                        ]
+                    ]
+                },
+                "section2": {
+                    "requires": [{"sId": 0, "minPoints": 5}, {"sId": 1, "minPoints": 5}],
+                    "id": 2,
+                    "skills": [
+                        [
+                            {"id": 0, "lvl": 0, "name": "abs_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 12}},
+                            {"id": 1, "lvl": 0, "name": "ev_pp_02", "requires": [{"sId": 1, "id": 0}], "maxPoints": 3, "lvlData": {"1": 4, "2": 6, "3": 8}}
+                        ],
+                        [
+                            {"id": 2, "lvl": 0, "name": "uri_pp_02", "requires": [{"sId": 1, "id": 2}], "maxPoints": 3, "lvlData": {"1": 2, "2": 4, "3": 6}}
+                        ],
+                        [
+                            {"id": 3, "lvl": 0, "name": "minedmg_pp_02", "requires": [{"sId": 0, "id": 4}], "maxPoints": 3, "lvlData": {"1": 7, "2": 14, "3": 21}},
+                            {"id": 4, "lvl": 0, "name": "acc_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 5, "lvl": 0, "name": "pvp_pp_02", "requires": [{"sId": 1, "id": 4}], "maxPoints": 3, "lvlData": {"1": 4, "2": 8, "3": 12}}
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": 17,
+            "position": 13,
+            "name": "clan",
+            "icon": "clanvisibility",
+            "label": "clan_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 1025,
+                "minH": 425
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "nav": [
+                    {"id": 1, "label": "info", "memberOnly": true},
+                    {"id": 2, "label": "members", "memberOnly": true},
+                    {"id": 3, "label": "balance", "memberOnly": true},
+                    {"id": 4, "label": "diplomacy", "memberOnly": true},
+                    {"id": 8, "label": "upgrades", "memberOnly": true},
+                    {"id": 9, "label": "shop_help_title", "memberOnly": true},
+                    {"id": 5, "label": "company", "memberOnly": false},
+                    {"id": 6, "label": "join", "singleOnly": true},
+                    {"id": 7, "label": "create", "singleOnly": true}
+                ],
+                "factions": [
+                    {"id": 1, "label": "mmo"},
+                    {"id": 2, "label": "eic"},
+                    {"id": 3, "label": "vru"}
+                ],
+                "possibleClanUpgrades": [
+                    {"id": 1, "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 2, "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 3, "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.01, "costs": {
+                        "1": {"uri": 100000, "credits": 40000000},
+                        "2": {"uri": 120000, "credits": 60000000},
+                        "3": {"uri": 140000, "credits": 80000000},
+                        "4": {"uri": 160000, "credits": 100000000},
+                        "5": {"uri": 200000, "credits": 140000000},
+                        "6": {"uri": 250000, "credits": 180000000},
+                        "7": {"uri": 300000, "credits": 220000000},
+                        "8": {"uri": 350000, "credits": 260000000},
+                        "9": {"uri": 400000, "credits": 300000000},
+                        "10": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 4, "type": "module", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 5, "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 6, "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }}
+                ],
+                "shopitems": [
+                    {"id": 1, "type": "module_laser", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 2, "type": "module_rocket", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 3, "type": "module_repair", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 4, "type": "structure", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 5, "type": "module_dmg", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 6, "type": "module_xp", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 7, "type": "module_hon", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 8, "type": "module_shd", "costData": {"uri": 100000, "credits": 100000000}},
+                    {"id": 9, "type": "module_beam", "costData": {"uri": 500000, "credits": 500000000}},
+                    {"id": 10, "type": "module_nuke", "costData": {"uri": 500000, "credits": 500000000}}
+                ],
+                "valute": {
+                    "uri": {},
+                    "credits": {}
+                }
+            }
+        },
+        {
+            "id": 18,
+            "position": 14,
+            "dynamic": true,
+            "name": "spaceball",
+            "icon": "spaceball",
+            "label": "spaceball_label",
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            }
+        },
+        {
+            "id": 19,
+            "position": 15,
+            "name": "galaxygate",
+            "icon": "ggBuilder",
+            "label": "galaxygate_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "rewards": {
+                    "1": {
+                      "exp": 2000000,
+                      "hon": 100000,
+                      "uri": 20000,
+                      "ucb100": 20000,
+                      "ap": "35%"
+                    },
+                    "2": {
+                      "exp": 4000000,
+                      "hon": 200000,
+                      "uri": 40000,
+                      "ucb100": 40000,
+                      "zp": "35%"
+                    },
+                    "3": {
+                      "exp": 6000000,
+                      "hon": 300000,
+                      "uri": 60000,
+                      "ucb100": 60000,
+                      "ap": "35%",
+                      "zp": "35%"
+                    },
+                    "4": {
+                      "exp": 8000000,
+                      "hon": 450000,
+                      "uri": 45000,
+                      "bootykey-g": 35,
+                      "ucb100": 35000,
+                      "rsb75": 5000,
+                      "prl": "30%"
+                    },
+                    "5": {
+                      "exp": 4500000,
+                      "hon": 200000,
+                      "uri": 25000,
+                      "ucb100": 20000,
+                      "bootykey-g": 10,
+                      "lf4": "30%"
+                    },
+                    "6": {
+                      "exp": 5000000,
+                      "hon": 250000,
+                      "uri": 35000,
+                      "bootykey-g": 25,
+                      "ucb100": 20000,
+                      "havoc": "33%"
+                    },
+                    "7": {
+                      "exp": 8000000,
+                      "hon": 400000,
+                      "uri": 25000,
+                      "bootykey-g": 10,
+                      "ucb100": 30000,
+                      "hercules": "25%",
+                      "lf4u": "30%"
+                    },
+                    "8": {
+                      "exp": 655360000,
+                      "hon": 10000000,
+                      "uri": 250000,
+                      "bootykey-r": 20,
+                      "ucb100": 300000,
+                      "rsb75": 50000,
+                      "gsaturn": "100%"
+                    }
+                  }
+            }
+        },
+        {
+            "id": 13,
+            "position": 16,
+            "name": "quests",
+            "icon": "quests",
+            "label": "quests_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "controller": {
+                "x": 20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        }
+    ]
+}

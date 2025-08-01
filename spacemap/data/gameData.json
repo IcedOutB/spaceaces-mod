@@ -1,0 +1,761 @@
+{
+  "shipData": {
+    "1": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "2": {"engineClass": 1, "laserClass": 1, "offsetId": 2, "clickRadius": 70},
+    "3": {"engineClass": 2, "laserClass": 2, "offsetId": 3, "clickRadius": 55},
+    "4": {"engineClass": 2, "laserClass": 2, "offsetId": 2, "clickRadius": 55},
+    "5": {"engineClass": 2, "laserClass": 2, "offsetId": 2, "clickRadius": 55},
+    "6": {"engineClass": 0, "laserClass": 0, "offsetId": 6, "clickRadius": 40},
+    "7": {"engineClass": 3, "laserClass": 3, "offsetId": 7, "clickRadius": 40},
+    "8": {"engineClass": 4, "laserClass": 4, "offsetId": 35, "clickRadius": 40},
+    "9": {"engineClass": 5, "laserClass": 5, "offsetId": 9, "clickRadius": 40},
+    "10": {"engineClass": 6, "laserClass": 6, "offsetId": 10, "clickRadius": 40},
+    "11": {"engineClass": 7, "laserClass": 7, "offsetId": 11, "clickRadius": 40},
+    "12": {"engineClass": 8, "laserClass": 8, "offsetId": 12, "clickRadius": 50},
+    "106": {"engineClass": 8, "laserClass": 8, "offsetId": 12, "clickRadius": 50},
+    "13": {"engineClass": 9, "laserClass": 9, "offsetId": 13, "clickRadius": 60},
+    "14": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "15": {"engineClass": 2, "laserClass": 2, "offsetId": 2, "clickRadius": 55},
+    "16": {"engineClass": 2, "laserClass": 2, "offsetId": 2, "clickRadius": 55},
+    "17": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "18": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "19": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "20": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "21": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "83": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "22": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "23": {"engineClass": 14, "laserClass": 14, "offsetId": 14, "clickRadius": 70},
+    "24": {"engineClass": 12, "laserClass": 12, "offsetId": 15, "clickRadius": 70},
+    "25": {"engineClass": 16, "laserClass": 16, "offsetId": 16, "clickRadius": 70},
+    "26": {"engineClass": 13, "laserClass": 13, "offsetId": 17, "clickRadius": 70},
+    "27": {"engineClass": 15, "laserClass": 15, "offsetId": 18, "clickRadius": 70},
+    "28": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "107": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "29": {"engineClass": 10, "laserClass": 17, "offsetId": 19, "clickRadius": 55},
+    "30": {"engineClass": 18, "laserClass": 18, "offsetId": 21, "clickRadius": 55},
+    "31": {"engineClass": 19, "laserClass": 19, "offsetId": 10, "clickRadius": 70},
+    "32": {"engineClass": 20, "laserClass": 20, "offsetId": 22, "clickRadius": 40},
+    "33": { "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 23, "clickRadius": 70, "isSpinny": true},
+    "34": { "overrideId": 1,"engineClass": 21, "laserClass": 9999, "offsetId": 24, "clickRadius": 70},
+    "35": { "overrideId": -1, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "clickRadius": 70, "isSpinny": true},
+    "36": { "overrideId": 2, "engineClass": 9999, "laserClass": 9999, "offsetId": 26, "clickRadius": 70},
+    "37": { "overrideId": 3, "engineClass": 9999, "laserClass": 9999, "offsetId": 27, "clickRadius": 70},
+    "38": { "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 28, "clickRadius": 70, "isSpinny": true},
+    "39": {"overrideId": 4, "engineClass": 9999, "laserClass": 9999, "offsetId": 29, "clickRadius": 70, "isSpinny": true},
+    "40": {"overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30, "clickRadius": 70, "isSpinny": true, "isFady": true},
+    "41": {"overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31, "clickRadius": 70, "isSpinny": true, "isFady": true},
+    "42": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70},
+    "43": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 33, "clickRadius": 70},
+    "44": { "engineClass": 9999, "laserClass": 21, "offsetId": 33, "clickRadius": 70},
+    "45": { "engineClass": 22, "laserClass": 21, "offsetId": 33, "clickRadius": 70},
+    "46": { "engineClass": 22, "laserClass": 21, "offsetId": 33, "clickRadius": 70},
+    "47": { "engineClass": 23, "laserClass": 22, "offsetId": 33, "clickRadius": 70},
+    "48": { "engineClass": 23, "laserClass": 22, "offsetId": 33, "clickRadius": 70},
+    "49": { "engineClass": 23, "laserClass": 22, "offsetId": 33, "clickRadius": 70},
+    "50": { "engineClass": 24, "laserClass": 23, "offsetId": 33, "clickRadius": 70},
+    "51": { "engineClass": 25, "laserClass": 24, "offsetId": 32, "clickRadius": 70},
+    "52": { "engineClass": 26, "laserClass": 26, "offsetId": 33, "clickRadius": 70},
+    "53": { "engineClass": 27, "laserClass": 27, "offsetId": 33, "clickRadius": 70},
+    "54": { "engineClass": 28, "laserClass": 28, "offsetId": 15, "clickRadius": 70},
+    "55": { "engineClass": 9999, "laserClass": 30, "offsetId": 33, "clickRadius": 70},
+    "56": { "engineClass": 31, "laserClass": 31, "offsetId": 33, "clickRadius": 70},
+    "57": { "engineClass": 29, "laserClass": 29, "offsetId": 25, "clickRadius": 70},
+    "58": { "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "clickRadius": 70},
+    "59": { "engineClass": 32, "laserClass": 32, "offsetId": 25, "clickRadius": 70},
+    "60": { "engineClass": 33, "laserClass": 33, "offsetId": 25, "clickRadius": 70},
+    "61": { "overrideId": 1, "engineClass": 34, "laserClass": 34, "offsetId": 25, "clickRadius": 70},
+    "62": { "engineClass": 35, "laserClass": 35, "offsetId": 25, "clickRadius": 70},
+    "63": { "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 24, "clickRadius": 70, "isSpinny": true},
+    "65": { "overrideId": -1, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "clickRadius": 70, "isSpinny": true},
+    "66": { "overrideId": 2, "engineClass": 9999, "laserClass": 9999, "offsetId": 26, "clickRadius": 70},
+    "67": { "overrideId": 3, "engineClass": 9999, "laserClass": 9999, "offsetId": 27, "clickRadius": 70},
+    "68": { "overrideId": 1, "engineClass": 9999, "laserClass": 9999, "offsetId": 28, "clickRadius": 70, "isSpinny": true},
+    "69": { "overrideId": 4,"engineClass": 9999, "laserClass": 9999, "offsetId": 29, "clickRadius": 70, "isSpinny": true},
+    "70": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30, "clickRadius": 70, "isSpinny": true},
+    "71": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31, "clickRadius": 70, "isSpinny": true},
+    "72": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 30, "clickRadius": 70, "isSpinny": true},
+    "73": { "overrideId": 5, "engineClass": 9999, "laserClass": 9999, "offsetId": 31, "clickRadius": 70, "isSpinny": true},
+    "74": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 25, "clickRadius": 70, "isSpinny": true},
+    "75": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 26, "clickRadius": 70, "isSpinny": true},
+    "76": { "engineClass": 36, "laserClass": 36, "offsetId": 17, "clickRadius": 70},
+    "77": { "engineClass": 9999, "laserClass": 9999, "offsetId": 17, "clickRadius": 70},
+    "78": { "engineClass": 37, "laserClass": 37, "offsetId": 1, "clickRadius": 70},
+    "79": { "engineClass": 37, "laserClass": "37", "offsetId": 1, "clickRadius": 70},
+    "80": { "engineClass": 37, "laserClass": 37, "offsetId": 1, "clickRadius": 70},
+    "81": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "82": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "108": {"engineClass": 9999, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
+    "84": {"engineClass": 38, "laserClass": 40, "offsetId": 1, "clickRadius": 70},
+    "85": {"engineClass": 38, "laserClass": 41, "offsetId": 1, "clickRadius": 70},
+    "86": {"engineClass": 38, "laserClass": 42, "offsetId": 1, "clickRadius": 70},
+    "87": {"engineClass": 38, "laserClass": 43, "offsetId": 1, "expansionId": 9, "clickRadius": 70},
+    "88": {"engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70, "isSpinny": true},
+    "89": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70},
+    "90": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70},
+    "91": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "92": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "93": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "94": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "95": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "96": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
+    "97": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
+    "98": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
+    "99": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
+    "105": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true, "explosionSize": 3},
+    "104": {"engineClass": 9999, "canBeLocked": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70, "useSimpleMode": true},
+    "100": {"engineClass": 9999, "canBeLocked": false, "allowHover": false, "useDot": "cbsfaction", "allowShowTime": true, "diploAffectDot": true, "destroyedDot": "cbsdead", "laserClass": 9999, "offsetId": 32, "clickRadius": 70, "useController": "base"},
+    "101": {"engineClass": 9999, "allowHover": false, "useDot": "cbsfaction", "allowShowTime": true, "diploAffectDot": true, "laserClass": 9999, "offsetId": 32, "clickRadius": 70, "useController": "base", "explosionSize": 3},
+    "102": {"engineClass": 9999, "showNameOnDead": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "clickRadius": 70, "isSpinny": true, "canBeLocked": false},
+    "103": {"engineClass": 9999, "lockOffsetY": 40, "showOnMinimap": false, "shieldOffset": 40, "allowHover": false, "laserClass": 9999, "offsetId": 35, "clickRadius": 70, "expansionOffsetY": 42, "expansionOffsetX": 0}
+  },  
+  "offsets": {
+    "EXPANSION_OFFSETS": {
+      "12": {"x": 25, "y": -17}
+    },
+    "SHIP_OFFSETS": {
+      "1": {"nickY": 35 },
+      "2": { "nickY": 35 },
+      "3": { "nickY": 35 },
+      "4": { "nickY": 50 },
+      "5": { "nickY": 35},
+      "6": { "nickY": 50 },
+      "7": { "nickY": 35 },
+      "8": { "nickY": 20 },
+      "9": { "nickY": 50 },
+      "10": {"nickY": 35 },
+      "11": {"nickY": 35 },
+      "12": {"nickY": 35 },
+      "13": {"nickY": 35 },
+      "14": {"nickY": 35 },
+      "15": {"nickY": 35 },
+      "16": {"nickY": 35 },
+      "17": {"nickY": 35 },
+      "18": {"nickY": 80 },
+      "19": {"nickY": 35 },
+      "20": {"nickY": 20 },
+      "21": {"nickY": 50 },
+      "22": {"nickY": 0 },
+      "23": {"nickY": 0 },
+      "24": {"nickY": 0 },
+      "25": {"nickY": 50 },
+      "26": {"nickY": 120 },
+      "27": {"nickY": 150 },
+      "28": {"nickY": 0 },
+      "29": {"nickY": 95 },
+      "30": {"nickY": 10 },
+      "31": {"nickY": 70 },
+      "32": {"nickY": 220 },
+      "33": {"nickY": 0 },
+      "34": {"nickY": 400 },
+      "35": {"nickY": -20 }
+    },
+    "ENGINE_OFFSETS": {
+      "0": { "x": 30, "y": 30 }
+    },
+    "GATE_RING_OFFSETS": [
+      { "x": 0, "y": 0 },
+      { "x": 5, "y": 0 },
+      { "x": 10, "y": 0 },
+      { "x": 5, "y": -5 },
+      { "x": 0, "y": -5 },
+      { "x": 10, "y": -5 },
+      { "x": 0, "y": -6 }
+    ],
+    "PORTAL_OFFSETS": {
+      "0": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": 0},
+      "1": {"yShock": 96, "xShock": 100, "xMargin": -13, "yMargin": -90},
+      "2": {"yShock": 50, "xShock": 20, "xMargin": 0, "yMargin": 0},
+      "3": {"yShock": 90, "xShock": 50, "xMargin": -20, "yMargin": -30},
+      "4": {"yShock": 80, "xShock": 20, "xMargin": -15, "yMargin": -30},
+      "5": {"yShock": 50, "xShock": 0, "xMargin": -10, "yMargin": -10},
+      "6": {"yShock": 105, "xShock": 10, "xMargin": -20, "yMargin": -30},
+      "7": {"yShock": 70, "xShock": 0, "xMargin": -10, "yMargin": -20},
+      "8": {"yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "9": {"noShock": true, "yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "10": {"noShock": true, "yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "11": {"yShock": 60, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "12": {"yShock": 60, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "13": {"yShock": 30, "xShock": 10, "xMargin": -10, "yMargin": -10},
+      "14": {"yShock": 5, "xShock": -7, "xMargin": -10, "yMargin": -10}
+    },
+    "STATION_OFFSETS": {
+      "Mmo": { "x": 851.5, "y": 979 },
+      "Eic": { "x": 1000.5, "y": 1000.5 },
+      "Vru": { "x": 1000.5, "y": 1000.5 },
+      "VruEngine": {"x": 137, "y": 838},
+      "MmoEngine": {"x": 948, "y": 17},
+      "EicEngine": {"x": 76, "y": 20},
+      "VruAdvanced": {"x": 1000, "y": 1000},
+      "MmoAdvanced": {"x": 1000, "y": 1000},
+      "EicAdvanced": {"x": 1000, "y": 1000},
+      "Pirate": { "x": 1500.5, "y": 993 },
+      "Low": { "x": 500.5, "y": 500.5 }
+    },
+    "LENS_OFFSETS": {
+      "0": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 38 },
+        "3": { "x": 17, "y": 17.5 },
+        "4": { "x": 25, "y": 24 },
+        "5": { "x": 68.5, "y": 68 }
+      },
+      "1": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 37 },
+        "3": { "x": 17, "y": 17 },
+        "4": { "x": 25, "y": 25 },
+        "5": { "x": 68.5, "y": 68.5 },
+        "6": { "x": 126, "y": 125.5 }
+      },
+      "2": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 38 },
+        "3": { "x": 17, "y": 16.5 },
+        "4": { "x": 25, "y": 25 },
+        "5": { "x": 68.5, "y": 68 },
+        "6": { "x": 126, "y": 125.5 }
+      },
+      "3": {
+        "1": { "x": 85.5, "y": 89 },
+        "2": { "x": 38, "y": 37 },
+        "3": { "x": 17, "y": 16.5 },
+        "4": { "x": 25, "y": 24 },
+        "5": { "x": 68.5, "y": 67 },
+        "6": { "x": 126, "y": 125.5 }
+      }
+    },
+    "ROBOT_OFFSETS": {
+      "0": {
+        "arm": {"x": 14, "y": 14},
+        "body": {"x": 23, "y": 23}
+      },
+      "1": {
+        "arm": {"x": 14, "y": 14},
+        "body": {"x": 23, "y": 23}
+      },
+      "2": {
+        "arm": {"x": 24, "y": 14},
+        "body": {"x": 23, "y": 23}
+      }
+    },
+    "EXPLOSION_OFFSETS": {
+      "explosion": {
+        "0": {"x": 150, "y": 150},
+        "1": {"x": 150, "y": 150}
+      },
+      "disrupt": {
+        "0": {"x": 75, "y": 75}
+      },
+      "laser": {
+        "0": {"x": 75, "y": 75, "random": 50},
+        "1": {"x": 75, "y": 75, "random": 50},
+        "2": {"x": 75, "y": 75, "random": 50}
+      },
+      "rocket": {
+       "0": {"x": 75, "y": 75, "random":50},
+       "1": {"x": 100, "y": 100, "random":100}
+      },
+      "mine": {
+        "0": {"x": 150, "y": 150},
+        "2": {"x": 75, "y": 75},
+        "3": {"x": 75, "y": 75},
+        "4": {"x": 218.5, "y": 218.5}
+      },
+      "firework": {
+        "1": {"x": 125, "y": 125},
+        "2": {"x": 125, "y": 125},
+        "3": {"x": 125, "y": 125}
+      },
+      "SmartBomb": {"x": 160, "y": 160}
+    },
+    "SHIELD_OFFSET": {
+      "InstaShield": {"x": 160, "y": 160},
+      "EnergyLeech": {"x": 155.5, "y": 155.5},
+      "AdvancedShield": {"x": 96, "y": 96},
+      "Barrier": {"x": 160, "y": 160},
+      "Fortress": {"x": 100, "y": 100},
+      "NanoRepair": {"x": 100, "y": 100},
+      "PrismaShield": {"x": 100, "y": 100},
+      "Singularity": {"x": 100, "y": 100},
+      "WeakShield": {"x": 100, "y": 100},
+      "RapidFire": {"x": 125, "y": 125},
+      "EmergencyRepair": {"x": 50, "y": 50},
+      "ShieldRecharge": {"x": 100, "y": 115},
+      "Turbo": {"x": 94.5, "y": 94.5},
+      "Invincibility": {"x": 200, "y": 200}
+    },
+    "HIT_OFFSET": {
+      "x": 50,
+      "y": -50
+    }
+  },
+  "animationTimes": {
+    "EXPLOSIONS": {
+      "explosion": {
+        "0": 1500
+      },
+      "disrupt": {
+        "0": 500
+      },
+      "laser": {
+        "0": 1000,
+        "1": 1000,
+        "2": 1000
+      },
+      "rocket": {
+        "0": 1000
+      },
+      "smartBomb": 3000,
+      "mine": {
+        "0": 500,
+        "2": 500,
+        "3": 500,
+        "4": 800
+      },
+      "firework": {
+        "1": 3500,
+        "2": 3500,
+        "3": 3500
+      }
+    },
+    "SHIELDS": {
+      "advancedShield": 1500,
+      "instaShield": 3000,
+      "emp": 1500,
+      "flash": 500,
+      "leech": 1500,
+      "barrier": 500,
+      "shieldRecharge": 1500,
+      "Fortress": 2000,
+      "NanoRepair": 1120,
+      "PrismaShield": 1500,
+      "Singularity": 1500,
+      "WeakShield": 1120,
+      "RapidFire": 2000,
+      "EmergencyRepair": 1700,
+      "Turbo": 1000,
+      "invincibility": 1500
+    },
+    "EFFECTS": {
+      "slowEffect": 750,
+      "levelUp": 2000
+    },
+    "MINES": {
+      "0": 5000,
+      "1": 2000,
+      "2": 2000,
+      "3": 1000,
+      "4": 300
+    },
+    "FIREWORKS": {
+      "1": 2500,
+      "2": 2500,
+      "3": 2500
+    },
+    "LENS_FLARES": {
+      "0": 500,
+      "1": 50,
+      "2": 50,
+      "3": 50
+    },
+    "COLLECTABLES": {
+      "1": 800,
+      "2": 800,
+      "3": 800,
+      "4": 800,
+      "5": 800,
+      "6": 800,
+      "7": 1500,
+      "8": 1500
+    },
+    "BEAMS": {
+      "0": 500
+    }
+  },
+  "sounds": {
+    "EXPLOSIONS": {
+      "explosion": {
+        "0": {"type": "explosions", "name": "explosion0"}
+      },
+      "disrupt": {
+        "0": {"type": "explosions", "name": "rocketExplosion0"}
+      },
+      "laser": {
+        "0": null,
+        "1": null,
+        "2": null
+      },
+      "rocket": {
+        "0": {"type": "explosions", "name": "rocketExplosion0"},
+        "1": {"type": "explosions", "name": "rocketExplosion1"}
+      },
+      "mine": {
+        "0": {"type": "mines", "name": "default"},
+        "2": {"type": "mines", "name": "default"},
+        "3": {"type": "mines", "name": "default"},
+        "4": {"type": "mines", "name": "default"}
+      }
+    }
+  },
+  "laser_data": {
+    "LASER_SALVO_POINTS": {
+      "0": [
+        ["Left", "Right"],
+        ["CenterRear"],
+        ["Left", "Right"],
+        ["CenterFront"]
+      ],
+      "1": [
+        ["LeftRearIn", "RightRearIn"],
+        ["LeftFrontIn", "RightFrontIn", "CenterRear"],
+        ["LeftFrontOut", "RightFrontOut"],
+        ["LeftRearOut", "RightRearOut", "CenterFront"]
+      ],
+      "2": [
+        ["LeftRear", "RightRear"],
+        ["CenterRear"],
+        ["LeftFront", "RightFront"],
+        ["CenterFront"]
+      ],
+      "3": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "4": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
+      "5": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
+      "6": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
+      "7": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "8": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "9": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "10": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
+      "11": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftRearOuter","RightRearOuter","CenterFront"]],
+      "12": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["CenterFront"]],
+      "13": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterFront"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "14": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterFront"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "15": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterMid"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "16": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterMid"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
+      "17": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]],
+      "18": [["RightFrontInner","LeftFrontInner"],["RightRearInner","LeftRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
+      "19": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner","CenterRear"]],
+      "20": [["CenterFront"]],
+      "9999": [["Center"]],
+      "21": [["LeftFrontInner","RightFrontInner"],["LeftFrontOuter","RightFrontOuter"]],
+      "22": [["LeftRearInner","RightRearInner"],["LeftRearOuter","RightRearOuter"],["LeftFrontInner","RightFrontInner"]],
+      "23": [["LeftRearInner","RightRearInner"],["LeftFrontInner","RightFrontInner"],["LeftRearOuter","RightRearOuter"]],
+      "24": [["LeftRearInner","RightRearInner"],["LeftFrontInner","RightFrontInner"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
+      "26": [["LeftFrontOuter","RightFrontOuter"]],
+      "27": [["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner"],["LeftFrontOuter","RightFrontOuter"]],
+      "28": [["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner"],["LeftFrontOuter","RightFrontOuter","LeftRearInner","RightRearInner"],["LeftRearInner","RightRearInner"]],
+      "29": [["RightFrontOuter","LeftFrontOuter"],["RightRearOuter","LeftRearOuter"]],
+      "30": [["CenterFront"]],
+      "31": [["LeftFrontOuter","RightFrontOuter"]],
+      "32": [["LeftFrontInner","RightFrontInner","CenterFront"]],
+      "33": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "34": [["Center"]],
+      "35": [["CenterFront"]],
+      "36": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "37": [["RightRearInner","LeftRearInner"],["CenterFront","CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
+      "38": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
+      "39": [["CenterFront"]],
+      "40": [["CenterFront"],["CenterFront"]],
+      "41": [["CenterFront"],["CenterRear"],["CenterRear","CenterFront"]],
+      "42": [["CenterRear"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightRearOuter","LeftRearOuter"],["CenterFront"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"]],
+      "43": [["RightFrontInner","LeftFrontInner"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"]]
+    }
+  },
+  "gameMsg": {
+    "msgFonts": {
+      "1": { "isBold": true, "size": "12px", "shadowC": "black", "shadowBlur": 10, "way": 1, "y": 20 },
+      "2": { "size": "50px", "shadowC": 0, "shadowBlur": 0, "way": 1, "y": 50 },
+      "3": {
+        "size": "bold 48px",
+        "shadowC": "#0000ff",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 250
+      },
+      "4": {
+        "size": "bold 30px",
+        "shadowC": "#000000",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 300
+      },
+      "5": {
+        "size": "bold 34px",
+        "shadowC": "#000000",
+        "shadowBlur": 10,
+        "way": 1,
+        "y": 300
+      }
+    }
+  },
+  "colors": {
+    "HP_COLOR": "#49BE40",
+    "SHD_COLOR": "#338FCC",
+    "STRUCTURE_BG": "#6D6D6D",
+    "COLOR_ENEMY": "red",
+    "COLOR_ALLY": "#7CFC00",
+    "COLOR_HERO": "white",
+    "COLOR_GROUP": "#FFD700",
+    "COLOR_ALLY_FACTION": "#0099ff",
+    "COLOR_HAVOC": "#FF0000",
+    "COLOR_HERCULES": "#328fcc"
+  },
+  "defaults": {
+    "BOT_RADIUS": 50,
+    "RLAUNCHER_RADIUS": 500,
+    "BARRIER_RADIUS": 10,
+    "NICK_Y": 120,
+    "LOCKON_RING": 15,
+    "DRONE_DISTANCE": 100,
+    "DRONE_SIMPLE_Y": -5,
+    "DRONE_SIMPLE_MARGIN_X": 3,
+    "DRONE_SIMPLE_FONT": "12px sans-serif",
+    "SKILL_VISUAL_FONT": "bold 10px CorpFontRegular",
+    "USERNAME_FONT": "600 17px CorpFontRegular",
+    "TITLE_FONT": "normal 14px CorpFontRegular",
+    "TITLE_FONT_IMPORTANT": "bold 16px CorpFontRegular",
+    "COLLECTION_FONT": "bold 20px CorpFontRegular"
+  },
+  "titleColors": {
+    "default": "#fefe00",
+    "silver": "#CCCCCC",
+    "bronze": "#CD7F32",
+    "red": "red",
+    "blue": "#3b5998",
+    "purple": "#9a03fc",
+    "darkgreen": "#1a6208",
+    "gold": "#fefe00"
+  },
+  "Portals": {
+    "0": {
+      "name": "portal_std",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "1": {
+      "name": "portal_zeta",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 1
+    },
+    "2": {
+      "name": "portal_firefight",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "3": {
+      "name": "portal_gga",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "4": {
+      "name": "portal_ggb",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "5": {
+      "name": "portal_ggy",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "6": {
+      "name": "portal_ggd",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "7": {
+      "name": "portal_gge",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "8": {
+      "name": "portal_ggk",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "11": {
+      "name": "portal_ggv",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "12": {
+      "name": "portal_ggsigma",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "13": {
+      "name": "portal_tdm",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0
+    },
+    "14": {
+      "name": "portal_krono",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 2
+    },
+    "9": {
+      "name": "portal_ggfl",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0,
+      "useActive": false
+    },
+    "10": {
+    "name": "portal_ggfr",
+      "sprite_active": 1,
+      "sprite_idle": 1,
+      "jump_animation": 0,
+      "useActive": false
+    }
+  },
+  "SETTINGS_ENUM": {
+    "GRAPHICS": 0,
+    "GAMEPLAY": 1,
+    "INTERFACE": 2,
+    "SOUND": 3,
+    "KEYBOARD": 4,
+    "GAMEPAD": 5,
+    "BG": 0,
+    "OBJECTS": 1,
+    "NEBULAS": 2,
+    "STARS": 3,
+    "EXPLOSIONS": 4,
+    "ENGINE": 5,
+    "QOS": 6,
+    "LANG": 7,
+    "LASER": 8,
+    "LASERFLASH": 9,
+    "AB_ATTACK": 0,
+    "DBL_ATTACK": 1,
+    "STICKY_ATTACK": 3,
+    "WIN11RL": 2,
+    "USERNAMES": 0,
+    "HITS": 1,
+    "DRONES": 2,
+    "MINIMAP_BG": 3,
+    "HOVER": 4,
+    "WINDOW_BG": 5,
+    "EQ_DRAG": 6,
+    "HIDE_GAMECTRL": 7,
+    "ENABLE_TACTICS_MINI": 8,
+    "DRONES_OWN": 9,
+    "GM_SOUNDS": 0,
+    "GM_ST": 1,
+    "GM_SOUNDS_VOL": 2,
+    "GM_ST_VOL": 3,
+    "KEYBINDINGS": {
+      "AB_1": 0,
+      "AB_2": 1,
+      "AB_3": 2,
+      "AB_4": 3,
+      "AB_5": 4,
+      "AB_6": 5,
+      "AB_7": 6,
+      "AB_8": 7,
+      "AB_9": 8,
+      "AB_10": 9,
+      "AB_11": 10,
+      "AB_12": 11,
+      "AB_13": 12,
+      "AB_14": 13,
+      "AB_15": 14,
+      "AB_16": 15,
+      "AB_17": 16,
+      "AB_18": 17,
+      "AB_19": 18,
+      "AB_20": 19,
+      "S_ISH": 20,
+      "S_SMB": 21,
+      "S_EMP": 22,
+      "S_CFG": 23,
+      "S_PORT": 24,
+      "S_AB_SB": 26,
+      "S_MISSILE_ATTACK": 25,
+      "SHOW_FPS": 27,
+      "LOGOUT": 28,
+      "S_SKILL": 29,
+      "PAL_REPAIR": 30,
+      "PAL_ACTIVATE": 31,
+      "PAL_GUARD": 32,
+      "PAL_P_REPAIR": 33
+    },
+    "GAMEPADBINDS": {
+      "AB_1": 0,
+      "AB_2": 1,
+      "AB_3": 2,
+      "AB_4": 3,
+      "AB_5": 4,
+      "AB_6": 5,
+      "AB_7": 6,
+      "AB_8": 7,
+      "AB_9": 8,
+      "AB_10": 9,
+      "AB_11": 10,
+      "AB_12": 11,
+      "AB_13": 12,
+      "AB_14": 13,
+      "AB_15": 14,
+      "AB_16": 15,
+      "AB_17": 16,
+      "AB_18": 17,
+      "AB_19": 18,
+      "AB_20": 19,
+      "S_ISH": 20,
+      "S_SMB": 21,
+      "S_EMP": 22,
+      "S_CFG": 23,
+      "S_PORT": 24,
+      "S_AB_UP": 26,
+      "S_AB_DOWN": 27,
+      "S_AB_RIGHT": 28,
+      "S_AB_LEFT": 29,
+      "MOV_JOYSTICK": 30,
+      "TARGET_JOYSTICK": 31,
+      "ACT_CURSOR": 32,
+      "MOV_CURSOR_JOYSTICK": 33,
+      "TOGGLE_ATTACK": 34,
+      "LOCK_ON": 35,
+      "TOGGLE_FPS": 36,
+      "PRESS_CURSOR": 37,
+      "SCROLL_EL_JOYSTICK": 38,
+      "ACTIVATE_ACTIONBAR_ITEM": 39,
+      "S_MISSILE_ATTACK": 25
+    }
+  },
+  "gameConfig": {
+    "showPortalAnim": true,
+    "showPortalBubble": false,
+    "allowLasersChange": true,
+    "slowdownForceField": true,
+    "slowdownEngineDisrupt": false,
+    "baseConstructRotatingDrone": false,
+    "baseCoreRobotCount": 4,
+    "moduleCoreRobotCount": 1,
+    "abPureCss": false,
+    "uiPureCss": false,
+    "uiDraggerPureCss": false,
+    "repairWindowIcons": true,
+    "outOfRangeEnabled": false,
+    "cssMapName": false,
+    "spacemapUseFaIcon": true,
+    "showGgParts": true,
+    "shopShowDetail": true,
+    "shopSectionsGraphics": [],
+    "useEqSimple": false,
+    "eqShowDetailGif": true,
+    "robotAnimatedArms": true,
+    "scaleInfoIcons": false,
+    "showShieldBarrier": true
+  }
+}

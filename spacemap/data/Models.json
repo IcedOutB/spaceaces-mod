@@ -1,0 +1,788 @@
+{
+    "gameControllers": {
+        "portal": {
+            "std": ["ui/objectControllers/portal", 0, 0],
+            "active": ["ui/objectControllers/portal", 1, 1],
+            "hov": ["ui/objectControllers/portal", 2, 2]
+        },
+        "base": {
+            "std": ["ui/objectControllers/base", 0, 0],
+            "active": ["ui/objectControllers/base", 1, 1],
+            "hov": ["ui/objectControllers/base", 2, 2]
+        }
+    },
+    "equipment": {
+        "hangar": {
+            "dockbg": ["equipment/hangar/dockbgvru", 0,0,false, true, true, true]
+        },
+        "weapon": {
+            "laser":{
+                "lf-3_30x30": ["equipment/weapon/laser/lf-3_30x30", 0,0,false, true, true, true],
+                "lf-4_30x30": ["equipment/weapon/laser/lf-4_30x30", 0,0,true, true, true, true],
+                "lf-4u_30x30": ["equipment/weapon/laser/lf-4u_30x30", 0,0,false, true, true, true],
+                "pr-l_30x30": ["equipment/weapon/laser/pr-l_30x30", 0,0,false, true, true, true]
+                },
+            "rocketlauncher":{
+                "hst-1_30x30": ["equipment/weapon/rocketlauncher/hst-1_30x30", 0,0,false, true, true, true],
+                "hst-2_30x30": ["equipment/weapon/rocketlauncher/hst-2_30x30", 0,0,false, true, true, true]
+            }
+        }
+    },
+    "image": {
+        "shopImg": {
+            "1": {
+                "american": ["image/shopImg/1/american", 0,0,false, true, true, true],
+                "american_detail": ["image/shopImg/1/american_detail", 0,0,false, true, true, true, "gif"]
+            }
+        }
+    },
+    "stations": {
+        "Eic": ["stations/baseEic", 0, 0, true, true, true, true],
+        "Mmo": ["stations/baseMmo", 0, 0, true, true, true, true],
+        "Vru": ["stations/baseVru", 0, 0, true, true, true, true],
+        "Low": ["stations/baseLow", 0, 0, true, true, true, true], 
+        "EicAdvanced": ["stations/baseEicAdvanced", 0, 0, true, true, true, true],
+        "MmoAdvanced": ["stations/baseMmoAdvanced", 0, 0, true, true, true, true],
+        "Saturn": ["stations/baseSaturn", 0, 0, true, true, true, true],
+        "SaturnAdvanced": ["stations/baseSaturnAdvanced", 0, 0, true, true, true, true],
+        "Saturn1Advanced": ["stations/baseSaturn1Advanced", 0, 0, true, true, true, true],
+        "VruAdvanced": ["stations/baseVruAdvanced", 0, 0, true, true, true, true]
+    },
+    "stationEngines": {
+        "Eic": ["stations/engineEic", 0, 0, true, true, true, true],
+        "Mmo": ["stations/engineMmo", 0, 0, true, true, true, true],
+        "Vru": ["stations/engineVru", 0, 0, true, true, true, true]
+    },
+    "bg": {
+        "1": ["backgrounds/background1", 0, 0, false, true, true, true, "jpg"],
+        "2": ["backgrounds/background2", 0, 0, false, true, true, true, "jpg"],
+        "3": ["backgrounds/background3", 0, 0, false, true, true, true, "jpg"],
+        "4": ["backgrounds/background4", 0, 0, false, true, true, true, "jpg"],
+        "5": ["backgrounds/background5", 0, 0, false, true, true, true, "jpg"],
+        "6": ["backgrounds/background6", 0, 0, false, true, true, true, "jpg"],
+        "7": ["backgrounds/background7", 0, 0, false, true, true, true, "jpg"],
+        "8": ["backgrounds/background8", 0, 0, false, true, true, true, "jpg"],
+        "9": ["backgrounds/background9", 0, 0, false, true, true, true, "jpg"],
+        "10": ["backgrounds/background10", 0, 0, false, true, true, true, "jpg"],
+        "11": ["backgrounds/background11", 0, 0, false, true, true, true, "jpg"],
+        "12": ["backgrounds/background12", 0, 0, false, true, true, true, "jpg"],
+        "13": ["backgrounds/background13", 0, 0, false, true, true, true, "jpg"],
+        "14": ["backgrounds/background14", 0, 0, false, true, true, true, "jpg"],
+        "15": ["backgrounds/background15", 0, 0, false, true, true, true, "jpg"],
+        "16": ["backgrounds/background16", 0, 0, false, true, true, true, "jpg"],
+        "17": ["backgrounds/background17", 0, 0, false, true, true, true, "jpg"],
+        "18": ["backgrounds/background18", 0, 0, false, true, true, true, "jpg"],
+        "19": ["backgrounds/background19", 0, 0, false, true, true, true, "jpg"],
+        "20": ["backgrounds/background20", 0, 0, false, true, true, true, "jpg"],
+        "21": ["backgrounds/background21", 0, 0, false, true, true, true, "jpg"],
+        "22": ["backgrounds/background22", 0, 0, false, true, true, true, "jpg"],
+        "23": ["backgrounds/background23", 0, 0, false, true, true, true, "jpg"],
+        "24": ["backgrounds/background24", 0, 0, false, true, true, true, "jpg"],
+        "25": ["backgrounds/background25", 0, 0, false, true, true, true, "jpg"],
+        "26": ["backgrounds/background26", 0, 0, false, true, true, true, "jpg"],
+        "27": ["backgrounds/background27", 0, 0, false, true, true, true, "jpg"],
+        "28": ["backgrounds/background28", 0, 0, false, true, true, true, "jpg"],
+        "29": ["backgrounds/background29", 0, 0, false, true, true, true, "jpg"],
+        "30": ["backgrounds/background30", 0, 0, false, true, true, true, "jpg"],
+        "42": ["backgrounds/background42", 0, 0, false, true, true, true, "jpg"],
+        "51": ["backgrounds/background51", 0, 0, false, true, true, true, "jpg"],
+        "52": ["backgrounds/background52", 0, 0, false, true, true, true, "jpg"],
+        "53": ["backgrounds/background53", 0, 0, false, true, true, true, "jpg"],
+        "54": ["backgrounds/background54", 0, 0, false, true, true, true, "jpg"],
+        "55": ["backgrounds/background55", 0, 0, false, true, true, true, "jpg"],
+        "56": ["backgrounds/background56", 0, 0, false, true, true, true, "jpg"],
+        "57": ["backgrounds/background57", 0, 0, false, true, true, true, "jpg"],
+        "61": ["backgrounds/background61", 0, 0, false, true, true, true, "jpg"],
+        "81": ["backgrounds/background81", 0, 0, false, true, true, true, "jpg"],
+        "82": ["backgrounds/background82", 0, 0, false, true, true, true, "jpg"],
+        "91": ["backgrounds/background91", 0, 0, false, true, true, true, "jpg"],
+        "92": ["backgrounds/background92", 0, 0, false, true, true, true, "jpg"],
+        "94": ["backgrounds/background94", 0, 0, false, true, true, true, "jpg"],
+        "95": ["backgrounds/background95", 0, 0, false, true, true, true, "jpg"],
+        "96": ["backgrounds/background96", 0, 0, false, true, true, true, "jpg"],
+        "97": ["backgrounds/background97", 0, 0, false, true, true, true, "jpg"],
+        "98": ["backgrounds/background98", 0, 0, false, true, true, true, "jpg"],
+        "101": ["backgrounds/background101", 0, 0, false, true, true, true, "jpg"],
+        "112": ["backgrounds/background112", 0, 0, false, true, true, true, "jpg"],
+        "123": ["backgrounds/background123", 0, 0, false, true, true, true, "jpg"],
+        "254": ["backgrounds/background254", 0, 0, false, true, true, true, "jpg"],
+        "255": ["backgrounds/background255", 0, 0, false, true, true, true, "jpg"],
+        "318": ["backgrounds/background318", 0, 0, false, true, true, true, "jpg"],
+        "319": ["backgrounds/background319", 0, 0, false, true, true, true, "jpg"],
+        "350": ["backgrounds/background350", 0, 0, false, true, true, true, "jpg"],
+        "351": ["backgrounds/background351", 0, 0, false, true, true, true, "jpg"],
+        "352": ["backgrounds/background352", 0, 0, false, true, true, true, "jpg"]
+    },
+    "shipsSimple": {
+        "1": ["ships/simple/enforcer", 0, 0, false],
+        "2": ["ships/simple/bastion", 0, 0, false],
+        "3": ["ships/simple/vengeance", 0, 0, false],
+        "4": ["ships/simple/avenger", 0, 0, false],
+        "5": ["ships/simple/vengeancedef", 0, 0, false],
+        "6": ["ships/simple/phoenix", 0, 0, false],
+        "7": ["ships/simple/yamato", 0, 0, false],
+        "8": ["ships/simple/defcon", 0, 0, true],
+        "9": ["ships/simple/leonov", 0, 0, false],
+        "10": ["ships/simple/liberator", 0, 0, false],
+        "11": ["ships/simple/piranha", 0, 0, false],
+        "12": ["ships/simple/nostromo", 0, 0, false],
+        "13": ["ships/simple/bigboy", 0, 0, false],
+        "14": ["ships/simple/goliath", 0, 0, false],
+        "15": ["ships/simple/vhonor", 0, 0, false],
+        "16": ["ships/simple/vexp", 0, 0, false],
+        "17": ["ships/simple/gexp", 0, 0, false],
+        "18": ["ships/simple/ghon", 0, 0, false],
+        "19": ["ships/simple/goal", 0, 0, false],
+        "20": ["ships/simple/kick", 0, 0, true],
+        "21": ["ships/simple/referee", 0, 0, false],
+        "22": ["ships/simple/america", 0, 0, false],
+        "23": ["ships/simple/spectrum", 0, 0, false],
+        "24": ["ships/simple/solace", 0, 0, false],
+        "25": ["ships/simple/venom", 0, 0, false],
+        "26": ["ships/simple/diminisher", 0, 0, false],
+        "27": ["ships/simple/sentinel", 0, 0, false],
+        "28": ["ships/simple/turkey", 0, 0, false],
+        "29": ["ships/simple/vlight", 0, 0, false],
+        "30": ["ships/simple/pusat", 0, 0, false],
+        "31": ["ships/simple/surgeon", 0, 0, false],
+        "32": ["ships/simple/streuner", 0, 0, true],
+        "33": ["ships/simple/lordakia", 0, 0, true],
+        "34": ["ships/simple/saimon", 0, 0, true],
+        "35": ["ships/simple/mordon", 0, 0, true],
+        "36": ["ships/simple/devolarium", 0, 0, true],
+        "37": ["ships/simple/sibelon", 0, 0, true],
+        "38": ["ships/simple/sibelonit", 0, 0, true],
+        "39": ["ships/simple/lordakium", 0, 0, true],
+        "40": ["ships/simple/kristallin", 0, 0, true],
+        "41": ["ships/simple/kristallon", 0, 0, true],
+        "42": ["ships/simple/cubikon", 0, 0, true],
+        "43": ["ships/simple/protegit", 0, 0, true],
+        "44": ["ships/simple/vagrant", 0, 0, true],
+        "45": ["ships/simple/marauder", 0, 0, true],
+        "46": ["ships/simple/outcast", 0, 0, true],
+        "47": ["ships/simple/convict", 0, 0, true],
+        "48": ["ships/simple/hooligan", 0, 0, true],
+        "49": ["ships/simple/ravager", 0, 0, true],
+        "50": ["ships/simple/corsair", 0, 0, true],
+        "51": ["ships/simple/falcon", 0, 0, true],
+        "52": ["ships/simple/inter", 0, 0, true],
+        "53": ["ships/simple/bara", 0, 0, true],
+        "54": ["ships/simple/ani", 0, 0, true],
+        "55": ["ships/simple/infernal", 0, 0, true],
+        "56": ["ships/simple/scorcher", 0, 0, true],
+        "57": ["ships/simple/melter", 0, 0, true],
+        "58": ["ships/simple/devourer", 0, 0, true],
+        "59": ["ships/simple/strauner", 0, 0, true],
+        "60": ["ships/simple/straunerboss", 0, 0, true],
+        "61": ["ships/simple/saimonboss", 0, 0, true],
+        "62": ["ships/simple/streunerboss", 0, 0, true],
+        "63": ["ships/simple/bosslordakia", 0, 0, true],
+        "65": ["ships/simple/bossmordon", 0, 0, true],
+        "66": ["ships/simple/bossdevo", 0, 0, true],
+        "67": ["ships/simple/bosssibelon", 0, 0, true],
+        "68": ["ships/simple/bosssibelonit", 0, 0, true],
+        "69": ["ships/simple/bosslordakium", 0, 0, true],
+        "70": ["ships/simple/bosskristallin", 0, 0, true],
+        "71": ["ships/simple/bosskristallon", 0, 0, true],
+        "72": ["ships/simple/uberkristallin", 0, 0, true],
+        "73": ["ships/simple/uberkristallon", 0, 0, true],
+        "74": ["ships/simple/kuc", 0, 0, true],
+        "75": ["ships/simple/bosskuc", 0, 0, true],
+        "76": ["ships/simple/demaner", 0, 0, true],
+        "77": ["ships/simple/icy", 0, 0, false],
+        "78": ["ships/simple/vanquisher", 0, 0, false],
+        "79": ["ships/simple/sovereign", 0, 0, false],
+        "80": ["ships/simple/peacemaker", 0, 0, false],
+        "81": ["ships/simple/saturn", 0, 0, false],
+        "82": ["ships/simple/german", 0, 0, false],
+        "83": ["ships/simple/referee", 0, 0, false],
+        "84": ["ships/simple/referee", 0, 0, false],
+        "85": ["ships/simple/referee", 0, 0, false],
+        "86": ["ships/simple/referee", 0, 0, false],
+        "87": ["ships/simple/referee", 0, 0, false],
+        "88": ["ships/simple/referee", 0, 0, false],
+        "89": ["ships/simple/referee", 0, 0, false],
+        "90": ["ships/simple/referee", 0, 0, false],
+        "91": ["ships/simple/referee", 0, 0, false],
+        "92": ["ships/simple/referee", 0, 0, false],
+        "93": ["ships/simple/referee", 0, 0, false],
+        "94": ["ships/simple/referee", 0, 0, false],
+        "95": ["ships/simple/referee", 0, 0, false],
+        "96": ["ships/simple/referee", 0, 0, false],
+        "97": ["ships/simple/referee", 0, 0, false],
+        "98": ["ships/simple/referee", 0, 0, false],
+        "99": ["ships/simple/referee", 0, 0, false],
+        "100": ["ships/simple/referee", 0, 0, false],
+        "101": ["ships/simple/referee", 0, 0, false],
+        "102": ["ships/simple/referee", 0, 0, false],
+        "103": ["ships/simple/referee", 0, 0, false],
+        "104": ["ships/simple/referee", 0, 0, false],
+        "105": ["ships/simple/referee", 0, 0, false],
+        "106": ["ships/simple/referee", 0, 0, false],
+        "107": ["ships/simple/referee", 0, 0, false]
+    },
+    "ships": {
+        "1": ["ships/enforcer", 32, 0, true, true, true],
+        "2": ["ships/bastion", 32, 0, true, true, true],
+        "3": ["ships/vengeance", 32, 0, true, true, true],
+        "4": ["ships/avenger", 32, 0, true, true, true],
+        "5": ["ships/vengeancedef", 32, 0, true, true, true],
+        "6": ["ships/phoenix", 32, 0, true, true, true],
+        "7": ["ships/yamato", 32, 0, true, true, true],
+        "8": ["ships/defcom", 32, 0, true, true, true],
+        "9": ["ships/leonov", 32, 0, true, true, true],
+        "10": ["ships/liberator", 32, 0, true, true, true],
+        "11": ["ships/piranha", 32, 0, true, true, true],
+        "12": ["ships/nostromo", 32, 0, true, true, true],
+        "13": ["ships/bigboy", 32, 0, true, true, true],
+        "14": ["ships/goliath", 32, 0, true, true, true],
+        "15": ["ships/vhonor", 32, 0, true, true, true],
+        "16": ["ships/vexp", 32, 0, true, true, true],
+        "17": ["ships/gexp", 32, 0, true, true, true],
+        "18": ["ships/ghon", 32, 0, true, true, true],
+        "19": ["ships/goal", 32, 0, true, true, true],
+        "20": ["ships/kick", 32, 0, true, true, true],
+        "21": ["ships/referee", 32, 0, true, true, true],
+        "22": ["ships/america", 32, 0, true, true, true],
+        "23": ["ships/spectrum", 32, 0, true, true, true],
+        "24": ["ships/solace", 32, 0, true, true, true],
+        "25": ["ships/venom", 32, 0, true, true, true],
+        "26": ["ships/diminisher", 32, 0, true, true, true],
+        "27": ["ships/sentinel", 32, 0, true, true, true],
+        "28": ["ships/turkey", 32, 0, true, true, true],
+        "29": ["ships/vlight", 32, 0, true, true, true],
+        "30": ["ships/pusat", 32, 0, true, true, true],
+        "31": ["ships/surgeon", 32, 0, true, true, true],
+        "32": ["ships/streuner", 32, 0, true, false, true],
+        "33": ["ships/lordakia", 32, 0, true, false, true],
+        "34": ["ships/saimon", 32, 0, true, false, true],
+        "35": ["ships/mordon", 3, 0, true, false, true],
+        "36": ["ships/devolarium", 32, 0, true, false, true],
+        "37": ["ships/sibelon", 32, 0, true, false, true],
+        "38": ["ships/sibelonit", 32, 0, true, false, true],
+        "39": ["ships/lordakium", 15, 0, true, false, true],
+        "40": ["ships/kristallin", 83, 1, true, false, true],
+        "41": ["ships/kristallon", 83, 1, true, false, true],
+        "42": ["ships/cubikon", 0, 0, true, false, true],
+        "43": ["ships/protegit", 32, 0, true, false, true],
+        "44": ["ships/vagrant", 32, 0, true, false, true],
+        "45": ["ships/marauder", 32, 0, true, false, true],
+        "46": ["ships/outcast", 32, 0, true, false, true],
+        "47": ["ships/convict", 32, 0, true, false, true],
+        "48": ["ships/hooligan", 32, 0, true, false, true],
+        "49": ["ships/ravager", 32, 0, true, false, true],
+        "50": ["ships/corsair", 32, 0, true, false, true],
+        "51": ["ships/falcon", 32, 0, true, false, true],
+        "52": ["ships/inter", 32, 0, true, false, true],
+        "53": ["ships/bara", 32, 0, true, false, true],
+        "54": ["ships/ani", 32, 0, true, false, true],
+        "55": ["ships/infernal", 32, 0, true, false, true],
+        "56": ["ships/scorcher", 32, 0, true, false, true],
+        "57": ["ships/melter", 32, 0, true, false, true],
+        "58": ["ships/devourer", 16, 1, true, false, true],
+        "59": ["ships/strauner", 32, 0, true, false, true],
+        "60": ["ships/straunerboss", 32, 0, true, false, true],
+        "61": ["ships/saimonboss", 32, 0, true, false, true],
+        "62": ["ships/streunerboss", 32, 0, true, false, true],
+        "63": ["ships/bosslordakia", 32, 1, true, false, true],
+        "65": ["ships/bossmordon", 16, 1, true, false, true],
+        "66": ["ships/bossdevo", 32, 0, true, false, true],
+        "67": ["ships/bosssibelon", 32, 0, true, false, true],
+        "68": ["ships/bosssibelonit", 32, 1, true, false, true],
+        "69": ["ships/bosslordakium", 22, 1, true, false, true],
+        "70": ["ships/bosskristallin", 83, 1, true, false, true],
+        "71": ["ships/bosskristallon", 83, 1, true, false, true],
+        "72": ["ships/uberkristallin", 83, 1, true, false, true],
+        "73": ["ships/uberkristallon", 83, 1, true, false, true],
+        "74": ["ships/kuc", 36, 1, true, false, true],
+        "75": ["ships/bosskuc", 36, 1, true, false, true],
+        "76": ["ships/demaner", 32, 0, true, false, true],
+        "77": ["ships/icy", 32, 0, false, false, true],
+        "78": ["ships/vanquisher", 32, 0, true, true, true],
+        "79": ["ships/sovereign", 32, 0, true, true, true],
+        "80": ["ships/peacemaker", 32, 0, true, true, true],
+        "81": ["ships/saturn", 32, 0, true, true, true],
+        "82": ["ships/german", 32, 0, true, true, true],
+        "83": ["ships/referee", 32, 0, true, true, true],
+        "84": ["ships/petPro", 32, 0, true, false, false],
+        "85": ["ships/petAdvanced", 32, 0, true, false, false],
+        "86": ["ships/petFull", 32, 0, true, false, false],
+        "87": ["ships/petPro", 32, 0, true, false, false],
+        "88": ["ships/icemeteroid", 61, 1, true, false, false],
+        "89": ["ships/refereebot", 32, 0, true, false, false],
+        "90": ["ships/robot", 32, 0, true, false, false],
+        "91": ["ships/bronze", 32, 0, true, false, false],
+        "92": ["ships/silver", 32, 0, true, false, false],
+        "93": ["ships/gold", 32, 0, true, false, false],
+        "94": ["ships/ignite", 32, 0, true, false, false],
+        "95": ["ships/redg", 32, 0, true, true, true],
+        "96": ["ships/moduleXp", 0, 0, false, true, true],
+        "97": ["ships/moduleHp", 0, 0, false, true, true],
+        "98": ["ships/moduleDmg", 0, 0, false, true, true],
+        "99": ["ships/moduleShd", 0, 0, false, true, true],
+        "100": ["ships/moduleBaseDead", 0, 0, false, true, true],
+        "101": ["ships/moduleBase", 0, 0, false, true, true],
+        "102": ["ships/moduleRuined", 2, 0, false, true, true],
+        "103": ["ships/moduleStand", 0, 0, false, true, true],
+        "104": ["ships/beamShip", 0, 0, false, true, true],
+        "105": ["rockets/7", 0, 0, false, true, true],
+        "106": ["ships/nstarhawk", 32, 0, false, true, true],
+        "107": ["ships/golitech", 32, 0, false, true, true]
+    },
+    "minimap": {
+        "dots": {
+            "pal": ["minimap/pal", 0, 0, false, true, true],
+            "cbswar": ["minimap/cbswar", 0, 0, false, true, true],
+            "cbsdead": ["minimap/cbsdead", 0, 0, false, true, true],
+            "cbsfaction": ["minimap/cbsfaction", 0, 0, false, true, true],
+            "cbsnoAttack": ["minimap/cbsnap", 0, 0, false, true, true],
+            "cbsalliance": ["minimap/cbsally", 0, 0, false, true, true]
+        }
+    },
+    "ggGifer": {
+        "0": ["ggGifer/0", 21, 1, true],
+        "1": ["ggGifer/1", 21, 1, true],
+        "2": ["ggGifer/2", 21, 1, true],
+        "3": ["ggGifer/3", 21, 1, true],
+        "4": ["ggGifer/4", 21, 1, true],
+        "5": ["ggGifer/5", 21, 1, true],
+        "6": ["ggGifer/6", 30, 1, true],
+        "7": ["ggGifer/7", 30, 1, false]
+    },
+    "balls": {
+        "0": ["balls/cup", 31, 1]
+    },
+    "ranks": {
+        "1": ["ui/rank/1", 0, 0],
+        "2": ["ui/rank/2", 0, 0],
+        "3": ["ui/rank/3", 0, 0],
+        "4": ["ui/rank/4", 0, 0],
+        "5": ["ui/rank/5", 0, 0],
+        "6": ["ui/rank/6", 0, 0],
+        "7": ["ui/rank/7", 0, 0],
+        "8": ["ui/rank/8", 0, 0],
+        "9": ["ui/rank/9", 0, 0],
+        "10": ["ui/rank/10", 0, 0],
+        "11": ["ui/rank/11", 0, 0],
+        "12": ["ui/rank/12", 0, 0],
+        "13": ["ui/rank/13", 0, 0],
+        "14": ["ui/rank/14", 0, 0],
+        "15": ["ui/rank/15", 0, 0],
+        "16": ["ui/rank/16", 0, 0],
+        "17": ["ui/rank/17", 0, 0],
+        "18": ["ui/rank/18", 0, 0],
+        "19": ["ui/rank/19", 0, 0],
+        "20": ["ui/rank/20", 0, 0],
+        "21": ["ui/rank/21", 0, 0]
+    },
+    "factions": {
+        "1": ["ui/faction/1", 0, 0],
+        "2": ["ui/faction/2", 0, 0],
+        "3": ["ui/faction/3", 0, 0],
+        "4": ["ui/faction/4", 0, 0]
+    },
+    "smokes": {
+        "engineSmoke": ["smokes/engineSmoke", 20, 0, true],
+        "rocketSmokeAdvanced": ["smokes/rocketSmokeAdvanced", 20, 0, true],
+        "rocketSmokeHitech": ["smokes/rocketSmokeHitech", 20, 0, true],
+        "rocketSmokeStandard": ["smokes/rocketSmokeStandard", 20, 0, true]
+    },
+    "portals": {
+        "shockwave": {
+            "0": ["portals/jumpAnimation0", 5, 1],
+            "1": ["portals/jumpAnimation1", 17, 1, true],
+            "2": ["portals/jumpAnimation2", 12, 1, false]
+        },
+        "portal": {
+            "0": {
+                "active": ["portals/portal0/active", 1, 0, true],
+                "idle": ["portals/portal0/idle", 1, 0, true]
+            },
+            "1": {
+                "active": ["portals/portal1/active", 1, 1],
+                "idle": ["portals/portal1/idle", 1, 1]
+            },
+            "2": {
+                "active": ["portals/portal2/active", 1, 0],
+                "idle": ["portals/portal2/idle", 1, 0]
+            },
+            "3": {
+                "active": ["portals/portal3/active", 1, 0],
+                "idle": ["portals/portal3/idle", 1, 0]
+            },
+            "4": {
+                "active": ["portals/portal4/active", 1, 0],
+                "idle": ["portals/portal4/idle", 1, 0]
+            },
+            "5": {
+                "active": ["portals/portal5/active", 1, 0],
+                "idle": ["portals/portal5/idle", 1, 0]
+            },
+            "6": {
+                "active": ["portals/portal6/active", 1, 0],
+                "idle": ["portals/portal6/idle", 1, 0]
+            },
+            "7": {
+                "active": ["portals/portal7/active", 1, 0],
+                "idle": ["portals/portal7/idle", 1, 0]
+            },
+            "8": {
+                "active": ["portals/portal8/active", 1, 0],
+                "idle": ["portals/portal8/idle", 1, 0]
+            },
+            "9": {
+                "idle": ["portals/portal9", 10, 1]
+            },
+            "10": {
+                "idle": ["portals/portal10", 10, 1]
+            },
+            "11": {
+                "active": ["portals/portal11/active", 1, 0],
+                "idle": ["portals/portal11/idle", 1, 0]
+            },
+            "12": {
+                "active": ["portals/portal12/active", 1, 0],
+                "idle": ["portals/portal12/idle", 1, 0]
+            },
+            "13": {
+                "active": ["portals/portal13/active", 1, 0],
+                "idle": ["portals/portal13/idle", 1, 0]
+            },
+            "14": {
+                "active": ["portals/portal14/active", 1, 0],
+                "idle": ["portals/portal14/idle", 1, 0]
+            }
+        }
+    },
+    "lensflares": {
+        "0": ["lensflares/lensflare0", 14, 0, true],
+        "1": ["lensflares/lensflare1", 0, 0],
+        "2": ["lensflares/lensflare2", 0, 0],
+        "3": ["lensflares/lensflare3", 0, 0]
+    },
+    "lenses":{},
+    "oa":{},
+    "robots": {
+        "0": ["robots/robot0", 1, 0],
+        "1": ["robots/robot1", 1, 0],
+        "2": ["robots/robot2", 1, 0]
+    },
+    "lockon": {
+        "0": ["lockon/0", 0, 0]
+    },
+    "formations": {
+        "0": ["formations/0", 0, 0],
+        "1": ["formations/1", 0, 0],
+        "2": ["formations/2", 0, 0],
+        "3": ["formations/3", 0, 0],
+        "4": ["formations/4", 0, 0],
+        "5": ["formations/5", 0, 0],
+        "6": ["formations/6", 0, 0],
+        "7": ["formations/7", 0, 0],
+        "8": ["formations/8", 0, 0],
+        "9": ["formations/9", 0, 0],
+        "10": ["formations/10", 0, 0],
+        "11": ["formations/11", 0, 0],
+        "12": ["formations/12", 0, 0],
+        "13": ["formations/13", 0, 0],
+        "14": ["formations/14", 0, 0],
+        "15": ["formations/15", 0, 0],
+        "16": ["formations/16", 0, 0],
+        "17": ["formations/17", 0, 0],
+        "18": ["formations/18", 0, 0]
+    },
+    "expansions": {
+        "1": ["expansions/1", 32, 0, true],
+        "2": ["expansions/2", 32, 0, true],
+        "3": ["expansions/3", 32, 0, true],
+        "4": ["expansions/4", 32, 0, true],
+        "5": ["expansions/5", 32, 0, true],
+        "6": ["expansions/6", 32, 0, true],
+        "7": ["expansions/7", 32, 0, true],
+        "8": ["expansions/8", 32, 0, true],
+        "9": ["expansions/9", 32, 0, true],
+        "10": ["expansions/10", 0, 0, false],
+        "11": ["expansions/11", 0, 0, false],
+        "12": ["expansions/12", 0, 0, false],
+        "13": ["expansions/13", 0, 0, false],
+        "14": ["expansions/14", 0, 0, false],
+        "15": ["expansions/15", 0, 0, false],
+        "16": ["expansions/16", 0, 0, false],
+        "17": ["expansions/17", 0, 0, false],
+        "18": ["expansions/18", 61, 1, false],
+        "19": ["expansions/19", 41, 1, false]
+    },
+    "planets": {
+        "1": ["planets/planet1", 0, 0, true],
+        "2": ["planets/planet2", 0, 0, true],
+        "3": ["planets/planet3", 0, 0, true],
+        "4": ["planets/planet4", 0, 0, true],
+        "5": ["planets/planet5", 0, 0, true],
+        "6": ["planets/planet6", 0, 0, true],
+        "7": ["planets/planet7", 0, 0, true],
+        "8": ["planets/planet8", 0, 0, true],
+        "9": ["planets/planet9", 0, 0, true],
+        "10": ["planets/planet10", 0, 0, true],
+        "11": ["planets/planet11", 0, 0, true],
+        "12": ["planets/planet12", 0, 0, true],
+        "13": ["planets/planet13", 0, 0, true],
+        "14": ["planets/planet14", 0, 0, true],
+        "15": ["planets/planet15", 0, 0, true],
+        "16": ["planets/planet16", 0, 0, true],
+        "17": ["planets/planet17", 0, 0, true],
+        "18": ["planets/planet18", 0, 0, true],
+        "19": ["planets/planet19", 0, 0, true],
+        "20": ["planets/planet20", 0, 0, true],
+        "21": ["planets/planet21", 0, 0, true],
+        "22": ["planets/planet22", 0, 0, true],
+        "23": ["planets/planet23", 0, 0, true],
+        "24": ["planets/planet24", 0, 0, true],
+        "25": ["planets/planet25", 0, 0, true],
+        "26": ["planets/planet26", 0, 0, true],
+        "27": ["planets/planet27", 0, 0, true],
+        "28": ["planets/planet28", 0, 0, true],
+        "29": ["planets/planet29", 0, 0, true],
+        "30": ["planets/planet30", 0, 0, false],
+        "31": ["planets/planet31", 0, 0, false],
+        "32": ["planets/planet32", 0, 0, false],
+        "33": ["planets/planet33", 0, 0, true],
+        "42": ["planets/planet42", 0, 0, true],
+        "50": ["planets/planet50", 0, 0, true],
+        "51": ["planets/planet51", 0, 0, true],
+        "52": ["planets/planet52", 0, 0, true],
+        "53": ["planets/planet53", 0, 0, true],
+        "54": ["planets/planet54", 0, 0, true],
+        "55": ["planets/planet55", 0, 0, true],
+        "56": ["planets/planet56", 0, 0, true],
+        "57": ["planets/planet57", 0, 0, true],
+        "58": ["planets/planet58", 0, 0, true],
+        "59": ["planets/planet59", 0, 0, true],
+        "60": ["planets/planet60", 0, 0, true],
+        "61": ["planets/planet61", 0, 0, true],
+        "62": ["planets/planet62", 0, 0, true],
+        "63": ["planets/planet63", 0, 0, true],
+        "64": ["planets/planet64", 0, 0, true],
+        "65": ["planets/planet65", 0, 0, true],
+        "66": ["planets/planet66", 0, 0, true],
+        "67": ["planets/planet67", 0, 0, true],
+        "68": ["planets/planet68", 0, 0, true],
+        "69": ["planets/planet69", 0, 0, true],
+        "108": ["planets/planet108", 0, 0, true],
+        "109": ["planets/planet109", 0, 0, true],
+        "112": ["planets/planet112", 0, 0, false],
+        "113": ["planets/planet113", 0, 0, false],
+        "998": ["planets/planet998", 0, 0, true],
+        "999": ["planets/planet999", 0, 0, true]
+    },
+    "explosions": {
+        "rocket": {
+            "0": ["pyroEffects/rocketExplosion0", 11, 1, true],
+            "1": ["pyroEffects/rocketExplosion1", 31, 1, true]
+        },
+        "disrupt": {
+            "0": ["pyroEffects/disrupt", 19, 1, true, 5]
+        },
+        "laser": {
+            "1": ["pyroEffects/laserExplosion1", 15, 1, true],
+            "2": ["pyroEffects/laserExplosion2", 15, 1, true]
+        },
+        "explosion": {
+            "0": ["pyroEffects/explosion0", 39, 0, true],
+            "SmartBomb": ["pyroEffects/smartBomb", 213, 1, true]
+        },
+        "mine": {
+            "0": ["pyroEffects/mine0", 40, 1, true],
+            "2": ["pyroEffects/mine2", 15, 1, true],
+            "3": ["pyroEffects/mine3", 15, 1, true],
+            "4": ["pyroEffects/mine4", 29, 1, true]
+        },
+        "firework": {
+            "1": ["sfx/firework1", 80, 1, true],
+            "2": ["sfx/firework2", 80, 1, true],
+            "3": ["sfx/firework3", 80, 1, true]
+        }
+    },
+    "shields": {
+        "advancedShield": ["shields/shieldAdvanced", 33, 1, true],
+        "instaShield": ["shields/instaShield", 64, 1, true],
+        "barrier": ["shields/barrier", 9, 1],
+        "shieldRecharge": ["shields/shieldRecharge", 50, 1, true],
+        "invincibilityShield": ["shields/invincibilityShield", 31, 1, true]
+    },
+    "sfx": {
+        "leech": ["sfx/leech", 29, 1, true],
+        "fortress": ["sfx/fortress", 38, 1, true],
+        "nanoRepair": ["sfx/nanoRepair", 27, 1, true],
+        "prismaShield": ["sfx/prismaShield", 35, 1, true],
+        "singularity": ["sfx/singularity", 35, 1, true],
+        "weakShield": ["sfx/weakShield", 27, 1, true],
+        "turbo": ["sfx/turbo", 3, 1, false],
+        "rapidFire": ["sfx/rapidFire", 40, 1, true],
+        "emergencyRepair": ["sfx/emergencyRepair", 21, 1, false]
+    },
+    "effects": {
+        "emp": ["effects/emp", 9, 0],
+        "empFlash": ["effects/emp/flash", 0, 0, true],
+        "empRing": ["effects/emp/ring", 0, 0, true],
+        "levelUp": ["effects/levelUp", 49, 1],
+        "slowEffectActive": ["effects/slowEffectActive", 15, 1, true],
+        "slowEffectIdle": ["effects/slowEffectIdle", 15, 1, true]
+    },
+    "drones": {
+        "iris": {
+            "6": ["drones/iris/6", 32, 0, true]
+        },
+        "apis": {
+            "6": ["drones/apis/6", 32, 0, true]
+        },
+        "zeus": {
+            "6": ["drones/zeus/6", 32, 0, true]
+        },
+        "iris_havoc": {
+            "6": ["drones/designs/havoc/iris/6", 32, 0, true]
+        },
+        "apis_havoc": {
+            "6": ["drones/designs/havoc/apis/6", 32, 0, true]
+        },
+        "zeus_havoc": {
+            "6": ["drones/designs/havoc/zeus/6", 32, 0, true]
+        },
+        "iris_hercules": {
+            "6": ["drones/designs/hercules/iris/6", 32, 0, true]
+        },
+        "apis_hercules": {
+            "6": ["drones/designs/hercules/apis/6", 32, 0, true]
+        },
+        "zeus_hercules": {
+            "6": ["drones/designs/hercules/zeus/6", 32, 0, true]
+        }
+    },
+    "engines": {
+        "0": ["engines/standard", 11, 0, true],
+        "1": ["engines/hitech", 3, 0, false]
+    },
+    "rings": {
+        "ring": ["rings/ring", 0, 0],
+        "crown": ["rings/crown", 0, 0]
+    },
+    "npcLasers": {
+        "1": ["npcLasers/laser1", 0, 0],
+        "2": ["npcLasers/laser2", 0, 0],
+        "3": ["npcLasers/laser3", 0, 0],
+        "4": ["npcLasers/laser4", 0, 0],
+        "5": ["npcLasers/laser5", 0, 0],
+        "6": ["npcLasers/laser6", 0, 0]
+    },
+    "missile": {
+        "1": ["rockets/1", 0, 0],
+        "2": ["rockets/2", 0, 0],
+        "3": ["rockets/3", 0, 0],
+        "4": ["rockets/4", 0, 0],
+        "5": ["rockets/5", 0, 0],
+        "6": ["rockets/6", 0, 0]
+    },
+    "rlmissile": {
+        "1": ["rlmissiles/1", 0, 0],
+        "2": ["rlmissiles/2", 0, 0],
+        "3": ["rlmissiles/3", 0, 0],
+        "4": ["rlmissiles/4", 0, 0],
+        "5": ["rlmissiles/5", 0, 0]
+    },
+    "lasers": {
+        "sar": {
+            "sar1": ["lasers/laserSar1", 0, 0],
+            "sar2": ["lasers/laserSar2", 0, 0]
+        },
+        "classic": {
+            "std": {
+                "0": ["lasers/classic/laser0", 0, 0],
+                "1": ["lasers/classic/laser1", 0, 0],
+                "2": ["lasers/classic/laser2", 0, 0],
+                "3": ["lasers/classic/laser3", 0, 0],
+                "4": ["lasers/classic/laser4", 0, 0],
+                "5": ["lasers/classic/laser5", 0, 0],
+                "leech": ["lasers/classic/laserLeech", 0, 0],
+                "beam0": ["lasers/classic/laser0Beam", 0, 0],
+                "beam1": ["lasers/classic/laser1Beam", 0, 0],
+                "beam2": ["lasers/classic/laser2Beam", 0, 0],
+                "beam3": ["lasers/classic/laser3Beam", 0, 0],
+                "beam4": ["lasers/classic/laser4Beam", 0, 0],
+                "beam5": ["lasers/classic/laser5Beam", 0, 0]
+            },
+            "big": {
+                "0": ["lasers/classic/bigLaser0", 0, 0],
+                "1": ["lasers/classic/bigLaser1", 0, 0],
+                "2": ["lasers/classic/bigLaser2", 0, 0],
+                "3": ["lasers/classic/bigLaser3", 0, 0],
+                "4": ["lasers/classic/bigLaser4", 0, 0],
+                "5": ["lasers/classic/bigLaser5", 0, 0],
+                "beam0": ["lasers/classic/bigLaser0Beam", 0, 0],
+                "beam1": ["lasers/classic/bigLaser1Beam", 0, 0],
+                "beam2": ["lasers/classic/bigLaser2Beam", 0, 0],
+                "beam3": ["lasers/classic/bigLaser3Beam", 0, 0],
+                "beam4": ["lasers/classic/bigLaser4Beam", 0, 0],
+                "beam5": ["lasers/classic/bigLaser5Beam", 0, 0],
+                "leech": ["lasers/classic/laserLeech", 0, 0]
+            }
+        },
+        "modern": {
+            "std": {
+                "0": ["lasers/modern/laser0", 0, 0],
+                "1": ["lasers/modern/laser1", 0, 0],
+                "2": ["lasers/modern/laser2", 0, 0],
+                "3": ["lasers/modern/laser3", 0, 0],
+                "4": ["lasers/modern/laser4", 0, 0],
+                "5": ["lasers/modern/laser5", 0, 0],
+                "beam0": ["lasers/modern/laser0Beam", 0, 0],
+                "beam1": ["lasers/modern/laser1Beam", 0, 0],
+                "beam2": ["lasers/modern/laser2Beam", 0, 0],
+                "beam3": ["lasers/modern/laser3Beam", 0, 0],
+                "beam4": ["lasers/modern/laser4Beam", 0, 0],
+                "beam5": ["lasers/modern/laser5Beam", 0, 0],
+                "leech": ["lasers/modern/laserLeech", 0, 0]
+            },
+            "big": {
+                "0": ["lasers/modern/bigLaser0", 0, 0],
+                "1": ["lasers/modern/bigLaser1", 0, 0],
+                "2": ["lasers/modern/bigLaser2", 0, 0],
+                "3": ["lasers/modern/bigLaser3", 0, 0],
+                "4": ["lasers/modern/bigLaser4", 0, 0],
+                "5": ["lasers/modern/bigLaser5", 0, 0],
+                "beam0": ["lasers/modern/bigLaser0Beam", 0, 0],
+                "beam1": ["lasers/modern/bigLaser1Beam", 0, 0],
+                "beam2": ["lasers/modern/bigLaser2Beam", 0, 0],
+                "beam3": ["lasers/modern/bigLaser3Beam", 0, 0],
+                "beam4": ["lasers/modern/bigLaser4Beam", 0, 0],
+                "beam5": ["lasers/modern/bigLaser5Beam", 0, 0],
+                "leech": ["lasers/modern/laserLeech", 0, 0]
+            }
+        }
+    },
+    "mines": {
+        "0": ["mines/basicmine", 1, 1],
+        "1": ["mines/empmine", 35, 1, true],
+        "2": ["mines/sdmine", 35, 1, true],
+        "3": ["mines/ddmine", 64, 1, true],
+        "4": ["mines/slowmine", 3, 1]
+    },
+    "collectables": {
+        "0": ["collectables/firework", 35, 1, true],
+        "1": ["collectables/box", 25, 1, true],
+        "2": ["collectables/greenBox", 25, 1, true],
+        "3": ["collectables/goldBox", 25, 1, true],
+        "4": ["collectables/redBox", 25, 1, true],
+        "5": ["collectables/blueBox", 25, 1, true],
+        "6": ["collectables/cargoBox", 25, 1, true],
+        "7": ["collectables/expobox", 42, 1, true],
+        "8": ["collectables/petBox", 26, 1, false]
+    },
+    "beams": {
+        "0": ["effects/beam", 15, 1, true]
+    },
+    "collection": {
+        "0": ["ui/collection", 0, 0]
+    },
+    "pings": {
+        "std": ["ui/ping", 0,0]
+    }
+}

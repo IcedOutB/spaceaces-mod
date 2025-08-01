@@ -1,0 +1,360 @@
+{
+  "0": [
+    {
+      "id": 1,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-1",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 2,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-2",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 3,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-3",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 4,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-4",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 5,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-1",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 6,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-2",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 7,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-3",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 8,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-4",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 9,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-1",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 10,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-2",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 11,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-3",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 12,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-4",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 13,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "4-1",
+      "company": 4,
+      "portals": {}
+    },
+    {
+      "id": 14,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "4-2",
+      "company": 4,
+      "portals": {}
+    },
+    {
+      "id": 15,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "4-3",
+      "company": 4,
+      "portals": {}
+    }
+  ],
+  "1": [
+    {
+      "id": 16,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "4-4",
+      "company": 4,
+      "portals": {},
+      "isBig": true
+    },
+    {
+      "id": 17,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-5",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 18,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-6",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 19,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-7",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 20,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "1-8",
+      "company": 1,
+      "portals": {}
+    },
+    {
+      "id": 21,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-5",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 22,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-6",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 23,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-7",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 24,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "2-8",
+      "company": 2,
+      "portals": {}
+    },
+    {
+      "id": 25,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-5",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 26,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-6",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 27,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-7",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 28,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "3-8",
+      "company": 3,
+      "portals": {}
+    },
+    {
+      "id": 29,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "4-5",
+      "company": 4,
+      "isBig": true,
+      "portals": {}
+    },
+    {
+      "id": 30,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "5-1",
+      "company": 4,
+      "portals": {}
+    },
+    {
+      "id": 31,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "5-2",
+      "company": 4,
+      "portals": {}
+    },
+    {
+      "id": 32,
+      "hasCbs": false,
+      "cbsPos": {
+        "x": null,
+        "y": null
+      },
+      "mapName": "5-3",
+      "company": 4,
+      "portals": {}
+    }
+  ]
+}
