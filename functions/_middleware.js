@@ -8,4 +8,8 @@ export async function onRequest({ request }) {
   }
 
   return await fetch(request);
+  
+  export async function onRequest() {
+  return new Response("Middleware active!", { status: 200 });
+}
 }
