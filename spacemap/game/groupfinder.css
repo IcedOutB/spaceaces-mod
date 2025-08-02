@@ -1,0 +1,56 @@
+.group-finder {
+    span {
+        margin: 0;
+    }
+
+    &[data-is-searching="true"] {
+        .group-find-search-option input {
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.7;
+        }
+
+        & .start-search {
+            display: none;
+        }
+
+        & .end-search, & .search-group-label {
+            display: block !important;
+        }
+    }
+
+    &[data-invites-len="0"] {
+        .no-invites-wrapper {
+            display: block !important;
+        }
+
+        .invite-list {
+            display: none;
+        }
+    }
+
+    .group-find-player {
+        background-color: #16262f;
+        border: 1px solid #287490;
+        border-radius: 10px;
+        width: 98%;
+    }
+
+    .group-find-player-tag {
+        height: 22px;
+        background: linear-gradient(0deg, rgba(24, 34, 44, 1) 0%, rgba(44, 57, 62, 1) 25%, rgba(63, 83, 86, 1) 50%, rgba(48, 62, 66, 1) 75%, rgba(24, 34, 44, 1) 100%);
+        border: 1px solid #515c62;
+        padding: 1px 5px;
+        border-radius: 5px;
+    }
+
+    & .group-find-player[data-is-invite="true"] {
+        & .invite-button-controls {
+            display: flex !important;
+        }
+
+        & .search-button-controls {
+            display: none;
+        }
+    }
+}

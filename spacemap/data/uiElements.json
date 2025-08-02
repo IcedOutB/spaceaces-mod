@@ -40,7 +40,8 @@
                     "name": "EP",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconEp",
+                    "icon": "award",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "ep-ui",
                         "keys": "EP"
@@ -50,7 +51,8 @@
                     "name": "CRED",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconCreds",
+                    "icon": "microchip",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "cred-ui",
                         "keys": "CRED"
@@ -60,7 +62,8 @@
                     "name": "LVL",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconLevel",
+                    "icon": "signal",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "lvl-ui",
                         "keys": "LVL"
@@ -70,7 +73,8 @@
                     "name": "URI",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconUri",
+                    "icon": "atom",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "uri-ui",
                         "keys": "URI"
@@ -80,7 +84,8 @@
                     "name": "HON",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconHon",
+                    "icon": "medal",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "hon-ui",
                         "keys": "HON"
@@ -90,7 +95,8 @@
                     "name": "JP",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconJp",
+                    "icon": "wallet",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "jp-ui",
                         "keys": "JP"
@@ -100,7 +106,8 @@
                     "name": "KEY",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconKey",
+                    "icon": "key",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "key-ui",
                         "keys": ["GKEY", "RKEY", "BKEY"]
@@ -127,36 +134,37 @@
                 "useDefPosition": true
             },
             "content": [{
-                "name": "HP",
-                "isBar": true,
-                "colorLight": "#d3f2d1",
-                "colorDark": "#66d05e",
-                "color": "#49BE40",
-                "icon": "star-of-life",
-                "isFontIcon": true,
-                "popover": {
-                    "txtKey": "hp-ui",
-                    "keys": "HP"
-                }
-            },
-            {
-                "name": "SHD",
-                "isBar": true,
-                "color": "#338FCC",
-                "colorLight": "#d1f0f2",
-                "colorDark": "#5ecad0",
-                "icon": "shield",
-                "isFontIcon": true,
-                "popover": {
-                    "txtKey": "shd-ui",
-                    "keys": "SHD"
-                }
-            },
+                    "name": "HP",
+                    "isBar": true,
+                    "colorLight": "#d3f2d1",
+                    "colorDark": "#66d05e",
+                    "color": "#49BE40",
+                    "icon": "star-of-life",
+                    "isFontIcon": true,
+                    "popover": {
+                        "txtKey": "hp-ui",
+                        "keys": "HP"
+                    }
+                },
+                {
+                    "name": "SHD",
+                    "isBar": true,
+                    "color": "#338FCC",
+                    "colorLight": "#d1f0f2",
+                    "colorDark": "#5ecad0",
+                    "icon": "shield",
+                    "isFontIcon": true,
+                    "popover": {
+                        "txtKey": "shd-ui",
+                        "keys": "SHD"
+                    }
+                },
                 {
                     "name": "CFG",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconCfg",
+                    "icon": "gear",
+                    "isFontIcon": true,
                     "hasEvent": true,
                     "popover": {
                         "txtKey": "cfg-ui",
@@ -164,26 +172,69 @@
                     }
                 },
                 {
-                    "name": "CARGO",
-                    "isBar": true,
-                    "color": "yellow",
-                    "icon": "iconCargo",
-                    "popover": {
-                        "txtKey": "cargo-ui",
-                        "keys": "CARGO"
-                    }
-                },
-                {
                     "name": "SPEED",
                     "isBar": false,
                     "color": "white",
-                    "icon": "iconSpd",
+                    "icon": "shuttle-space",
+                    "isFontIcon": true,
                     "popover": {
                         "txtKey": "speed-ui",
                         "keys": "SPEED"
                     }
+                },
+                {
+                    "name": "CARGO",
+                    "isBar": true,
+                    "colorLight": "#d3f2d1",
+                    "colorDark": "#66d05e",
+                    "icon": "container-storage",
+                    "isFontIcon": true,
+                    "popover": {
+                        "txtKey": "cargo-ui",
+                        "keys": "CARGO"
+                    }
                 }
             ]
+        },
+        {
+            "id": 15,
+            "position": 11,
+            "name": "competetive",
+            "icon": "scoreevent",
+            "label": "competetive_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 1025,
+                "minH": 625
+            },
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {
+                "modes": [
+                    {
+                        "id": 1,
+                        "type": "duel",
+                        "name": "duel",
+                        "img": "duel"
+                    },
+                    {
+                        "id": 2,
+                        "type": "duos",
+                        "name": "duos",
+                        "img": "duos"
+                    },
+                    {
+                        "id": 3,
+                        "type": "fteam",
+                        "name": "fullteam",
+                        "img": "fteam"
+                    }
+                ]
+            }
         },
         {
             "id": 3,
@@ -202,7 +253,39 @@
                 "y": 39,
                 "useDefPosition": true
             },
+            "aspectRatio": {
+                "x": 19,
+                "y": 13
+            },
             "content": []
+        },
+        {
+            "id": 7,
+            "name": "fullscreen",
+            "icon": "fullscreen",
+            "label": "fullscreen_label",
+            "phoneState": false,
+            "isSeperateContr": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
+        },
+        {
+            "id": 31,
+            "name": "mobile_ab_sub",
+            "icon": "ab_submenu",
+            "label": "mobile_ab_sub_label",
+            "phoneState": true,
+            "isSeperateContr": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
         },
         {
             "id": 4,
@@ -211,6 +294,10 @@
             "label": "settings_label",
             "hasComponent": true,
             "isOpen": false,
+            "size": {
+                "minW": 350,
+                "minH": 300
+            },
             "controller": {
                 "bottomPop": true,
                 "right": 130,
@@ -221,45 +308,102 @@
                 [{
                     "name": "bg",
                     "isCheck": false,
+                    "hint": "bg_sett_hint",
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
                 }, {
                     "name": "space_object",
+                    "hint": "so_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
                 }, {
                     "name": "nebula",
+                    "hint": "nb_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
                 }, {
                     "name": "star",
+                    "hint": "st_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "good", "val": "good"}, {"id": 3, "label": "high", "val": "high"}]
                 }, {
                     "name": "explosion",
+                    "hint": "exp_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "good", "val": "good"}, {"id": 4, "label": "high", "val": "high"}]
                 }, {
                     "name": "engine",
+                    "hint": "eng_sett_hint",
                     "isCheck": false,
-                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "high", "val": "high"}]
                 }, {
                     "name": "ships",
+                    "hint": "qos_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
                 }, {
                     "name": "language",
+                    "hint": "lang_sett_hint",
                     "isCheck": false,
                     "options": [{"id": 1, "label": "czech", "val": "cz"}, {"id": 2, "label": "english", "val": "en"}, {"id": 3, "label": "german", "val": "de"}, {"id": 4, "label": "turkish", "val": "tr"}, {"id": 5, "label": "russian", "val": "ru"}, {"id": 6, "label": "spanish", "val": "es"}, {"id": 7, "label": "french", "val": "fr"}]
                 },
                 {
                     "name": "lasers",
                     "isCheck": false,
-                    "options": [{"id": 1, "label": "classic", "val": "classic"}, {"id": 2, "label": "modern", "val": "modern"}]
+                    "hint": "ll_sett_hint",
+                    "options": [{"id": 1, "label": "classic", "val": "classic"}, {"id": 2, "label": "invisible", "val": "invisible"}]
                 },
                 {
                     "name": "laserflash",
                     "isCheck": false,
+                    "hint": "lf_sett_hint",
                     "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "asteroid",
+                    "isCheck": false,
+                    "hint": "sab_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "barrier",
+                    "isCheck": false,
+                    "hint": "bq_sett_hint",
+                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
+                },
+                {
+                    "name": "dynamicsizes",
+                    "isCheck": false,
+                    "hint": "osts_sett_hint",
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "translate_to",
+                    "isCheck": false,
+                    "hint": "tt_sett_hint",
+                    "premium": true,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "english", "val": "en-us"}, {"id": 3, "label": "turkish", "val": "tr"}, {"id":4, "label": "spanish", "val": "es"}]
+                },
+                {
+                    "name": "sum_hits_delay",
+                    "isCheck": false,
+                    "hint": "sum_hits_delay_hint",
+                    "options": [{"id": 1, "label": "100ms", "val": 100}, {"id": 2, "label": "200ms", "val": 200}, {"id": 3, "label": "300ms", "val": 300}, {"id": 4, "label": "400ms", "val": 400}, {"id": 5, "label": "500ms", "val": 500}, {"id": 6, "label": "750ms", "val": 750}]
+                },
+                {
+                    "name": "laser_speed",
+                    "isCheck": false,
+                    "hint": "laser_speed_hint",
+                    "options": [{"id": 1, "label": "new", "val": 100}, {"id": 2, "label": "old", "val": 200}]
+                },
+                {
+                    "name": "kill_vfx",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
+                },
+                {
+                    "name": "ui_anim_speed",
+                    "isCheck": false,
+                    "options": [{"id": 1, "label": "short", "val": 500}, {"id": 2, "label": "medium", "val": 1000}, {"id": 3, "label": "long", "val": 1500}]
                 }
                 ],
                 [{
@@ -281,7 +425,28 @@
                     "name": "actionbar_doublestop",
                     "isCheck": true,
                     "options": []
-                }],
+                },
+                {
+                    "name": "rgb_disabled",
+                    "isCheck": true,
+                    "options": []
+                }, 
+                {
+                    "name": "glow_disabled",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "latency_mode",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "snowy_overlay",
+                    "isCheck": true,
+                    "options": []
+                }
+                ],
                 [{
                     "name": "show_nick",
                     "isCheck": true,
@@ -325,9 +490,39 @@
                     "name": "drone_own_display",
                     "isCheck": true,
                     "options": []
+                },
+                {
+                    "name": "18+_filter",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "username_borders",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_auto_toggle",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_ignore_keys",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "ab_colorful",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "remove_chat_msgs",
+                    "isCheck": true,
+                    "options": []
                 }
             ],
-                [{
+                    [{
                         "name": "game_sounds",
                         "isCheck": false,
                         "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
@@ -344,6 +539,69 @@
                     {
                         "name": "game_music_volume",
                         "isRangeSlider": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "laser_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "rocket_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "effect_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "explosion_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "portal_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "robot_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "shield_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "misc_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
+                        "min": 0,
+                        "max": 100
+                    },
+                    {
+                        "name": "ui_sounds",
+                        "isRangeSlider": true,
+                        "ownRow": true,
                         "min": 0,
                         "max": 100
                     }
@@ -465,7 +723,68 @@
                 {
                     "name": "pal_p_rep_button",
                     "isKeyInput": true
-                }],
+                },
+                {
+                    "name": "pal_sacrifice",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pal_rampage",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_precision",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_rbot",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_bshd",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "tech_leech",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "trigger_cloak",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "laser_attack",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pro_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_1",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_2",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_3",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_4",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "group_ping",
+                    "isKeyInput": true
+                }
+                ],
                 [{
                     "name": "action_button_1",
                     "isGamepadInput": true
@@ -608,6 +927,72 @@
                     "name": "activate_ab_item",
                     "isGamepadInput": true
                 }
+                ],
+                [
+                    {
+                        "name": "qc_msg_slot_1",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_2",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_3",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    },
+                    {
+                        "name": "qc_msg_slot_4",
+                        "isCheck": false,
+                        "options": [
+                            {"id": 1, "label": "qc_msg_1", "val": 1}, 
+                            {"id": 2, "label": "qc_msg_2", "val": 2}, 
+                            {"id": 3, "label": "qc_msg_3", "val": 3}, 
+                            {"id": 4, "label": "qc_msg_4", "val": 4}, 
+                            {"id": 5, "label": "qc_msg_5", "val": 5}, 
+                            {"id": 6, "label": "qc_msg_6", "val": 6}, 
+                            {"id": 7, "label": "qc_msg_7", "val": 7}, 
+                            {"id": 8, "label": "qc_msg_8", "val": 8},
+                            {"id": 9, "label": "qc_msg_9", "val": 9},
+                            {"id": 10, "label": "qc_msg_10", "val": 10}
+                        ]
+                    }
                 ]
             ]
         },
@@ -625,13 +1010,15 @@
                 "useDefPosition": true
             },
             "content": {
+                "maxSectorId": 2,
                 "maps": {
                     "unavailable": [30,31,32],
                     "level": [],
                     "available": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
                 },
                 "sectorSizes": [
-                    [621, 427],
+                    [710, 432],
+                    [710, 432],
                     [710, 432]
                 ],
                 "lvlUnlocks": {
@@ -706,42 +1093,47 @@
                         "3": [1,5]
                     }
                 },
+                "mapTiers": {
+                    "0": [1,2,3,4,5,6,7,8,9,10,11,12],
+                    "1": [13,14,15,16],
+                    "2": [17,18,19,20,21,22,23,24,25,26,27,28,29]
+                },
+                "hasOverlay": [{"id": 1, "x": 128, "y": 167}, {"id": 2, "x": 244, "y": 107}],
                 "mapVectors": [
                     [
-                        [0, 185],
-                        [107, 185],
-                        [204, 136],
-                        [204, 235],
-                        [506, 0],
-                        [408, 38],
-                        [303, 87],
-                        [508, 97],
-                        [506, 375],
-                        [407, 326],
-                        [508, 192],
-                        [301, 283],
-                        [302, 182],
-                        [398, 151],
-                        [401, 219]
+                        [6, 42],
+                        [80, 108],
+                        [154, 42],
+                        [154, 172],
+                        [610, 49],
+                        [514, 108],
+                        [410, 49],
+                        [410, 168],
+                        [614, 343],
+                        [493, 319],
+                        [494, 230],
+                        [374, 294]
                     ],
                     [
-                        [272, 138],
-                        [164, 171],
-                        [84, 107],
-                        [84, 238],
-                        [0, 171],
-                        [506, 131],
-                        [506, 43],
-                        [619, 93],
-                        [619, 0],
-                        [487, 269],
-                        [519, 363],
-                        [594, 269],
-                        [628, 363],
-                        [230, 297],
-                        [202, 60],
-                        [296, 18],
-                        [388, 60]
+                        [83, 230],
+                        [244, 142],
+                        [244, 312],
+                        [464, 192]
+                    ],
+                    [
+                        [162, 81],
+                        [83, 19],
+                        [83, 143],
+                        [4, 81],
+                        [518, 142],
+                        [438, 80],
+                        [597, 80],
+                        [518, 19],
+                        [438, 302],
+                        [518, 364],
+                        [518, 240],
+                        [597, 302],
+                        [83, 291]
                     ]
                 ]
             }
@@ -784,16 +1176,31 @@
             "content": []
         },
         {
-            "id": 7,
-            "name": "fullscreen",
-            "icon": "fullscreen",
-            "label": "fullscreen_label",
-            "isSeperateContr": true,
+            "id": 25,
+            "position": 18,
+            "name": "trade",
+            "icon": "trade",
+            "label": "trade_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
             "controller": {
-                "bottomPop": true,
-                "right": 90,
-                "y": 0,
-                "useDefPosition": false
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {
+                "cobalt": 0,
+                "nickel": 1,
+                "palladium": 2,
+                "ree": 3,
+                "selenite": 4,
+                "jackolanterium": 5,
+                "prismium": 6,
+                "crystal": 7
             }
         },
         {
@@ -812,13 +1219,7 @@
             "content": {
                 "items": [
                     {"id": 1, "name": "settings", "text": "settings_help", "action": "settings", "btnLabel": "go_to_settings"},
-                    {"id": 2, "name": "shop", "text": "shop_help", "action": "shop", "btnLabel": "go_to_shop"},
-                    {"id": 3, "name": "equipment", "text": "equipment_help", "action": "eq", "btnLabel": "go_to_equipment"},
-                    {"id": 4, "name": "movement", "text": "movement_help"},
-                    {"id": 5, "iconExt": ".gif", "name": "actionBar", "text": "actionBar_help"},
-                    {"id": 6, "name": "combat", "text": "combat_help"},
-                    {"id": 7, "name": "repair", "text": "repair_help"},
-                    {"id": 8, "name": "portal", "text": "portal_help"}
+                    {"id": 3, "name": "equipment", "text": "equipment_help", "action": "eq", "btnLabel": "go_to_equipment"}
                 ]
             }
         },
@@ -910,6 +1311,11 @@
                         "id": 11,
                         "label": "shop_boosters",
                         "icon": "iconship"
+                    },
+                    {
+                        "id": 14,
+                        "label": "shop_pal",
+                        "icon": ""
                     }
                 ]
             }
@@ -959,7 +1365,8 @@
                 "name": "XP",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "xp",
+                "icon": "award",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "xp-ui",
                     "keys": "VALUE"
@@ -969,7 +1376,8 @@
                 "name": "HON",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "hon",
+                "icon": "medal",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "hon-ui",
                     "keys": "VALUE"
@@ -979,7 +1387,8 @@
                 "name": "SHD",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "shd",
+                "icon": "shield",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "shd-ui",
                     "keys": "VALUE"
@@ -989,7 +1398,8 @@
                 "name": "HP",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "hp",
+                "icon": "star-of-life",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "hp-ui",
                     "keys": "VALUE"
@@ -999,7 +1409,8 @@
                 "name": "DMG",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "dmg",
+                "icon": "explosion",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "dmg-ui",
                     "keys": "VALUE"
@@ -1009,7 +1420,8 @@
                 "name": "SHDRECH",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "shdrech",
+                "icon": "bolt",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "shdrech-ui",
                     "keys": "VALUE"
@@ -1019,7 +1431,8 @@
                 "name": "QUEST",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "quest",
+                "icon": "exclamation",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "quest-ui",
                     "keys": "VALUE"
@@ -1029,7 +1442,8 @@
                 "name": "REP",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "repair",
+                "icon": "wrench",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "repair-ui",
                     "keys": "VALUE"
@@ -1040,6 +1454,7 @@
                 "isBar": true,
                 "color": "#49BE40",
                 "icon": "box",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "box-ui",
                     "keys": "VALUE"
@@ -1049,7 +1464,8 @@
                 "name": "CD",
                 "isBar": true,
                 "color": "#49BE40",
-                "icon": "cd",
+                "icon": "clock",
+                "isFontIcon": true,
                 "popover": {
                     "txtKey": "cd-ui",
                     "keys": "VALUE"
@@ -1063,6 +1479,17 @@
             "name": "commchannel",
             "icon": "cli",
             "label": "commchannel_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "content": {}
+        },
+        {
+            "id": 31,
+            "position": 31,
+            "name": "kickpanel",
+            "icon": "cli",
+            "label": "kickpanel_label",
             "isOpen": false,
             "dynamic": true,
             "hasComponent": true,
@@ -1084,12 +1511,12 @@
             },
             "content": {
                 "bonus": {
-                    "dmg": {},
-                    "shd": {}
+                    "dmg": {"icon": "fa-explosion"},
+                    "shd": {"icon": "fa-shield"}
                 },
                 "valute": {
-                    "uri": {},
-                    "credits": {}
+                    "uri": {"icon": "fa-atom"},
+                    "credits": {"icon": "fa-microchip"}
                 }
             }
         },
@@ -1112,7 +1539,7 @@
             "id": 13,
             "position": 22,
             "name": "clanstation",
-            "icon": "worldBoss",
+            "icon": "cbs",
             "label": "clanstation_label",
             "isOpen": false,
             "dynamic": true,
@@ -1130,7 +1557,6 @@
             "label": "pal_label",
             "isOpen": false,
             "hasComponent": true,
-            "adminOnly": true,
             "controller": {
                 "x": 20,
                 "y": 273,
@@ -1156,21 +1582,21 @@
                         "15": 434829000
                     },
                     "pvp": {
-                        "1": 60,
-                        "2": 180,
-                        "3": 360,
-                        "4": 600,
-                        "5": 900,
-                        "6": 1260,
-                        "7": 1680,
-                        "8": 2160,
-                        "9": 2700,
-                        "10": 3300,
-                        "11": 3960,
-                        "12": 4680,
-                        "13": 5460,
-                        "14": 6300,
-                        "15": 7500
+                        "1": 48,
+                        "2": 144,
+                        "3": 288,
+                        "4": 480,
+                        "5": 720,
+                        "6": 1008,
+                        "7": 1344,
+                        "8": 1728,
+                        "9": 2160,
+                        "10": 2640,
+                        "11": 3168,
+                        "12": 3744,
+                        "13": 4368,
+                        "14": 5040,
+                        "15": 6000
                     },
                     "pve": {
                         "1": 100,
@@ -1191,6 +1617,113 @@
                     }
                 }
             }
+        },
+        {
+            "id": 15,
+            "position": 25,
+            "name": "welcome",
+            "icon": "help",
+            "label": "welcome_label",
+            "isOpen": true,
+            "hasComponent": true,
+            "dynamic": true,
+            "content": {}
+        },
+        {
+            "id": 15,
+            "position": 26,
+            "name": "worldboss",
+            "icon": "worldBoss",
+            "label": "worldboss_label",
+            "isOpen": true,
+            "hasComponent": true,
+            "dynamic": true,
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 27,
+            "position": 27,
+            "name": "perfboard",
+            "icon": "perfboard",
+            "label": "perfboard_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 28,
+            "position": 28,
+            "name": "jpa_overview",
+            "icon": "jpa",
+            "label": "jpa_overview_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 29,
+            "position": 29,
+            "name": "jpa_perf",
+            "icon": "jpa_perf",
+            "label": "jpa_perf_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 30,
+            "position": 30,
+            "name": "jpa_manager",
+            "icon": "jpa_perf",
+            "label": "jpa_manager_label",
+            "isOpen": false,
+            "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
         },
         {
             "id": 15,
@@ -1235,7 +1768,7 @@
             "id": 16,
             "position": 12,
             "name": "pilotsheet",
-            "icon": "pvp_summer",
+            "icon": "pvp3_summer",
             "label": "pilotsheet_label",
             "isOpen": false,
             "hasComponent": true,
@@ -1253,17 +1786,17 @@
                     "id": 0,
                     "skills": [
                         [
-                            {"id": 0, "lvl": 0, "name": "hp_pp_01", "maxPoints": 2, "coef": false, "lvlData": {"1": 5000, "2": 10000}},
-                            {"id": 1, "lvl": 0, "name": "rep_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
-                            {"id": 2, "lvl": 0, "name": "shd_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}}
+                            {"id": 0, "part": "I", "useModern": true, "lvl": 0, "name": "hp_pp_01", "maxPoints": 2, "coef": false, "lvlData": {"1": 5000, "2": 10000}},
+                            {"id": 1, "useModern": true, "lvl": 0, "name": "rep_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 2, "useModern": true, "lvl": 0, "name": "shd_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}}
                         ],
                         [
-                            {"id": 3, "lvl": 0, "name": "xp_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                            {"id": 3, "lvl": 0, "useModern": true, "name": "xp_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
                         ],
                         [
-                            {"id": 4, "lvl": 0, "name": "minedmg_pp_01", "maxPoints": 2, "lvlData": {"1": 7, "2": 14}},
-                            {"id": 5, "lvl": 0, "name": "minerange_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}},
-                            {"id": 6, "lvl": 0, "name": "missileacc_pp_01", "maxPoints": 5, "lvlData": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5}}
+                            {"id": 4, "part": "I", "useModern": true, "lvl": 0, "name": "minedmg_pp_01", "maxPoints": 2, "lvlData": {"1": 7, "2": 14}},
+                            {"id": 5,  "useModern": true, "lvl": 0, "name": "minerange_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}},
+                            {"id": 6,  "useModern": true, "lvl": 0, "name": "missileacc_pp_01", "maxPoints": 5, "lvlData": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5}}
                         ]
                     ]
                 },
@@ -1272,17 +1805,17 @@
                     "id": 1,
                     "skills": [
                         [
-                            {"id": 0, "lvl": 0, "name": "ev_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
-                            {"id": 1, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 25000}}
+                            {"id": 0, "part": "I", "useModern": true, "lvl": 0, "name": "ev_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 1, "part": "II", "useModern": true, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 40000}}
                         ],
                         [
-                            {"id": 2, "lvl": 0, "name": "uri_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
-                            {"id": 3, "lvl": 0, "name": "cred_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
+                            {"id": 2, "part": "I", "useModern": true, "lvl": 0, "name": "uri_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 3, "useModern": true, "lvl": 0, "name": "cred_pp_01", "maxPoints": 5, "lvlData": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20}}
                         ],
                         [
-                            {"id": 4, "lvl": 0, "name": "pvp_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
-                            {"id": 5, "lvl": 0, "name": "missdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 10}},
-                            {"id": 6, "lvl": 0, "name": "npcdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 8, "4": 16, "5": 25}}
+                            {"id": 4, "part": "I", "useModern": true, "lvl": 0, "name": "pvp_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
+                            {"id": 5, "useModern": true, "lvl": 0, "name": "missdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 10}},
+                            {"id": 6, "useModern": true, "lvl": 0, "name": "npcdmg_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 8, "4": 16, "5": 25}}
                         ]
                     ]
                 },
@@ -1291,16 +1824,16 @@
                     "id": 2,
                     "skills": [
                         [
-                            {"id": 0, "lvl": 0, "name": "abs_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 12}},
-                            {"id": 1, "lvl": 0, "name": "ev_pp_02", "requires": [{"sId": 1, "id": 0}], "maxPoints": 3, "lvlData": {"1": 4, "2": 6, "3": 8}}
+                            {"id": 0, "useModern": true, "lvl": 0, "name": "abs_pp_01", "maxPoints": 5, "lvlData": {"1": 2, "2": 4, "3": 6, "4": 8, "5": 12}},
+                            {"id": 1, "part": "II", "useModern": true, "lvl": 0, "name": "ev_pp_02", "requires": [{"sId": 1, "id": 0}], "maxPoints": 3, "lvlData": {"1": 4, "2": 6, "3": 8}}
                         ],
                         [
-                            {"id": 2, "lvl": 0, "name": "uri_pp_02", "requires": [{"sId": 1, "id": 2}], "maxPoints": 3, "lvlData": {"1": 2, "2": 4, "3": 6}}
+                            {"id": 2, "part": "II", "useModern": true, "lvl": 0, "name": "uri_pp_02", "requires": [{"sId": 1, "id": 2}], "maxPoints": 3, "lvlData": {"1": 2, "2": 4, "3": 6}}
                         ],
                         [
-                            {"id": 3, "lvl": 0, "name": "minedmg_pp_02", "requires": [{"sId": 0, "id": 4}], "maxPoints": 3, "lvlData": {"1": 7, "2": 14, "3": 21}},
-                            {"id": 4, "lvl": 0, "name": "acc_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
-                            {"id": 5, "lvl": 0, "name": "pvp_pp_02", "requires": [{"sId": 1, "id": 4}], "maxPoints": 3, "lvlData": {"1": 4, "2": 8, "3": 12}}
+                            {"id": 3, "part": "II", "useModern": true, "lvl": 0, "name": "minedmg_pp_02", "requires": [{"sId": 0, "id": 4}], "maxPoints": 3, "lvlData": {"1": 7, "2": 14, "3": 21}},
+                            {"id": 4, "useModern": true, "lvl": 0, "name": "acc_pp_01", "maxPoints": 5, "lvlData": {"1": 5, "2": 10, "3": 15, "4": 20, "5": 25}},
+                            {"id": 5, "part": "II", "useModern": true, "lvl": 0, "name": "pvp_pp_02", "requires": [{"sId": 1, "id": 4}], "maxPoints": 3, "lvlData": {"1": 4, "2": 8, "3": 12}}
                         ]
                     ]
                 }
@@ -1327,10 +1860,13 @@
                 "nav": [
                     {"id": 1, "label": "info", "memberOnly": true},
                     {"id": 2, "label": "members", "memberOnly": true},
+                    {"id": 10, "label": "actions", "memberOnly": true},
                     {"id": 3, "label": "balance", "memberOnly": true},
                     {"id": 4, "label": "diplomacy", "memberOnly": true},
                     {"id": 8, "label": "upgrades", "memberOnly": true},
                     {"id": 9, "label": "shop_help_title", "memberOnly": true},
+                    {"id": 11, "label": "clan_ops", "memberOnly": true, "reqPerm": ["clanops"], "buildingTypeReq": ["hq", "clan_op_hub"]},
+                    {"id": 12, "label": "clan_building", "memberOnly": true, "reqPerm": ["clanbuildz"]},
                     {"id": 5, "label": "company", "memberOnly": false},
                     {"id": 6, "label": "join", "singleOnly": true},
                     {"id": 7, "label": "create", "singleOnly": true}
@@ -1341,7 +1877,7 @@
                     {"id": 3, "label": "vru"}
                 ],
                 "possibleClanUpgrades": [
-                    {"id": 1, "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 1, "icon": "fa-award", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1363,7 +1899,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 2, "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 2, "icon": "fa-trophy", "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1385,7 +1921,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 3, "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.01, "costs": {
+                    {"id": 3, "icon": "fa-bolt", "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
                         "1": {"uri": 100000, "credits": 40000000},
                         "2": {"uri": 120000, "credits": 60000000},
                         "3": {"uri": 140000, "credits": 80000000},
@@ -1419,7 +1955,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 5, "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 5, "icon": "fa-star-of-life", "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1441,7 +1977,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 6, "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 6, "icon": "fa-space-station-moon", "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1464,21 +2000,133 @@
                         "20": {"uri": 500000, "credits": 400000000}
                     }}
                 ],
+                "clanHqModules": [
+                    {"id": 1, "type": "hq", "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 2000000000},
+                        "3": {"uri": 0, "credits": 4000000000},
+                        "4": {"uri": 0, "credits": 6000000000},
+                        "5": {"uri": 0, "credits": 8000000000},
+                        "6": {"uri": 0, "credits": 1000000000},
+                        "7": {"uri": 0, "credits": 12000000000},
+                        "8": {"uri": 0, "credits": 14000000000},
+                        "9": {"uri": 0, "credits": 16000000000},
+                        "10": {"uri": 0, "credits": 18000000000}
+                    }},
+                    {"id": 2, "type": "clan_op_hub", "scale": 6, "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 1500000000},
+                        "3": {"uri": 0, "credits": 300000000},
+                        "4": {"uri": 100000, "credits": 4500000000},
+                        "5": {"uri": 150000, "credits": 6000000000},
+                        "6": {"uri": 200000, "credits": 7500000000},
+                        "7": {"uri": 250000, "credits": 9000000000},
+                        "8": {"uri": 300000, "credits": 10500000000},
+                        "9": {"uri": 350000, "credits": 12000000000},
+                        "10": {"uri": 400000, "credits": 13500000000}
+                    }},
+                    {"id": 3, "type": "clan_member_quarters", "scale": 5, "maxLvl": 10, "costs": {
+                        "1": {"uri": 0, "credits": 1000000000},
+                        "2": {"uri": 0, "credits": 1500000000},
+                        "3": {"uri": 0, "credits": 3000000000},
+                        "4": {"uri": 100000, "credits": 4000000000},
+                        "5": {"uri": 150000, "credits": 5000000000},
+                        "6": {"uri": 200000, "credits": 600000000},
+                        "7": {"uri": 250000, "credits": 7000000000},
+                        "8": {"uri": 300000, "credits": 8000000000},
+                        "9": {"uri": 350000, "credits": 9000000000},
+                        "10": {"uri": 400000, "credits": 10000000000}
+                    }},
+                    {"id": 4, "type": "clan_sat", "scale": 1, "maxLvl": 1, "costs": {
+                        "1": {"uri": 400000, "credits": 10000000000}
+                    }}
+                ],
+                "tierRewards": {
+                    "1": [
+                        {"type": "item", "id": 1, "val": 2},
+                        {"type": "playerItem", "id": 19, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 20, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 21, "val": 24, "sectionId" : 11}
+                    ],
+                    "2": [
+                        {"type": "item", "id": 2, "val": 2},
+                        {"type": "item", "id": 4, "val": 1}
+                    ],
+                    "3": [
+                        {"type": "item", "id": 3, "val": 2},
+                        {"type": "item", "id": 2, "val": 2}
+                    ],
+                    "4": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4}
+                    ],
+                    "5": [
+                        {"type": "item", "id": 3, "val": 2},
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "playerItem", "id": 5, "val": 300000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 6, "val": 50000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 7, "val": 15000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 19, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 20, "val": 24, "sectionId" : 11},
+                        {"type": "playerItem", "id": 21, "val": 24, "sectionId" : 11}
+                    ],
+                    "6": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4},
+                        {"type": "item", "id": 3, "val": 2}
+                    ],
+                    "7": [
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "item", "id": 5, "val": 4},
+                        {"type": "item", "id": 9, "val": 1}
+                    ],
+                    "8": [
+                        {"type": "item", "id": 1, "val": 6},
+                        {"type": "item", "id": 6, "val": 4},
+                        {"type": "item", "id": 4, "val": 1},
+                        {"type": "item", "id": 10, "val": 1}
+                    ],
+                    "9": [
+                        {"type": "item", "id": 1, "val": 6},
+                        {"type": "item", "id": 7, "val": 2},
+                        {"type": "item", "id": 8, "val": 4},
+                        {"type": "item", "id": 4, "val": 1},
+                        {"type": "item", "id": 11, "val": 1},
+                        {"type": "item", "id": 12, "val": 1}
+                    ],
+                    "10": [
+                        {"type": "item", "id": 1, "val": 4},
+                        {"type": "item", "id": 2, "val": 4},
+                        {"type": "item", "id": 3, "val": 4},
+                        {"type": "item", "id": 5, "val": 4},
+                        {"type": "item", "id": 6, "val": 4},
+                        {"type": "item", "id": 7, "val": 4},
+                        {"type": "item", "id": 8, "val": 4},
+                        {"type": "item", "id": 4, "val": 2},
+                        {"type": "playerItem", "id": 5, "val": 500000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 6, "val": 100000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 7, "val": 25000, "sectionId" : 6},
+                        {"type": "playerItem", "id": 146, "val": 1, "sectionId" : 1},
+                        {"type": "playerItem", "id": 2, "val": 1, "sectionId" : 14}
+                    ]
+                },
                 "shopitems": [
-                    {"id": 1, "type": "module_laser", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 2, "type": "module_rocket", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 3, "type": "module_repair", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 4, "type": "structure", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 5, "type": "module_dmg", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 6, "type": "module_xp", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 7, "type": "module_hon", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 8, "type": "module_shd", "costData": {"uri": 100000, "credits": 100000000}},
-                    {"id": 9, "type": "module_beam", "costData": {"uri": 500000, "credits": 500000000}},
-                    {"id": 10, "type": "module_nuke", "costData": {"uri": 500000, "credits": 500000000}}
+                    {"id": 1, "type": "module_laser", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 2, "type": "module_rocket", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 3, "type": "module_repair", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 4, "type": "structure", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 5, "type": "module_dmg", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 6, "type": "module_xp", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 7, "type": "module_hon", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 8, "type": "module_shd", "costData": {"uri": 75000, "credits": 750000000}},
+                    {"id": 9, "type": "module_beam", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 10, "type": "module_nuke", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 11, "type": "module_prisma", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 12, "type": "module_energy", "costData": {"uri": 375000, "credits": 375000000}}
                 ],
                 "valute": {
-                    "uri": {},
-                    "credits": {}
+                    "uri": {"icon": "fa-atom"},
+                    "credits": {"icon": "fa-microchip"}
                 }
             }
         },
@@ -1487,6 +2135,19 @@
             "position": 14,
             "dynamic": true,
             "name": "spaceball",
+            "icon": "spaceball",
+            "label": "spaceball_label",
+            "controller": {
+                "x": -20,
+                "y": 273,
+                "useDefPosition": true
+            }
+        },
+        {
+            "id": 18,
+            "position": 14,
+            "dynamic": true,
+            "name": "spaceball_new",
             "icon": "spaceball",
             "label": "spaceball_label",
             "controller": {
@@ -1575,7 +2236,7 @@
                       "rsb75": 50000,
                       "gsaturn": "100%"
                     }
-                  }
+                }
             }
         },
         {
@@ -1589,6 +2250,82 @@
             "controller": {
                 "x": 20,
                 "y": 273,
+                "useDefPosition": true
+            },
+            "content": {}
+        }, 
+        {
+            "id": 30,
+            "position": 30,
+            "name": "poll",
+            "icon": "poll",
+            "label": "poll_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 33,
+            "position": 33,
+            "name": "piratehunt",
+            "icon": "piratehunt",
+            "label": "piratehunt_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 34,
+            "position": 34,
+            "name": "piratemapmanager",
+            "icon": "piratehunt",
+            "label": "piratemapmanager_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 32,
+            "position": 32,
+            "name": "supercalendar",
+            "icon": "supercalendar",
+            "label": "supercalendar_label",
+            "isOpen": false,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
                 "useDefPosition": true
             },
             "content": {}

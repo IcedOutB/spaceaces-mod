@@ -1,0 +1,11 @@
+.qc-main {
+    span {
+        margin: 0;
+    }
+
+    position: fixed;
+    right: 0;
+    top: calc(50% - 200px);
+    /*dumb force cuz of mods*/
+    display: none !important;
+}

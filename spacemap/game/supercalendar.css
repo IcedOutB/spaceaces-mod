@@ -1,0 +1,46 @@
+.supercalendar {
+    span {
+        margin: 0;
+    }
+
+    & .supercalendar_main {
+        height: var(--content-height);
+    }
+
+    & .super-calendar-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    & .calendar {
+        margin: 0;
+        justify-content: start !important;
+
+        & .calendar-item {
+            width: 25%;
+            min-width: 150px;
+            height: 100% !important;
+
+            & img {
+                max-width: 100%;
+            }
+
+            & .item-name {
+                display: block !important;
+            }
+
+            & .day-text {
+                justify-content: center;
+                 
+                & span {
+                    font-size: var(--font-lg) !important;
+                }
+            }
+
+            & .item-bottom-info {
+                flex-flow: column nowrap;
+                gap: 5px 0
+            }
+        }
+    }
+}

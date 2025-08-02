@@ -1,0 +1,34 @@
+.poll-main {
+    span {
+        margin: 0;
+    }
+    .poll-list {
+        &[data-blur-other="true"] {
+            .poll-option {
+                pointer-events: none !important;
+            }
+            .poll-option:not([data-voted-on="true"]) {
+                filter: blur(1px);
+                opacity: 0.8;
+            }
+        }
+        .poll-option[data-voted-on="true"]::after {
+            background-image: url("./image/svg/checkmark.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            content: "";
+            position: absolute;
+            z-index: 1;
+            height: calc(100% - 2px);
+            backdrop-filter: brightness(0.5);
+            border-radius: 5px;
+            width: 100%;
+        }
+    }
+    .poll-option {
+        transition: .2s ease-in-out;
+    }
+    .poll-option:hover {
+        border-color: white !important;
+    }
+}

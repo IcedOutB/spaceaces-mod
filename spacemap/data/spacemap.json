@@ -131,8 +131,10 @@
       "mapName": "3-4",
       "company": 3,
       "portals": {}
-    },
-    {
+    }
+  ],
+  "1": [
+        {
       "id": 13,
       "hasCbs": false,
       "cbsPos": {
@@ -164,9 +166,7 @@
       "mapName": "4-3",
       "company": 4,
       "portals": {}
-    }
-  ],
-  "1": [
+    },
     {
       "id": 16,
       "hasCbs": false,
@@ -178,7 +178,9 @@
       "company": 4,
       "portals": {},
       "isBig": true
-    },
+    }
+  ],
+  "2": [
     {
       "id": 17,
       "hasCbs": false,
@@ -321,39 +323,6 @@
       "mapName": "4-5",
       "company": 4,
       "isBig": true,
-      "portals": {}
-    },
-    {
-      "id": 30,
-      "hasCbs": false,
-      "cbsPos": {
-        "x": null,
-        "y": null
-      },
-      "mapName": "5-1",
-      "company": 4,
-      "portals": {}
-    },
-    {
-      "id": 31,
-      "hasCbs": false,
-      "cbsPos": {
-        "x": null,
-        "y": null
-      },
-      "mapName": "5-2",
-      "company": 4,
-      "portals": {}
-    },
-    {
-      "id": 32,
-      "hasCbs": false,
-      "cbsPos": {
-        "x": null,
-        "y": null
-      },
-      "mapName": "5-3",
-      "company": 4,
       "portals": {}
     }
   ]

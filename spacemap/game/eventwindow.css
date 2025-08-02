@@ -1,0 +1,89 @@
+.pirate-hunt {
+    & span {
+        margin: 0;
+    }
+
+    & .seperator {
+        background: linear-gradient(
+            to bottom,
+            #1b3d6b 0%,
+            #6fe3ff 50%,
+            #1b3d6b 100%
+        );
+    }
+
+    & .custom-navbar-item {
+        width: 100px;
+
+        & span {
+            color: var(--at-secondary-color);
+        }
+    }
+
+    & .custom-navbar-item:hover, & .custom-navbar-item.active {
+        border-color: #ffffff;
+        background-color: #0a2c3a;
+    }
+
+    & .pirate-hunt-reward-header , .pirate-hunt-reward-item {
+        padding: 10px 20px;
+    }
+
+    & .pirate-hunt-section[data-section-id="1"] {
+        background-color: #151618;
+        border: 1px solid var(--default-blue);
+        border-radius: 5px;
+        box-shadow: 0 0 4px #000;
+    }
+
+    & .gg-reward-item img {
+        margin-right: 5px;
+    }
+
+    & .reward-list {
+        border-radius: 2px;
+    }
+
+    & .reward-item-info > .reward-popover {
+        border: 1px solid var(--default-blue);
+        margin-left: 30px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    & .reward-item-info:hover > .reward-popover {
+        display: flex !important;
+    }
+
+    & .pirate-hunt-reward-header {
+        border-bottom: 1px solid #1A363A;
+    }
+
+    & .reward-list {
+        display: none !important;
+        & > div:nth-child(odd) {
+            background-color: #202123;
+        }
+        & > div:nth-child(even) {
+            background-color: #151618;
+        }
+    }
+    & .select-style {
+        height: 15px;
+        padding-right: 15px;
+
+        &::after {
+            margin-top: 0;
+            right: 5px;
+            position: absolute;
+        }
+    }
+    & .custom-select.open .select-style::after {
+        transform: rotate(180deg);
+    }
+    &[data-reward-section="user"] .reward-list.user {
+        display: block !important;
+    }
+    &[data-reward-section="clan"] .reward-list.clan {
+        display: block !important;
+    }
+}

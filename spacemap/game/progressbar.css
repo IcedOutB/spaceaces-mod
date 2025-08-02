@@ -1,0 +1,80 @@
+/*progress-bar*/
+.progress-bar-main {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    left: calc(50% - 200px);
+    height: fit-content;
+  }
+  .progress-bar-main .team-points {
+    --bg-color: orange;
+    --skew: skew(1deg, -5deg);
+    --shadow-color: rgba(184,94,46,1);
+    --shadow: -8px 0px 22px 0px var(--shadow-color);
+  
+    background-color: var(--bg-color);
+    width: 40px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid white;
+    transform: var(--skew);
+    box-shadow: var(--shadow);
+  }
+  .progress-bar-main .team-points span {
+    text-shadow: 4px 2px 5px white;
+    font-size: var(--font-7xl);
+  }
+  .progress-bar-main .team-points#team_2 {
+    --bg-color: #3a89a5;
+    --skew: skew(-1deg, 5deg);
+    --shadow-color: #2b75b5;
+    --shadow: 8px 0px 22px 0px var(--shadow-color);
+    border-right: none;
+    border-left: 2px solid white;
+    text-shadow: -4px 2px 5px white;
+  }
+  .progress-bar-main .team-points#team_3 {
+    --skew: skew(0deg,0deg);
+    border-right: none;
+  }
+  .progress-bar-main .team-points#team_2 span {
+    text-shadow: -4px 2px 5px white;
+  }
+  .progress-bar-main .team-points#team_3 span {
+    text-shadow: 0px 2px 5px white;
+  }
+  .progress-bar-main .time-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    width: fit-content;
+    padding: 0 10px;
+    min-width: 50%;
+    border-radius: 5px;
+  }
+  .progress-bar-main .compet-match-header {
+    height: 20%;
+  }
+  .progress-bar-main .match-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    height: 75%;
+  }
+  .progress-bar-main .item-amount-indicator-box {
+    position: relative;
+    display: block;
+    left: unset !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+    
+    & .vis-amount {
+        border-radius: 3px;
+
+        &[data-is-full="true"] {
+          color: green;
+        }
+    }
+  }

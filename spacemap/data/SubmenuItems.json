@@ -1,72 +1,80 @@
 {
-  "0": [
-    {
-      "name": "lcb-10",
-      "id": 0,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 0,
-      "popover": {"txtKey": "lcb-10_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "mcb-25",
-      "id": 1,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 2,
-      "popover": {"txtKey": "mcb-25_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "mcb-50",
-      "id": 2,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 1,
-      "popover": {"txtKey": "mcb-50_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "ucb-100",
-      "id": 3,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 3,
-      "popover": {"txtKey": "ucb-100_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "sab-50",
-      "id": 4,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 4,
-      "popover": {"txtKey": "sab-50_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "rsb-75",
-      "id": 5,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 5,
-      "popover": {"txtKey": "rsb-75_tooltip", "keys": "AMOUNT"}
-    },
-    {
-      "name": "HSA-X",
-      "id": 6,
-      "hasBar": true,
-      "isSelectable": true,
-      "hasAmount": true,
-      "slotPosition": 5,
-      "popover": {"txtKey": "hsa-x_tooltip", "keys": "AMOUNT"}
-    }
-  ],
+"0": [
+  {
+    "name": "lpc-11",
+    "id": 0,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 0,
+    "popover": {"txtKey": "lcb-10_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "pcc-25",
+    "id": 1,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 2,
+    "popover": {"txtKey": "mcb-25_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "pcc-50",
+    "id": 2,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 1,
+    "popover": {"txtKey": "mcb-50_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "qrb-101",
+    "id": 3,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 3,
+    "popover": {"txtKey": "ucb-100_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "lsa-50",
+    "id": 4,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 4,
+    "popover": {"txtKey": "sab-50_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "rlpc-75",
+    "id": 5,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 5,
+    "popover": {"txtKey": "rsb-75_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "HSA-X",
+    "id": 6,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "slotPosition": 5,
+    "popover": {"txtKey": "hsa-x_tooltip", "keys": "AMOUNT"}
+  },
+  {
+    "name": "l-fr4c",
+    "id": 8,
+    "hasBar": true,
+    "isSelectable": true,
+    "hasAmount": true,
+    "popover": {"txtKey": "fractal_laser_tooltip", "keys": "AMOUNT"}
+  }
+],
   "1": [
     {
-      "name": "r-310",
+      "name": "rk-311",
       "id": 1,
       "hasBar": true,
       "isSelectable": true,
@@ -75,7 +83,7 @@
       "popover": {"txtKey": "r-310_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "plt-2026",
+      "name": "psm-2026",
       "id": 2,
       "hasBar": true,
       "isSelectable": true,
@@ -84,7 +92,7 @@
       "popover": {"txtKey": "plt-2026_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "plt-2021",
+      "name": "psm-2021",
       "id": 3,
       "hasBar": true,
       "isSelectable": true,
@@ -93,7 +101,7 @@
       "popover": {"txtKey": "plt-2021_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "plt-3030",
+      "name": "psm-3030",
       "id": 4,
       "hasBar": true,
       "isSelectable": true,
@@ -102,7 +110,7 @@
       "popover": {"txtKey": "plt-3030_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "pld-8",
+      "name": "ldm-8",
       "id": 5,
       "hasBar": true,
       "isSelectable": true,
@@ -111,13 +119,22 @@
       "popover": {"txtKey": "pld-8_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "dcr-250",
+      "name": "smvd-250",
       "id": 6,
       "hasBar": true,
       "isSelectable": true,
       "hasAmount": true,
       "maxBar": 100,
       "popover": {"txtKey": "dcr-250_tooltip", "keys": "AMOUNT"}
+    },
+    {
+      "name": "ght1",
+      "id": 8,
+      "hasBar": true,
+      "isSelectable": true,
+      "hasAmount": true,
+      "maxBar": 100,
+      "popover": {"txtKey": "ght1_tooltip", "keys": "AMOUNT"}
     }
   ],
   "2": [
@@ -156,7 +173,7 @@
       "popover": {"txtKey": "eco-10_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "hstrm-01",
+      "name": "hrp-01",
       "id": 2,
       "hasBar": true,
       "isSelectable": true,
@@ -164,7 +181,7 @@
       "popover": {"txtKey": "hstrm-01_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "ubr-100",
+      "name": "ers-100",
       "id": 3,
       "hasBar": true,
       "isSelectable": true,
@@ -172,7 +189,7 @@
       "popover": {"txtKey": "ubr-100_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "sar-01",
+      "name": "smc-01",
       "id": 4,
       "hasBar": true,
       "isSelectable": true,
@@ -180,7 +197,7 @@
       "popover": {"txtKey": "sar-01_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "sar-02",
+      "name": "smc-02",
       "id": 5,
       "hasBar": true,
       "isSelectable": true,
@@ -268,6 +285,26 @@
       "maxBar": 100,
       "cdDeselect": true,
       "popover": {"txtKey": "fwx-rz_tooltip", "keys": "AMOUNT"}
+    },
+    {
+      "name": "fwx-hw",
+      "id": 6,
+      "hasBar": true,
+      "isSelectable": true,
+      "hasAmount": true,
+      "maxBar": 100,
+      "cdDeselect": true,
+      "popover": {"txtKey": "fwx-hw_tooltip", "keys": "AMOUNT"}
+    },
+    {
+      "name": "fwx-wtch",
+      "id": 7,
+      "hasBar": true,
+      "isSelectable": true,
+      "hasAmount": true,
+      "maxBar": 100,
+      "cdDeselect": true,
+      "popover": {"txtKey": "fwx-wtch_tooltip", "keys": "AMOUNT"}
     }
   ],
   "4": [
@@ -333,16 +370,6 @@
       "popover": {"txtKey": "clo4k-xl_tooltip"}
     },
     {
-      "name": "ajp-01",
-      "id": 2,
-      "hasBar": false,
-      "isSelectable": false,
-      "hasAmount": false,
-      "requireAmmo": false,
-      "toggleable": false,
-      "popover": {"txtKey": "ajp-01_tooltip"}
-    },
-    {
       "name": "arol-x",
       "id": 3,
       "hasBar": false,
@@ -363,16 +390,6 @@
       "popover": {"txtKey": "rllb-x_tooltip"}
     },
     {
-      "name": "ffcpu",
-      "id": 5,
-      "hasBar": false,
-      "isSelectable": false,
-      "hasAmount": true,
-      "maxBar": 50,
-      "toggleable": false,
-      "popover": {"txtKey": "ffcpu_tooltip"}
-    },
-    {
       "name": "cl04k-xl",
       "id": 6,
       "hasBar": false,
@@ -381,6 +398,26 @@
       "maxBar": 50,
       "toggleable": true,
       "popover": {"txtKey": "clo4k-xl_tooltip"}
+    },
+    {
+      "name": "t4rgt-cpu",
+      "id": 7,
+      "hasBar": true,
+      "isSelectable": true,
+      "hasAmount": true,
+      "maxBar": 50,
+      "toggleable": true,
+      "popover": {"txtKey": "t4rgt-cpu_tooltip"}
+    },
+    {
+      "name": "jackpot-cpu",
+      "id": 8,
+      "hasBar": true,
+      "isSelectable": false,
+      "hasAmount": true,
+      "maxBar": 1,
+      "toggleable": true,
+      "popover": {"txtKey": "jackpot-cpu_tooltip"}
     }
   ],
   "6": [],
@@ -418,7 +455,7 @@
       "popover": {"txtKey": "backup-shields_tooltip", "keys": "AMOUNT"}
     },
     {
-      "name": "chain-impulse",
+      "name": "backup-shields",
       "id": 2,
       "isHidden": true,
       "hasBar": false,
@@ -609,6 +646,15 @@
       "hasAmount": false,
       "requireAmmo": false,
       "popover": {"txtKey": "barrier-formation_tooltip"}
+    },
+    {
+      "name": "f-13-bt",
+      "id": 13,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "bat-formation_tooltip"}
     },
     {
       "name": "f-3d-dm",

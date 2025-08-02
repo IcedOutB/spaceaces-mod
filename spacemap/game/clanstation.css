@@ -1,0 +1,3 @@
+.clan-station-main[active-section="dead"] .btn-prisma, .clan-station-main[active-section="dead"] .btn-energy {
+    display: none;
+}

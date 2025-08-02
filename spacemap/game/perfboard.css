@@ -1,0 +1,31 @@
+.perfboard_main {
+    height: 100%;
+}
+
+.performance-board {
+    span {
+        margin: 0;
+    }
+
+    .performance-item {
+        text-align: center;
+        border-bottom: 1px solid var(--default-blue);
+
+        &[data-beacon-expanded="true"] {
+            grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr !important;
+        }
+
+        &[is-header="true"] span {
+            color: rgb(230, 220, 179) !important;
+            text-shadow: 0px 0px 5px#f78b39;
+        }
+
+        & span {
+            border-right: 1px solid var(--default-blue);
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}

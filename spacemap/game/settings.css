@@ -1,0 +1,162 @@
+.settings {
+    & span {
+        margin: 0;
+    }
+    
+    .settings-simple-bar, .divider, .settings-advanced-toggler {
+        display: none;
+    }
+
+    & .settings_main[menu-open-id="0"] {
+        .settings-simple-bar, .divider, .settings-advanced-toggler {
+            display: flex;
+        }
+    }
+    & .settings_main[data-adv-toggled="false"][menu-open-id="0"] .settings_menu_wrapper {
+        display: none;
+    }
+
+    & .settings_main[menu-open-id="3"] .option_wrapper_main .custom-select {
+        align-self: flex-start;
+        width: calc(100% - 35px);
+    }
+
+    .settings_menu_wrapper {
+        width: 80%;
+        margin: 10px 0;
+        margin-bottom: 5px;
+        background-color: rgba(25, 25, 25, 0.9);
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1rem;
+        box-sizing: border-box;
+        border: 1px solid #4b7288;
+        border-radius: 5px;
+        height: fit-content;
+        overflow-y: auto;
+        align-content: flex-start;
+        max-height: unset !important;
+        gap: 10px 0;
+        box-shadow: 0 0 12px #000;
+    }
+
+    .custom-select {
+        .select-style {
+            height: fit-content;
+            border: 1px solid #33606c;
+
+            &::after {
+                content: '▼';
+                margin-left: 5px;
+                position: relative;
+                position: absolute;
+                right: 10px;
+                transition: transform 0.2s ease-in-out;
+            }
+        }
+
+        &[data-show-hint="true"] .select-style::after {
+            right: 35px;
+        }
+        
+        & .options {
+            border: 1px solid #33606c;
+            border-top: none
+        }
+    
+        &.open .select-style {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+
+            &::after {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .divider {
+        margin: 10px 0;
+    }
+
+    .check_wrapper_main {
+        gap: 0 10px;
+        height: fit-content;
+    }
+
+    .toggle-box, .t-box-header {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .toggle-box .content.open {
+        padding-bottom: 0 !important;
+    }
+
+    .toggle-box {
+        box-shadow: 0 0 8px #000;
+    }
+
+    .main-button-wrapper {
+        background-image: url("./spacemap/ui/data2.png");
+        background-size: contain;
+        background-repeat: repeat;
+        background-position: center;
+        background-blend-mode: overlay;
+
+        & button {
+            box-shadow: 1px 1px 1px #000;
+        }
+    }
+
+    .key-input-wrapper {
+        cursor: pointer;
+        min-width: 60px;
+        width: fit-content;
+        max-width: 40%;
+        height: fit-content;
+        padding: 5px 20px;
+        background-color: rgba(22, 38, 47, 0.5);
+        transition: 0.2s ease-in-out;
+        color: #287490;
+        border: 1px solid transparent;
+        position: relative;
+        padding-right: 20px;
+
+        & button {
+            background-color: transparent;
+            border: none;
+            color: #287490;
+        }
+
+        .btn-unbind-wrapper {
+            position: absolute;
+            right: 2px;
+            z-index: 2;
+            visibility: hidden;
+        }
+    
+        &:hover {
+            border-color: #287490;
+
+            .btn-unbind-wrapper {
+                visibility: visible;
+            }
+        }
+
+        &[data-is-placeholder="true"], &[type-wait="true"] {
+            .btn-unbind-wrapper {
+                visibility: hidden !important;
+            }
+        }
+
+    }
+}
+
+body[layout-edit="true"] {
+    .end-edit-layout {
+        display: block !important;
+    }
+    .edit-layout {
+        display: none !important;
+    }
+}

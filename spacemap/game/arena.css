@@ -1,0 +1,211 @@
+.arena-main-wrapper {
+
+    & .fav-trainings .list {
+        align-items: flex-start;
+    }
+
+    & span, & .t-box-header, & i {
+        color: var(--shop-text-color);
+    }
+
+    & .section-body {
+        background-image: url("./spacemap/ui/arena/overlayR.png"), url("./spacemap/ui/arena/overlayL.png");
+        background-position: left center, right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    & .arena-stat-item > span {
+        color: var(--shop-text-color);
+    }
+
+    & .title-sticky {
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    }
+
+    & .list[data-training-length] {
+        &[data-training-length="1"] .arena-training-item.std[data-is-compact="true"] {
+            width: 100%;
+            min-height: 130px;
+        }
+        &[data-training-length="2"] .arena-training-item.std[data-is-compact="true"] {
+            width: 50%;
+            min-height: 130px;
+        }
+        &[data-training-length="3"] .arena-training-item.std[data-is-compact="true"] {
+            width: 33%;
+            min-height: 130px;
+        }
+    }
+
+    & .fav-trainings {
+        .fav-btn-wrapper {
+            visibility: hidden;
+        }
+    }
+
+    & .arena-lobby-member {
+        background-image: url(./spacemap/ui/arena/data2.png);
+        background-size: contain;
+        background-repeat: repeat;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-color: #16262f;
+        border: 1px solid #287490;
+        border-radius: 10px;
+        width: 90%;
+
+        & span {
+            text-shadow: 0px 0px 4px black, 0 0 1em #008eff, 0 0 0.2em #008eff;
+        }
+    }
+
+    & .invite-column {
+        background-color: #16262f9a;
+        background-size: contain;
+        background-repeat: repeat;
+        background-position: center;
+        background-blend-mode: overlay;
+        background-image: url("./spacemap/ui/arena/hexgrid.png");
+
+        & .list {
+            height: calc(100% - 26px);
+            overflow-y: auto;
+
+            & .arena-invite, & .arena-lobby-member {
+                background-image: url(./spacemap/ui/arena/data2.png);
+                background-size: contain;
+                background-repeat: repeat;
+                background-position: center;
+                background-blend-mode: overlay;
+                background-color: #16262f;
+                border: 1px solid #287490;
+                border-radius: 10px;
+                width: 90%;
+
+                & span {
+                    text-shadow: 0px 0px 4px black, 0 0 1em #008eff, 0 0 0.2em #008eff;
+                }
+            }
+
+        }
+    }
+
+    & .arena-training-item {
+
+        &.std {
+            border: 1px solid #3290b3;
+            background-color: #16262f;
+            display: grid;
+            grid-template-columns: 4fr 6fr 1fr;
+            grid-template-areas: "img label info-btn" "img difficulty btn-play";
+            justify-content: center;
+            align-items: center;
+            min-height: 100px;
+            gap: 5px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-blend-mode: overlay;
+
+            &:nth-child(odd) {
+                background-image: url("./spacemap/ui/arena/packbg.png");
+            }
+            &:nth-child(even) {
+                background-image: url("./spacemap/ui/arena/packbg1.png");
+            }
+
+            &[data-is-compact="true"] {
+                grid-template-columns: 1fr;
+                grid-template-areas: "img";
+                width: 33%;
+                min-height: 130px;
+
+                .training-label-outter, .info-btn-wrapper, .difficulty-main-wrapper, .play-btn-outter {
+                    display: none;
+                }
+                .play-btn-inner, .training-label-inner {
+                    display: block !important;
+                }
+            }
+        }
+
+        & .border-scifi-box-clip {
+            background-color: black;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        &.no-fav > .border-scifi-box-clip {
+            background-image: url(./spacemap/ui/arena/noFavBg.jpg);
+        }
+
+        .border-scifi-box {
+            transition: 0.2s ease-in-out;
+        }
+
+        &.no-fav:hover {
+            .border-scifi-box {
+                filter: drop-shadow(0 0 8px #48abe0);
+            }
+        }
+    }
+
+    .border-scifi-box-clip.std-bg {
+        background-image: url(./spacemap/ui/arena/noFavBg.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    & .arena-settings {
+        &[data-is-disabled="true"]  {
+            & input, & .setting-container {
+                pointer-events: none;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    & .arena-iip-wrapper {
+        & .content.open {
+            padding: 0 !important;
+        }
+    }
+
+    &[data-is-in-arena="true"] {
+        .navbar {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    }
+
+    & .member-ready-state {
+        &[data-state-ready="true"] {
+            color: #35ef28;
+        }
+
+        &[data-state-ready="false"] {
+            color: #ef2828;
+        }
+    }
+
+    &[data-can-change-team="false"] button.switch-team {
+        --bg: #7f947e;
+        --bg-gradiated: #585858;
+        --border-inset-color: #6e7e6c;
+        --text-color: white;
+        pointer-events: none;   
+    }
+    &[data-can-iip="false"] .arena-iip-wrapper {
+        display: none !important;
+    }
+
+    & #hardest-bot-defeat {
+        display: none !important;
+    }
+}

@@ -1,0 +1,24 @@
+.worldboss {
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+
+    span {
+        margin: 0;
+    }
+}
+
+.worldboss, .worldboss-type {
+    .item-amount-indicator-box {
+        display: block !important;
+        position: relative !important;
+        top: unset;
+        width: 100%;
+        left: unset;
+        height: 6px;
+    }
+    
+    &[data-boss-spawn="true"] .vis-amount {
+        background-color: #3bb530;
+    }
+}

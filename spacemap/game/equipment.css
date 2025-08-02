@@ -1,0 +1,125 @@
+.equipment_main {
+    .btn-cfg-change {
+        width: 35px;
+    }
+    .eq-body-wrapper[picking-gear-ship="true"] .hangar-aval-item:not(.enabled) {
+        opacity: 0.7;
+    }
+    .eq-body-wrapper[pal-open="true"] {
+        .pal-design-select {
+            display: block !important;
+        }
+        .pal-save-design {
+            display: block !important;
+        }
+    }
+    .eq-body-wrapper[pal-open="true"] {
+        .ship-templating {
+            display: none !important;
+        }
+    }
+
+    .custom-select .options {
+        z-index: 3 !important;
+    }
+
+    .hangar-aval-item[max-upgrade="true"]::after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(191 122 15);
+        text-shadow: 0px 0px 5px #f78b39;
+        background-image: url("./image/shopImg/elite-icon.png");
+        background-size: contain;
+    }
+
+    .ship-design-select {
+        & .custom-select {
+            height: 20px;
+            min-width: 140px;
+
+            & .select-style {
+                padding: 0;
+            }
+        }
+    }
+
+    .hangar-content .hangar-aval-item[ship-type="rgbg"] img, .hangar-content[ship-type="rgbg"] #ship-icon, .hangar-content .hangar-aval-item[ship-type="venomrgb"] img, .hangar-content[ship-type="venomrgb"] #ship-icon {
+        animation: rgb-effect 10s infinite ease-in-out;
+    }
+
+    .eq-special-config .range-bar {
+        content: '';
+        background-image: url("./spacemap/ui/hueBar.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .eq-body-wrapper[data-section-open="ship"] {
+        & .eq-items {
+            & .eq-slot-wrapper[item-section-type="pal"], & .eq-slot-wrapper[item-section-type="drone"] {
+                display: none !important;
+            }
+        }
+    }
+    .eq-body-wrapper[data-section-open="drone"] {
+        & .eq-items {
+            & .eq-slot-wrapper[item-section-type="pal"], & .eq-slot-wrapper[item-section-type="ship"] {
+                display: none !important;
+            }
+        }
+    }
+    .eq-body-wrapper[data-section-open="pal"] {
+        & .eq-items {
+            & .eq-slot-wrapper[item-section-type="drone"], & .eq-slot-wrapper[item-section-type="ship"] {
+                display: none !important;
+            }
+        }
+    }
+
+    .eq-slot-wrapper[data-simple-mode-item] {
+        display: none;
+        
+        & .upgrade-lvl {
+            top: unset !important;
+            left: unset !important;
+            right: 0;
+            bottom: -1px;
+            font-size: var(--font-base) !important;
+            
+        }
+
+        & .eq-slot-item::before {
+            content: none !important;
+        }
+    }
+
+    .eq-body-wrapper[data-advanced-mode="true"] {
+        .eq-items {
+            .eq-slot-wrapper {
+                display: none;
+            }
+            .eq-slot-wrapper[data-simple-mode-item] {
+                display: block;
+            }
+        }
+    }
+    .eq-body-header .custom-select .select-style {
+        padding: 0 5px !important;
+    }
+
+    .eq-slot-item {
+        background-image: url("./spacemap/equipment/itemBg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

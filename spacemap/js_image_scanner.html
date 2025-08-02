@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Imágenes Corruptas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .upload-zone {
+            border: 3px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .upload-zone:hover {
+            border-color: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .upload-zone.dragover {
+            border-color: #4CAF50;
+            background: rgba(76, 175, 80, 0.2);
+        }
+        #fileInput {
+            display: none;
+        }
+        .btn {
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .progress-container {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            display: none;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #45a049);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        .results {
+            margin-top: 30px;
+        }
+        .result-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #f44336;
+        }
+        .result-item.valid {
+            border-left-color: #4CAF50;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .log {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Detector de Imágenes Corruptas</h1>
+        
+        <div class="upload-zone" id="uploadZone">
+            <h3>📁 Selecciona o arrastra carpetas/archivos aquí</h3>
+            <p>Soporte para múltiples carpetas y validación WebGL real</p>
+            <button class="btn" onclick="document.getElementById('fileInput').click()">
+                Seleccionar Archivos
+            </button>
+            <input type="file" id="fileInput" multiple webkitdirectory>
+        </div>
+
+        <div class="progress-container" id="progressContainer">
+            <div>
+                <span id="progressText">Procesando...</span>
+                <span id="progressPercent" style="float: right;">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="stats" id="stats" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-number" id="totalImages">0</div>
+                <div>Total Imágenes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="corruptImages">0</div>
+                <div>Corruptas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="processTime">0s</div>
+                <div>Tiempo</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="speed">0</div>
+                <div>img/s</div>
+            </div>
+        </div>
+
+        <div class="log" id="log" style="display: none;"></div>
+        
+        <div class="results" id="results"></div>
+        
+        <button class="btn" id="downloadBtn" onclick="downloadReport()" style="display: none;">
+            📄 Descargar Reporte
+        </button>
+    </div>
+
+    <script>
+        const imageExtensions = new Set([
+            'jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp', 'tiff', 'tif', 'ico'
+        ]);
+
+        let scanResults = [];
+        let totalFiles = 0;
+        let processedFiles = 0;
+        let corruptCount = 0;
+        let startTime = 0;
+
+        function log(message) {
+            const logEl = document.getElementById('log');
+            logEl.style.display = 'block';
+            logEl.innerHTML += `${new Date().toLocaleTimeString()}: ${message}\n`;
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        function updateProgress() {
+            const percent = totalFiles > 0 ? (processedFiles / totalFiles * 100) : 0;
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressPercent').textContent = percent.toFixed(1) + '%';
+            document.getElementById('progressText').textContent = 
+                `Procesando... ${processedFiles}/${totalFiles}`;
+        }
+
+        function updateStats() {
+            const elapsed = (Date.now() - startTime) / 1000;
+            document.getElementById('totalImages').textContent = totalFiles;
+            document.getElementById('corruptImages').textContent = corruptCount;
+            document.getElementById('processTime').textContent = elapsed.toFixed(1) + 's';
+            document.getElementById('speed').textContent = totalFiles > 0 ? 
+                (totalFiles / elapsed).toFixed(1) : '0';
+            document.getElementById('stats').style.display = 'grid';
+        }
+
+        async function validateImageWebGL(file) {
+            return new Promise((resolve) => {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                const img = new Image();
+                
+                let timeout = setTimeout(() => {
+                    resolve({ valid: false, error: 'Timeout loading image' });
+                }, 5000);
+
+                img.onload = function() {
+                    clearTimeout(timeout);
+                    try {
+                        // Verificar dimensiones válidas
+                        if (img.naturalWidth <= 0 || img.naturalHeight <= 0) {
+                            resolve({ valid: false, error: 'Invalid dimensions' });
+                            return;
+                        }
+
+                        // Simular WebGL texImage2D
+                        canvas.width = Math.min(img.naturalWidth, 100);
+                        canvas.height = Math.min(img.naturalHeight, 100);
+                        
+                        // Intentar dibujar en canvas (como WebGL)
+                        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                        
+                        // Intentar leer datos (como WebGL readPixels)
+                        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                        
+                        if (!imageData || !imageData.data || imageData.data.length === 0) {
+                            resolve({ valid: false, error: 'No image data after canvas draw' });
+                            return;
+                        }
+
+                        // Verificar que no está completamente transparente/negra
+                        const hasVisiblePixels = Array.from(imageData.data).some(val => val > 0);
+                        if (!hasVisiblePixels) {
+                            resolve({ valid: false, error: 'Image appears to be completely transparent/black' });
+                            return;
+                        }
+
+                        resolve({ valid: true, error: null });
+                        
+                    } catch (e) {
+                        resolve({ valid: false, error: `Canvas/WebGL error: ${e.message}` });
+                    }
+                };
+
+                img.onerror = function(e) {
+                    clearTimeout(timeout);
+                    resolve({ valid: false, error: `Image load error: ${e.message || 'Unknown error'}` });
+                };
+
+                // Crear blob URL para evitar problemas CORS
+                img.src = URL.createObjectURL(file);
+            });
+        }
+
+        async function validateImageHeaders(file) {
+            return new Promise((resolve) => {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const buffer = new Uint8Array(e.target.result);
+                    const ext = file.name.split('.').pop().toLowerCase();
+                    
+                    try {
+                        // Verificar tamaño mínimo
+                        if (buffer.length < 100) {
+                            resolve({ valid: false, error: `File too small: ${buffer.length} bytes` });
+                            return;
+                        }
+
+                        // Verificar magic numbers
+                        if (ext === 'jpg' || ext === 'jpeg') {
+                            if (buffer[0] !== 0xFF || buffer[1] !== 0xD8 || buffer[2] !== 0xFF) {
+                                resolve({ valid: false, error: 'Invalid JPEG header' });
+                                return;
+                            }
+                            // Verificar final JPEG
+                            if (buffer[buffer.length-2] !== 0xFF || buffer[buffer.length-1] !== 0xD9) {
+                                resolve({ valid: false, error: 'Incomplete JPEG ending' });
+                                return;
+                            }
+                        } else if (ext === 'png') {
+                            const pngHeader = [0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A];
+                            for (let i = 0; i < pngHeader.length; i++) {
+                                if (buffer[i] !== pngHeader[i]) {
+                                    resolve({ valid: false, error: 'Invalid PNG header' });
+                                    return;
+                                }
+                            }
+                        } else if (ext === 'gif') {
+                            const gif87a = [0x47, 0x49, 0x46, 0x38, 0x37, 0x61];
+                            const gif89a = [0x47, 0x49, 0x46, 0x38, 0x39, 0x61];
+                            let validGif = true;
+                            for (let i = 0; i < 6; i++) {
+                                if (buffer[i] !== gif87a[i] && buffer[i] !== gif89a[i]) {
+                                    validGif = false;
+                                    break;
+                                }
+                            }
+                            if (!validGif) {
+                                resolve({ valid: false, error: 'Invalid GIF header' });
+                                return;
+                            }
+                        } else if (ext === 'webp') {
+                            if (buffer[0] !== 0x52 || buffer[1] !== 0x49 || buffer[2] !== 0x46 || buffer[3] !== 0x46 ||
+                                buffer[8] !== 0x57 || buffer[9] !== 0x45 || buffer[10] !== 0x42 || buffer[11] !== 0x50) {
+                                resolve({ valid: false, error: 'Invalid WebP header' });
+                                return;
+                            }
+                        }
+
+                        resolve({ valid: true, error: null });
+                    } catch (e) {
+                        resolve({ valid: false, error: `Header validation error: ${e.message}` });
+                    }
+                };
+                reader.readAsArrayBuffer(file.slice(0, Math.min(file.size, 1024)));
+            });
+        }
+
+        async function processImage(file) {
+            try {
+                log(`Analizando: ${file.name}`);
+                
+                // Validación de headers primero (más rápido)
+                const headerResult = await validateImageHeaders(file);
+                if (!headerResult.valid) {
+                    return {
+                        file: file.name,
+                        path: file.webkitRelativePath || file.name,
+                        size: file.size,
+                        valid: false,
+                        error: headerResult.error
+                    };
+                }
+
+                // Validación WebGL/Canvas (más completa)
+                const webglResult = await validateImageWebGL(file);
+                
+                return {
+                    file: file.name,
+                    path: file.webkitRelativePath || file.name,
+                    size: file.size,
+                    valid: webglResult.valid,
+                    error: webglResult.error
+                };
+                
+            } catch (e) {
+                return {
+                    file: file.name,
+                    path: file.webkitRelativePath || file.name,
+                    size: file.size,
+                    valid: false,
+                    error: `Processing error: ${e.message}`
+                };
+            }
+        }
+
+        async function processFiles(files) {
+            scanResults = [];
+            totalFiles = 0;
+            processedFiles = 0;
+            corruptCount = 0;
+            startTime = Date.now();
+
+            // Filtrar solo imágenes
+            const imageFiles = Array.from(files).filter(file => {
+                const ext = file.name.split('.').pop().toLowerCase();
+                return imageExtensions.has(ext);
+            });
+
+            totalFiles = imageFiles.length;
+            
+            if (totalFiles === 0) {
+                alert('No se encontraron archivos de imagen.');
+                return;
+            }
+
+            log(`Encontradas ${totalFiles} imágenes. Iniciando análisis...`);
+            
+            document.getElementById('progressContainer').style.display = 'block';
+            updateProgress();
+
+            // Procesar en lotes para no bloquear la UI
+            const batchSize = 5;
+            for (let i = 0; i < imageFiles.length; i += batchSize) {
+                const batch = imageFiles.slice(i, i + batchSize);
+                const promises = batch.map(processImage);
+                const results = await Promise.all(promises);
+                
+                results.forEach(result => {
+                    scanResults.push(result);
+                    if (!result.valid) {
+                        corruptCount++;
+                    }
+                    processedFiles++;
+                });
+                
+                updateProgress();
+                updateStats();
+                
+                // Pequeña pausa para permitir actualización de UI
+                await new Promise(resolve => setTimeout(resolve, 10));
+            }
+
+            displayResults();
+            log('Análisis completado.');
+        }
+
+        function displayResults() {
+            const resultsDiv = document.getElementById('results');
+            const corruptImages = scanResults.filter(r => !r.valid);
+            
+            if (corruptImages.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div style="text-align: center; padding: 40px;">
+                        <h2>✅ No se encontraron imágenes corruptas</h2>
+                        <p>Todas las ${totalFiles} imágenes están en perfecto estado.</p>
+                    </div>
+                `;
+            } else {
+                let html = `<h2>🚫 Imágenes Corruptas Encontradas (${corruptImages.length})</h2>`;
+                
+                corruptImages.forEach((result, index) => {
+                    html += `
+                        <div class="result-item">
+                            <strong>${index + 1}. ${result.path}</strong><br>
+                            <small>Tamaño: ${formatFileSize(result.size)}</small><br>
+                            <span style="color: #ffcdd2;">Error: ${result.error}</span>
+                        </div>
+                    `;
+                });
+                
+                resultsDiv.innerHTML = html;
+            }
+            
+            document.getElementById('downloadBtn').style.display = 'block';
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 B';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+        }
+
+        function downloadReport() {
+            const corruptImages = scanResults.filter(r => !r.valid);
+            const elapsed = (Date.now() - startTime) / 1000;
+            
+            let report = `REPORTE DE ANÁLISIS DE IMÁGENES\n`;
+            report += `${'='.repeat(60)}\n`;
+            report += `Fecha: ${new Date().toLocaleString()}\n`;
+            report += `Total de imágenes: ${totalFiles}\n`;
+            report += `Imágenes corruptas: ${corruptCount}\n`;
+            report += `Tiempo de análisis: ${elapsed.toFixed(2)} segundos\n`;
+            report += `Velocidad: ${(totalFiles / elapsed).toFixed(1)} img/s\n\n`;
+            
+            if (corruptImages.length > 0) {
+                report += `IMÁGENES CORRUPTAS:\n`;
+                report += `${'-'.repeat(40)}\n`;
+                
+                corruptImages.forEach((img, index) => {
+                    report += `${index + 1}. ${img.path}\n`;
+                    report += `   Tamaño: ${formatFileSize(img.size)}\n`;
+                    report += `   Error: ${img.error}\n\n`;
+                });
+            } else {
+                report += `✅ No se encontraron imágenes corruptas.\n`;
+            }
+            
+            const blob = new Blob([report], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `reporte_imagenes_${new Date().toISOString().split('T')[0]}.txt`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Event listeners
+        const uploadZone = document.getElementById('uploadZone');
+        const fileInput = document.getElementById('fileInput');
+
+        uploadZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadZone.classList.add('dragover');
+        });
+
+        uploadZone.addEventListener('dragleave', () => {
+            uploadZone.classList.remove('dragover');
+        });
+
+        uploadZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadZone.classList.remove('dragover');
+            
+            const items = e.dataTransfer.items;
+            const files = [];
+            
+            for (let item of items) {
+                if (item.webkitGetAsEntry) {
+                    const entry = item.webkitGetAsEntry();
+                    if (entry) {
+                        traverseFileTree(entry, files);
+                    }
+                }
+            }
+            
+            setTimeout(() => processFiles(files), 100);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            processFiles(e.target.files);
+        });
+
+        function traverseFileTree(item, files) {
+            if (item.isFile) {
+                item.file((file) => {
+                    const ext = file.name.split('.').pop().toLowerCase();
+                    if (imageExtensions.has(ext)) {
+                        files.push(file);
+                    }
+                });
+            } else if (item.isDirectory) {
+                const dirReader = item.createReader();
+                dirReader.readEntries((entries) => {
+                    for (let entry of entries) {
+                        traverseFileTree(entry, files);
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

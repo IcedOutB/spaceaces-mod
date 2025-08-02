@@ -1,0 +1,109 @@
+
+.clan-main {
+    user-select: text;
+    &[active-section-id="1"] .clan-nav-item[section-id="1"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="2"] .clan-nav-item[section-id="2"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="3"] .clan-nav-item[section-id="3"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="4"] .clan-nav-item[section-id="4"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="5"] .clan-nav-item[section-id="5"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="6"] .clan-nav-item[section-id="6"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="7"] .clan-nav-item[section-id="7"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="8"] .clan-nav-item[section-id="8"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="9"] .clan-nav-item[section-id="9"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="10"] .clan-nav-item[section-id="10"] {
+        border: 1px solid #3290b3;
+    }
+    &[active-section-id="11"] .clan-nav-item[section-id="11"] {
+        border: 1px solid #3290b3;
+    }
+
+    &[active-section-id="12"] .bonus-info > .curr-val::after {
+        content: none;
+    }
+
+    .clan-ops {
+        span {
+            margin: 0;
+        }
+
+        .clan-op-task:nth-child(even) {
+            background-color: #292929 !important;
+        }
+        .clan-op-task[data-task-detail-open="true"] .task-details {
+            display: flex !important;
+        }
+        .clan-op-task[data-task-detail-open="true"] .detail-toggle-icon {
+            transform: rotate(180deg);
+        }
+    }
+
+    .assigned-member-item span {
+        margin: 0;
+    }
+
+    .clan-assign-members {
+        min-width: 80%;
+    }
+
+    .clan-op-task {
+        position: relative;
+    }
+
+    .clan-ops .footer-hint {
+        margin: unset;
+    }
+
+    .clan-op-task[data-task-type]::after {
+        content: "P.V.E.";
+        color: rgba(200,200,200,0.75);
+        font-size: var(--font-10xl);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -12px;
+        letter-spacing: 10px;
+        pointer-events: none;
+    }
+    .clan-op-task[data-task-type="pve"]::after {
+        content: "P.V.E.";
+    }
+    .clan-op-task[data-task-type="pvp"]::after {
+        content: "P.V.P.";
+    }
+    .clan-op-task[data-task-type="gg"]::after {
+        content: "G.A.T.E.S.";
+    }
+    .clan-op-task[data-task-type="box"]::after {
+        content: "B.O.X.";
+    }
+
+    .tasks-list[data-claimed="true"]::after {
+        height: calc(100% - 46px)
+    }
+
+    .clan-assign-members .custom-select {
+        min-width: 200px;
+    }
+}

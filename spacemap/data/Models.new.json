@@ -1,0 +1,2151 @@
+{
+    "noBitmap": {
+        "section": ["backgrounds", "portalsn", "customCursor", "ggGiffer", "stations", "planets", "asteroids", "fields"],
+        "model": ["vfx/nanoRepair", "vfx/prismaShield", "vfx/singularity", "vfx/weakShield", "vfx/turbo", "vfx/rapidFire", "ggGiffer"]
+    },
+    "gameControllers": {
+        "portal": {
+            "std": {"path": "ui/objectControllers/portal", "end": 0, "start": 0, "absolutePath": true}
+        },
+        "base": {
+            "std": {"path": "ui/objectControllers/base", "end": 0, "start": 0, "absolutePath": true}
+        },
+        "qgiver": {
+            "std": {"path": "ui/objectControllers/base", "end": 0, "start": 0, "absolutePath": true}
+        }
+    },
+    "shipsSimple": {
+        "0": ["ships/simple/placeholder", 0, 0, false]
+    },
+    "bg": {
+        "1": {"path":"backgrounds/background1","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "2": {"path":"backgrounds/background2","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "3": {"path":"backgrounds/background3","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "4": {"path":"backgrounds/background4","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "5": {"path":"backgrounds/background5","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "6": {"path":"backgrounds/background6","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "7": {"path":"backgrounds/background7","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "8": {"path":"backgrounds/background8","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "9": {"path":"backgrounds/background9","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "10": {"path":"backgrounds/background10","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "11": {"path":"backgrounds/background11","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "12": {"path":"backgrounds/background12","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "13": {"path":"backgrounds/background13","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "14": {"path":"backgrounds/background14","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "15": {"path":"backgrounds/background15","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "16": {"path":"backgrounds/background16","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "17": {"path":"backgrounds/background17","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "18": {"path":"backgrounds/background18","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "19": {"path":"backgrounds/background19","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "20": {"path":"backgrounds/background20","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "21": {"path":"backgrounds/background21","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "22": {"path":"backgrounds/background22","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "23": {"path":"backgrounds/background23","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "24": {"path":"backgrounds/background24","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "25": {"path":"backgrounds/background25","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "26": {"path":"backgrounds/background26","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "27": {"path":"backgrounds/background27","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "28": {"path":"backgrounds/background28","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "29": {"path":"backgrounds/background29","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "37": {"path":"backgrounds/background37","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "38": {"path":"backgrounds/background37","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "32": {"path":"backgrounds/background32","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "33": {"path":"backgrounds/background352","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "51": {"path":"backgrounds/background51","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "52": {"path":"backgrounds/background52","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "53": {"path":"backgrounds/background53","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "54": {"path":"backgrounds/background54","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "55": {"path":"backgrounds/background55","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "56": {"path":"backgrounds/background56","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "57": {"path":"backgrounds/background56","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "58": {"path":"backgrounds/background58","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "94": {"path":"backgrounds/background94","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "95": {"path":"backgrounds/background95","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "96": {"path":"backgrounds/background96","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "97": {"path":"backgrounds/background97","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "98": {"path":"backgrounds/background98","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "101": {"path":"backgrounds/background255","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "112": {"path":"backgrounds/background112","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "123": {"path":"backgrounds/background123","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "350": {"path":"backgrounds/background350","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "351": {"path":"backgrounds/background351","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "352": {"path":"backgrounds/background352","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "354": {"path":"backgrounds/background351","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "355": {"path":"backgrounds/background355","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "356": {"path":"backgrounds/background356","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "357": {"path":"backgrounds/background357","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "361": {"path":"backgrounds/background361","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"},
+        "364": {"path":"backgrounds/background364","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"holdImage": false,"customExtension":"jpg"}
+    },
+    "ships": {
+        "1": {
+            "path": "ships/enforcer",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "2": {
+            "path": "ships/bastion",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "3": {
+            "path": "ships/viperRevenge",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "4": {
+            "path": "ships/viperAvenger",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "5": {
+            "path": "ships/viper",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "6": {
+            "path": "ships/phoenix",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "7": {
+            "path": "ships/yamaton",
+            "end": 59,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "8": {
+            "path": "ships/defcom",
+            "end": 63,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "9": {
+            "path": "ships/leonovn",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "147": {
+            "path": "ships/leolove",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "10": {
+            "path": "ships/liberatorn",
+            "end": 59,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "11": {
+            "path": "ships/piranha",
+            "end": 59,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "12": {
+            "path": "ships/nostormo",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "13": {
+            "path": "ships/geirod",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "14": {
+            "path": "ships/gryphonDefault",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "15": {
+            "path": "ships/viperHonored",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "16": {
+            "path": "ships/viperExperienced",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "17": {
+            "path": "ships/gexp",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "18": {
+            "path": "ships/ghon",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "19": {
+            "path": "ships/goal",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "20": {
+            "path": "ships/kickn",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "21": {
+            "path": "ships/referee",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "22": {
+            "path": "ships/america",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "23": {
+            "path": "ships/spectrum",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "24": {
+            "path": "ships/solace",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "25": {
+            "path": "ships/venom",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "26": {
+            "path": "ships/diminisher",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "27": {
+            "path": "ships/sentinel",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "28": {
+            "path": "ships/turkey",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "29": {
+            "path": "ships/lightning",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "30": {
+            "path": "ships/lightning",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "31": {
+            "path": "ships/venom",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "32": {
+            "path": "ships/streuner",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "33": {
+            "path": "ships/luminid",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "34": {
+            "path": "ships/sylox",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "35": {
+            "path": "ships/morlok",
+            "end": 90,
+            "start": 1,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "36": {
+            "path": "ships/dreadnex",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "37": {
+            "path": "ships/sirelon",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "38": {
+            "path": "ships/sirelonit",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "39": {
+            "path": "ships/luminar",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "40": {
+            "path": "ships/crylith",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "41": {
+            "path": "ships/crylox",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "42": {
+            "path": "ships/cuboran",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "43": {
+            "path": "ships/proteron",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "44": {
+            "path": "ships/vagrant",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "45": {
+            "path": "ships/marauder",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "46": {
+            "path": "ships/outcast",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "47": {
+            "path": "ships/convict",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "48": {
+            "path": "ships/hooligan",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "49": {
+            "path": "ships/ravager",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "50": {
+            "path": "ships/corsair",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "51": {
+            "path": "ships/falcon",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "52": {
+            "path": "ships/inter",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "53": {
+            "path": "ships/bara",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "54": {
+            "path": "ships/ani",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "165": {
+            "path": "ships/saboteur",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "166": {
+            "path": "ships/convoy",
+            "end": 15,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "167": {
+            "path": "ships/battleray",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "55": {
+            "path": "ships/infernalNew",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "56": {
+            "path": "ships/scorcherNew",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "57": {
+            "path": "ships/melterNew",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "58": {
+            "path": "ships/havocNew",
+            "end": 15,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "59": {
+            "path": "ships/strauner",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "60": {
+            "path": "ships/strauner",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "61": {
+            "path": "ships/sylox",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "62": {
+            "path": "ships/streuner",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "63": {
+            "path": "ships/luminid",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "65": {
+            "path": "ships/morlok",
+            "end": 90,
+            "start": 1,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "66": {
+            "path": "ships/dreadnexboss",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "67": {
+            "path": "ships/sirelonboss",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "68": {
+            "path": "ships/sirelonit",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "69": {
+            "path": "ships/luminar",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "70": {
+            "path": "ships/bosscrylith",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "71": {
+            "path": "ships/bosscrylox",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "72": {
+            "path": "ships/ubercrylith",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "73": {
+            "path": "ships/ubercrylox",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "74": {
+            "path": "ships/ufo",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "75": {
+            "path": "ships/bigKrelanum",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "76": {
+            "path": "ships/demaner",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "77": {
+            "path": "ships/icy",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "78": {
+            "path": "ships/vanquisher",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "79": {
+            "path": "ships/sovereign",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "80": {
+            "path": "ships/peacemaker",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "81": {
+            "path": "ships/saturn",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "82": {
+            "path": "ships/german",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "83": {
+            "path": "ships/referee",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "84": {
+            "path": "ships/pal",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "86": {
+            "path": "ships/palGreen",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "87": {
+            "path": "ships/palRed",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "85": {
+            "path": "ships/cuboranCute",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "88": {
+            "path": "ships/icemeteroid",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "89": {
+            "path": "ships/spookyBot",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "90": {
+            "path": "ships/robot",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "91": {
+            "path": "ships/bronze",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "92": {
+            "path": "ships/silver",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "93": {
+            "path": "ships/gold",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "94": {
+            "path": "ships/spaceg",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "140": {
+            "path": "ships/space",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "95": {
+            "path": "ships/redg",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "96": {
+            "path": "ships/moduleXp",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "97": {
+            "path": "ships/moduleHon",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "98": {
+            "path": "ships/moduleDmg",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "99": {
+            "path": "ships/moduleShd",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "100": {
+            "path": "ships/moduleBaseDead",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "101": {
+            "path": "ships/moduleBase",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "102": {
+            "path": "ships/moduleRuined",
+            "end": 0,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "103": {
+            "path": "ships/moduleStand",
+            "end": 31,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "104": {
+            "path": "ships/beamShip",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "105": {
+            "path": "rocketsn/7",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "106": {
+            "path": "ships/nstarhawk",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "107": {
+            "path": "ships/gryphonTech",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "108": {
+            "path": "ships/constructionBot",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "109": {
+            "path": "ships/lspacefire",
+            "end": 59,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "110": {
+            "path": "ships/viperReferee",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "111": {
+            "path": "ships/viperKick",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "112": {
+            "path": "ships/viperGoal",
+            "end": 63,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "113": {
+            "path": "ships/billboard",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "114": {
+            "path": "ships/devourer",
+            "end": 0,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "115": {
+            "path": "ships/gpumpkinplayer",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "116": {
+            "path": "ships/gpumpkinnpc",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "117": {
+            "path": "drones/designs/havoc/zeus/6",
+            "end": 59,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "118": {
+            "path": "ships/generalUfo",
+            "end": 30,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "119":{"path":"ships/gczech","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "120":{"path":"ships/gpl","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "121":{"path":"ships/gen","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "122":{"path":"ships/gfrance","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "123":{"path":"ships/gbelgium","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "124":{"path":"ships/superIceAsteroid","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "125":{"path":"ships/emperorCrylox","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "126":{"path":"ships/santaBot","end":31,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "127":{"path":"ships/santaPal","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "128":{"path":"ships/gryphonFrozenGlowless","end":59,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "129":{"path":"ships/viperFrozen","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "130":{"path":"ships/phoenixFrosty","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "131":{"path":"ships/frostyPal","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "132":{"path":"ships/spectrumFrosty","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "133":{"path":"ships/gelegance","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "134":{"path":"ships/gred","end":59,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "135":{"path":"ships/gorange","end":59,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "136":{"path":"ships/gblue","end":59,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "141":{"path":"ships/gfrosty","end":63,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "142":{"path":"ships/gelegancenew","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "143":{"path":"ships/grednew","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "144":{"path":"ships/gorangenew","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "145":{"path":"ships/gbluenew","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "146":{"path":"ships/venomred","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "148":{"path":"ships/venomFrosty","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "149":{"path":"ships/sentinelFrostyGlow","end": 63,"start": 0,"isWebp": false,"preload": true,"unload": true,"isSingleFile": false,"customExtension": null,"useAtlas": false},
+        "139":{"path":"ships/glove","end":63,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "137":{"path":"ships/solaceFrosty","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "138":{"path":"ships/dimiFrosty","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "150":{"path":"ships/beacon","end": 0,"start": 0,"isWebp": false,"preload": true,"unload": true,"isSingleFile": false,"customExtension": null,"useAtlas": false},
+        "151":{"path":"ships/sentinelGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "152":{"path":"ships/gryphonGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "164":{"path":"ships/gsakura","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "153":{"path":"ships/solaceGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "154":{"path":"ships/diminisherGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "155":{"path":"ships/spectrumGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "156":{"path":"ships/venomGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "157":{"path":"ships/cakeBoss","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "162":{"path":"ships/eggperror","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "158":{"path":"ships/palGold","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "160":{"path":"ships/viperGold","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "161":{"path":"ships/satellite","end":31,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "163":{"path":"ships/phoenixchamp","end":59,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "168":{"path":"ships/venomInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "169":{"path":"ships/sentinelInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "170":{"path":"ships/solaceInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "171":{"path":"ships/dimiInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "172":{"path":"ships/spectrumInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "173":{"path":"ships/gryphonInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "174":{"path":"ships/palInferno","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "175":{"path":"ships/ginfiltrator","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "176":{"path":"ships/citadel","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "177":{"path":"ships/aegis","end":63,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "1000":{"path":"ships/pumpkinball","end":31,"start":1,"isWebp":false,"preload":false,"unload":true,"isSingleFile":false,"customExtension":null,"useAtlas":false}
+    },
+    "stations": {
+        "hqmmo": ["stations/clanHqMmo", 0, 0, true, true, true, true],
+        "hqeic": ["stations/clanHqEic", 0, 0, true, true, true, true],
+        "hqvru": ["stations/clanHqVru", 0, 0, true, true, true, true],
+        "clan_op_hubmmo": ["stations/clanOpsMmo", 0, 0, true, true, true, true],
+        "clan_op_hubeic": ["stations/clanOpsEic", 0, 0, true, true, true, true],
+        "clan_op_hubvru": ["stations/clanOpsVru", 0, 0, true, true, true, true],
+        "clan_member_quartersmmo": ["stations/clanQuartersMmo", 0, 0, true, true, true, true],
+        "clan_member_quarterseic": ["stations/clanQuartersEic", 0, 0, true, true, true, true],
+        "clan_member_quartersvru": ["stations/clanQuartersVru", 0, 0, true, true, true, true],
+        "Low": ["stations/basePirate", 0, 0, true, true, true, true],
+        "Pirate": ["stations/pirateStation", 0, 0, false, true, true, true],
+        "Eic": ["stations/baseEic", 0, 0, true, true, true, true],
+        "Mmo": ["stations/baseMmo", 0, 0, true, true, true, true],
+        "Saturn1Advanced": ["stations/baseSaturn1Advanced", 0, 0, true, true, true, true]
+    },
+    "minimapStation": {
+        "Pirate": {"path":"stations/minimap/pirateStation","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":true,"holdImage": true,"customExtension":null},
+        "Low": {"path":"stations/minimap/baseLown","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":true,"holdImage": true,"customExtension":null},
+        "Eic": {"path":"stations/minimap/baseEic","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":true,"holdImage": true,"customExtension":null},
+        "Mmo": {"path":"stations/minimap/baseMmo","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":true,"holdImage": true,"customExtension":null},
+        "Saturn1Advanced": {"path":"stations/minimap/baseSaturn1Advanced","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":true,"holdImage": true,"customExtension":null}
+    },
+    "stationsEngines": {
+        "Eic": ["stations/baseEicG", 0, 0, true, true, true, true],
+        "Mmo": ["stations/baseMmoG", 0, 0, true, true, true, true]
+    },
+    "laserLight": {
+        "0": ["laserLights/0",0,0]
+    },
+    "minimap": {
+        "dots": {
+            "pal": {"path":"minimap/pal","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "cbswar": {"path":"minimap/cbswar","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "beaconPassive": {"path":"minimap/beaconPassive","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "cbsdead": {"path":"minimap/cbsdead","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "cbsfaction": {"path":"minimap/cbsfaction","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "cbsnoAttack": {"path":"minimap/cbsnap","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+            "cbsalliance": {"path":"minimap/cbsally","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true}
+        }
+    },
+    "ggGifer": {},
+    "balls": {
+        "0": ["ships/pumpkinball", 31, 1, false]
+    },
+    "smokes": {
+        "0": ["smokes/engineSmoke", 59, 0, false],
+        "1": ["smokes/santaSmoke", 59, 0, false],
+        "2": ["smokes/goldSmoke", 57, 0, false],
+        "rocketSmokeAdvanced": ["smokes/rocketSmokeAdvanced", 59, 0, false],
+        "rocketSmokeHitech": ["smokes/rocketSmokeHitech", 59, 0, false],
+        "rocketSmokeStandard": ["smokes/rocketSmokeStandard", 59, 0, false],
+        "trail": ["smokes/trailLong", 70, 0, false],
+        "rageTrail": ["smokes/rageTrail", 70, 0, false]
+    },
+    "factions": {
+        "1": {"path":"ui/faction/new1","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "2": {"path":"ui/faction/new2","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "3": {"path":"ui/faction/new3","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "4": {"path":"ui/faction/4","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "5": {"path":"ui/faction/5","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "holdImage": true}
+    },
+    "qc": {
+        "bg": ["ui/qc/bg", 0, 0,false, true, true, true],
+        "bottom": ["ui/qc/bgBottom", 0, 0,false, true, true, true]
+    },
+    "statusEffect": {
+        "1": ["ui/effect/weaponDisrupt", 0, 0, false, true, true, true],
+        "2": ["ui/effect/slowdown", 0, 0, false, true, true, true],
+        "3": ["ui/effect/invertedMovement", 0, 0, false, true, true, true]
+    },
+    "ranks": {
+        "0": ["ui/rank/0", 0, 0,false, true, true, true],
+        "1": ["ui/rank/1", 0, 0,false, true, true, true],
+        "2": ["ui/rank/2", 0, 0,false, true, true, true],
+        "3": ["ui/rank/3", 0, 0,false, true, true, true],
+        "4": ["ui/rank/4", 0, 0,false, true, true, true],
+        "5": ["ui/rank/5", 0, 0,false, true, true, true],
+        "6": ["ui/rank/6", 0, 0,false, true, true, true],
+        "7": ["ui/rank/7", 0, 0,false, true, true, true],
+        "8": ["ui/rank/8", 0, 0,false, true, true, true],
+        "9": ["ui/rank/9", 0, 0,false, true, true, true],
+        "10": ["ui/rank/10", 0, 0,false, true, true, true],
+        "11": ["ui/rank/11", 0, 0,false, true, true, true],
+        "12": ["ui/rank/12", 0, 0,false, true, true, true],
+        "13": ["ui/rank/13", 0, 0,false, true, true, true],
+        "14": ["ui/rank/14", 0, 0,false, true, true, true],
+        "15": ["ui/rank/15", 0, 0,false, true, true, true],
+        "16": ["ui/rank/16", 0, 0,false, true, true, true],
+        "17": ["ui/rank/17", 0, 0,false, true, true, true],
+        "18": ["ui/rank/18", 0, 0,false, true, true, true],
+        "19": ["ui/rank/19", 0, 0,false, true, true, true],
+        "20": ["ui/rank/20", 0, 0,false, true, true, true],
+        "21": ["ui/rank/21", 0, 0,false, true, true, true]
+    },
+    "cursors": {
+        "gamepad": ["ui/customCursor", 0,0]
+    },
+    "portals": {
+        "shockwave": {
+            "0": ["portalsn/shockwave/jumpAnimation0", 30, 1, false]
+        },
+        "portal": {
+            "0": {
+                "active": ["portalsn/portal0n/active", 1, 0, true],
+                "idle": ["portalsn/portal0n/idle", 1, 0, true],
+                "overlayIdle": ["portalsn/portal0n/idleOverlay", 1, 0, true],
+                "overlayActive": ["portalsn/portal0n/activeOverlay", 1, 0, true]
+            },
+            "1": {
+                "active": ["portalsn/portal1/active", 1, 0, true],
+                "idle": ["portalsn/portal1/idle", 1, 0, true]
+            },
+            "2": {
+                "active": ["portalsn/portal2/active", 1, 0, false],
+                "idle": ["portalsn/portal2/idle", 1, 0, false]
+            },
+            "3": {
+                "active": ["portalsn/portal3/active", 1, 0, true],
+                "idle": ["portalsn/portal3/idle", 1, 0, true]
+            },
+            "4": {
+                "active": ["portalsn/portal4/active", 1, 0, true],
+                "idle": ["portalsn/portal4/idle", 1, 0, true]
+            },
+            "5": {
+                "active": ["portalsn/portal5/active", 1, 0, true],
+                "idle": ["portalsn/portal5/idle", 1, 0, true]
+            },
+            "6": {
+                "active": ["portalsn/portal6/active", 1, 0, true],
+                "idle": ["portalsn/portal6/idle", 1, 0, true]
+            },
+            "7": {
+                "active": ["portalsn/portal7/active", 1, 0, true],
+                "idle": ["portalsn/portal7/idle", 1, 0, true]
+            },
+            "8": {
+                "active": ["portalsn/portal8/active", 1, 0, true],
+                "idle": ["portalsn/portal8/idle", 1, 0, true]
+            },
+            "9": {
+                "idle": ["portalsn/portal9/idle", 1, 0, true],
+                "active": ["portalsn/portal9/active", 1, 0, true]
+            },
+            "10": {
+                "idle": ["portalsn/portal10/idle", 1, 0, true],
+                "active": ["portalsn/portal10/active", 1, 0, true]
+            },
+            "11": {
+                "active": ["portalsn/portal11/active", 120, 1, true],
+                "idle": ["portalsn/portal11/idle", 1, 0, true]
+            },
+            "12": {
+                "active": ["portalsn/portal12/active", 120, 1, true],
+                "idle": ["portalsn/portal12/idle", 1, 0, true]
+            },
+            "13": {
+                "active": ["portalsn/portal13/active", 120, 1, true],
+                "idle": ["portalsn/portal13/idle", 1, 0, true]
+            },
+            "14": {
+                "active": ["portalsn/portal14/active", 120, 1, true],
+                "idle": ["portalsn/portal14/idle", 1, 0, true]
+            },
+            "16": {
+                "active": ["portalsn/portal16/active", 1, 0, false],
+                "idle": ["portalsn/portal16/idle", 1, 0, false]
+            },
+            "17": {
+                "active": ["portalsn/portal17/active", 1, 0, true],
+                "idle": ["portalsn/portal17/idle", 1, 0, true],
+                "overlayIdle": ["portalsn/portal17/idleOverlay", 1, 0, true],
+                "overlayActive": ["portalsn/portal17/activeOverlay", 1, 0, true]
+            },
+            "18": {
+                "active": ["portalsn/portal18/active", 1, 0, false],
+                "idle": ["portalsn/portal18/idle", 1, 0, false],
+                "overlayIdle": ["portalsn/portal18/idleOverlay", 1, 0, false],
+                "overlayActive": ["portalsn/portal18/activeOverlay", 1, 0, false]
+            }
+        }
+    },
+    "lensflares": {
+        "1": ["lensflares/1", 32, 1, true],
+        "2": ["lensflares/2", 32, 1, true],
+        "3": ["lensflares/3", 32, 1, true]
+    },
+    "lenses": {
+        "1": ["lensflares/1/lens", 5, 1, true],
+        "2": ["lensflares/2/lens", 5, 1, true],
+        "3": ["lensflares/3/lens", 5, 1, true]
+    },
+    "oa": {
+    },
+    "pings": {
+        "0": {"path":"ui/ping/0","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "1": {"path":"ui/ping/1","end":0,"start":0,"isWebp":false,"preload":true,"unload":false,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true}
+    },
+    "robots": {
+        "0": ["robots/robot0", 1, 0],
+        "1": ["robots/robot1", 1, 0],
+        "2": ["robots/robot2", 1, 0]
+    },
+    "lockon": {
+        "0": ["lockon/0_spin", 0, 0]
+    },
+    "formations": {
+        "0": ["formations/0", 0, 0],
+        "1": ["formations/1", 0, 0],
+        "2": ["formations/2", 0, 0],
+        "3": ["formations/3", 0, 0],
+        "4": ["formations/4", 0, 0],
+        "5": ["formations/5", 0, 0],
+        "6": ["formations/6", 0, 0],
+        "7": ["formations/7", 0, 0],
+        "8": ["formations/8", 0, 0],
+        "9": ["formations/9", 0, 0],
+        "10": ["formations/10", 0, 0],
+        "11": ["formations/11", 0, 0],
+        "12": ["formations/12", 0, 0],
+        "13": ["formations/13", 0, 0],
+        "14": ["formations/14", 0, 0],
+        "15": ["formations/15", 0, 0],
+        "16": ["formations/16", 0, 0],
+        "17": ["formations/17", 0, 0],
+        "18": ["formations/18", 0, 0]
+    },
+    "expansions": {
+        "15": ["expansions/15", 31, 0, true],
+        "16": ["expansions/16", 0, 0, false],
+        "17": ["expansions/17", 31, 0, true],
+        "18": ["expansions/18", 0, 0, true],
+        "19": ["expansions/19", 0, 0, true],
+        "20": ["expansions/20", 59, 0, true],
+        "21": ["expansions/21", 59, 0, true],
+        "22": ["expansions/22", 0, 0, false],
+        "23": ["expansions/23", 72, 0, true],
+        "24": ["expansions/24", 72, 0, true],
+        "100": ["expansions/100", 0, 0, false],
+        "101": ["expansions/101", 0, 0, false],
+        "102": ["expansions/102", 0, 0, false],
+        "103": ["expansions/103", 0, 0, false]
+    },
+    "planets":{
+        "1":{"path":"planets/planet1","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "2":{"path":"planets/planet2","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "3":{"path":"planets/planet3","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "4":{"path":"planets/planet4","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "5":{"path":"planets/planet1xs","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "6":{"path":"planets/planet2xs","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "7":{"path":"planets/planet4xs","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "8":{"path":"planets/planet5","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "9":{"path":"planets/planet6","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "10":{"path":"planets/planet7","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "11":{"path":"planets/planet8","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "12":{"path":"planets/planet9","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "13":{"path":"planets/planet10","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "14":{"path":"planets/planet11","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "15":{"path":"planets/planet12","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "16":{"path":"planets/planet13","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "17":{"path":"planets/planet14","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "18":{"path":"planets/planet15","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "19":{"path":"planets/planet16","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "20":{"path":"planets/planet17","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "21":{"path":"planets/planet18","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "22":{"path":"planets/planet19","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "23":{"path":"planets/planet20","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "24":{"path":"planets/planet21","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "25":{"path":"planets/planet22","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "26":{"path":"planets/planet23","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "27":{"path":"planets/planet24","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "28":{"path":"planets/planet25","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "29":{"path":"planets/planet26","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "30":{"path":"planets/planet27","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "31":{"path":"planets/planet28","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "32":{"path":"planets/planet29","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "33":{"path":"planets/planet30","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "34":{"path":"planets/planet31","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "35":{"path":"planets/planet32","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "36":{"path":"planets/planet33","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "37":{"path":"planets/planet34","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "38":{"path":"planets/planet35","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "39":{"path":"planets/planet36","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "40":{"path":"planets/planet37","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "41":{"path":"planets/planet38","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "42":{"path":"planets/baseSaturnAdvanced","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "43":{"path":"planets/planet39","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "44":{"path":"planets/planet40","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "45":{"path":"planets/planet41","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "46":{"path":"planets/planet42","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "47":{"path":"planets/planet43","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "48":{"path":"planets/planet44","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "50":{"path":"planets/planet46","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "51":{"path":"planets/planet47","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "52":{"path":"planets/planet48","end":0,"start":0,"isWebp":true,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "53":{"path":"planets/planet49","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "54":{"path":"planets/planet50","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "55":{"path":"planets/planet51","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "56":{"path":"planets/planet52","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "57":{"path":"planets/planet53","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "58":{"path":"planets/planet54","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "59":{"path":"planets/planet55","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "60":{"path":"planets/planet56","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "61":{"path":"planets/planet57","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "62":{"path":"planets/planet58","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true},
+        "63":{"path":"planets/planet59","end":0,"start":0,"isWebp":false,"preload":false,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": true}
+    },
+    "asteroids": {
+        "rocky":{
+            "1":{"path":"asteroids/rocky/1","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "2":{"path":"asteroids/rocky/2","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "3":{"path":"asteroids/rocky/3","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "4":{"path":"asteroids/rocky/4","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "5":{"path":"asteroids/rocky/5","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "6":{"path":"asteroids/rocky/6","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "7":{"path":"asteroids/rocky/7","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "8":{"path":"asteroids/rocky/8","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "9":{"path":"asteroids/rocky/9","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "10":{"path":"asteroids/rocky/10","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "11":{"path":"asteroids/rocky/11","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "12":{"path":"asteroids/rocky/12","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "13":{"path":"asteroids/rocky/13","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "14":{"path":"asteroids/rocky/14","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "15":{"path":"asteroids/rocky/15","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "16":{"path":"asteroids/rocky/16","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "17":{"path":"asteroids/rocky/17","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "18":{"path":"asteroids/rocky/18","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "19":{"path":"asteroids/rocky/19","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "20":{"path":"asteroids/rocky/20","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "21":{"path":"asteroids/rocky/21","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "22":{"path":"asteroids/rocky/22","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "23":{"path":"asteroids/rocky/23","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "24":{"path":"asteroids/rocky/24","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "25":{"path":"asteroids/rocky/25","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "26":{"path":"asteroids/rocky/26","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "27":{"path":"asteroids/rocky/27","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "28":{"path":"asteroids/rocky/28","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "29":{"path":"asteroids/rocky/29","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "30":{"path":"asteroids/rocky/30","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "31":{"path":"asteroids/rocky/31","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "32":{"path":"asteroids/rocky/32","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "33":{"path":"asteroids/rocky/33","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "34":{"path":"asteroids/rocky/34","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "35":{"path":"asteroids/rocky/35","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "36":{"path":"asteroids/rocky/36","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "37":{"path":"asteroids/rocky/37","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "38":{"path":"asteroids/rocky/38","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "39":{"path":"asteroids/rocky/39","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "40":{"path":"asteroids/rocky/40","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "41":{"path":"asteroids/rocky/41","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "42":{"path":"asteroids/rocky/42","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "43":{"path":"asteroids/rocky/43","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "44":{"path":"asteroids/rocky/44","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "45":{"path":"asteroids/rocky/45","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "46":{"path":"asteroids/rocky/46","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "47":{"path":"asteroids/rocky/47","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false}
+            },
+            "blueish":{
+                "1":{"path":"asteroids/blueish/1","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "2":{"path":"asteroids/blueish/2","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "3":{"path":"asteroids/blueish/3","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "4":{"path":"asteroids/blueish/4","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "5":{"path":"asteroids/blueish/5","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "6":{"path":"asteroids/blueish/6","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "7":{"path":"asteroids/blueish/7","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "8":{"path":"asteroids/blueish/8","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "9":{"path":"asteroids/blueish/9","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "10":{"path":"asteroids/blueish/10","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "11":{"path":"asteroids/blueish/11","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "12":{"path":"asteroids/blueish/12","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "13":{"path":"asteroids/blueish/13","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "14":{"path":"asteroids/blueish/14","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "15":{"path":"asteroids/blueish/15","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "16":{"path":"asteroids/blueish/16","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "17":{"path":"asteroids/blueish/17","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                "18":{"path":"asteroids/blueish/18","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false}},
+            "alien":{
+                    "1":{"path":"asteroids/alien/1","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "2":{"path":"asteroids/alien/2","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "3":{"path":"asteroids/alien/3","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "4":{"path":"asteroids/alien/4","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "5":{"path":"asteroids/alien/5","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "6":{"path":"asteroids/alien/6","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "7":{"path":"asteroids/alien/7","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "8":{"path":"asteroids/alien/8","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "9":{"path":"asteroids/alien/9","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "10":{"path":"asteroids/alien/10","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "11":{"path":"asteroids/alien/11","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+                    "12":{"path":"asteroids/alien/12","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false}
+                },
+        "alien2":{
+            "1":{"path":"asteroids/alien2/1","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "2":{"path":"asteroids/alien2/2","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "3":{"path":"asteroids/alien2/3","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "4":{"path":"asteroids/alien2/4","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "5":{"path":"asteroids/alien2/5","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "6":{"path":"asteroids/alien2/6","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "7":{"path":"asteroids/alien2/7","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "8":{"path":"asteroids/alien2/8","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "9":{"path":"asteroids/alien2/9","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "10":{"path":"asteroids/alien2/10","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "11":{"path":"asteroids/alien2/11","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false},
+            "12":{"path":"asteroids/alien2/12","end":0,"start":0,"isWebp":true,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false}
+        }
+    },
+    "explosions": {
+        "rocket": {
+            "0": ["pyroEffects/rocketExplosion0", 60, 1, true],
+            "1": ["pyroEffects/rocketExplosion2SF", 59, 0, true],
+            "2": ["pyroEffects/iceExplosion", 57, 0, true],
+            "3": ["pyroEffects/iceLauncherDetonation", 38, 0, true]
+        },
+        "disrupt": {
+            "0": ["pyroEffects/disrupt", 90, 0, true]
+        },
+        "laser": {
+            "1": ["pyroEffects/laserExplosion1", 30, 1, true],
+            "2": ["pyroEffects/laserExplosion2", 30, 1, true]
+        },
+        "explosion": {
+            "0": ["pyroEffects/explosion0", 59, 0, true],
+            "SmartBomb": ["pyroEffects/smartBomb", 120, 0, true],
+            "1": ["pyroEffects/playerExplosion", 49, 0, true],
+            "3": ["pyroEffects/snowExplosion", 59, 0, true],
+            "4": ["pyroEffects/heartShockwave", 80, 0, true],
+            "5": ["pyroEffects/skullExplosionGlow", 89, 0, false]
+        },
+        "mine": {
+            "0": ["pyroEffects/mineDefault", 60, 1, true],
+            "2": ["pyroEffects/mineEnergy", 67, 1, true],
+            "3": ["pyroEffects/mineFrag", 57, 1, true],
+            "4": ["pyroEffects/mine4", 30, 1, true]
+        },
+        "firework": {
+            "1": ["vfx/firework1n", 96, 0, true],
+        "2": ["vfx/firework2n", 96, 0, true],
+            "3": ["vfx/firework3n", 96, 0, true],
+            "4": ["vfx/firework4", 96, 0, true],
+            "5": ["vfx/firework5", 96, 0, true]
+        },
+        "snow": {
+            "1": ["effects/snowPortal", 0, 0, true, "infinity"]
+        },
+        "hyperspace": {
+            "1": ["effects/hyperspaceStart", 40, 1, true],
+            "4": ["effects/hyperspaceEnd", 44, 1, true]
+        },
+        "midas": {
+            "1": ["effects/midasCharge", 60, 0, true],
+            "2": ["pyroEffects/midasShockwave", 39, 0, true],
+            "3": ["pyroEffects/blossoms", 48, 0, true],
+            "4": ["pyroEffects/blossomsOut", 79, 0, true]
+        }
+    },
+    "shields": {
+        "advancedShield":{"path":"shields/advancedShield","end":72,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "instaShield":{"path":"shields/instaShield","end":90,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "barrier":{"path":"shields/barrier","end":11,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "shieldRecharge":{"path":"shields/shieldRecharge","end":60,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "invincibilityShield":{"path":"shields/invincibilityShield","end":130,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "jumpShield":{"path":"shields/jumpShield","end":40,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
+    },
+    "vfx": {
+        "leech":{"path":"vfx/leech","end":109,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "fortress":{"path":"vfx/fortress","end":60,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
+        "particleCharge":{"path":"vfx/particleCharge","end":80,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
+        "particleChargeElegant":{"path":"vfx/particleChargeElegant","end":80,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
+        "loveCharge":{"path":"vfx/loveCharge","end":44,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
+        "nanoRepair":{"path":"vfx/nanoRepair","end":40,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300", "200"]},
+        "prismaShield":{"path":"vfx/prismaShield","end":75,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
+        "singularity":{"path":"vfx/singularity","end":79,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "weakShield":{"path":"vfx/weakShield","end":50,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300", "200"]},
+        "turbo":{"path":"vfx/turbo","end":39,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "rapidFire":{"path":"vfx/rapidFire","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "emergencyRepair":{"path":"vfx/emergencyRepair","end":35,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null}
+    },
+    "effects": {
+        "flash": ["effects/flash", 4, 1],
+        "emp": ["effects/emp", 59, 1, true],
+        "levelUp": ["effects/levelUpN", 89, 0, true],
+        "empFlash": ["effects/emp/flash", 0, 0, true],
+        "empRing": ["effects/emp/ring", 0, 0, true],
+        "slowEffectIdle": ["effects/slowEffectIdle", 87, 0, true],
+        "slowEffectActive": ["effects/slowEffectActive", 87, 0, true]
+    },
+    "drones": {
+        "iris": {
+            "6": ["drones/iova/6", 63, 0, false]
+        },
+        "apis": {
+            "6": ["drones/atlas/6", 63, 0, false]
+        },
+        "zeus": {
+            "6": ["drones/zagreus/6", 63, 0, false]
+        },
+        "iris_havoc": {
+            "6": ["drones/iovaHavoc", 63, 0, false]
+        },
+        "apis_havoc": {
+            "6": ["drones/atlasHavoc", 63, 0, false]
+        },
+        "zeus_havoc": {
+            "6": ["drones/zagreusHavoc", 63, 0, false]
+        },
+        "iris_hauntvoc": {
+           "6": ["drones/designs/havoc/zeus/6", 59, 0, false]
+        },
+        "apis_hauntvoc": {
+           "6": ["drones/designs/havoc/zeus/6", 59, 0, false]
+        },
+        "zeus_hauntvoc": {
+           "6": ["drones/designs/havoc/zeus/6", 59, 0, false]
+        },
+        "iris_hercules": {
+            "6": ["drones/iovaHerc", 63, 0, false]
+        },
+        "apis_hercules": {
+            "6": ["drones/atlasHerc", 63, 0, false]
+        },
+        "zeus_hercules": {
+            "6": ["drones/zagreusHerc", 63, 0, false]
+        },
+        "iris_credvoc": {
+            "6": ["drones/vandal/6", 59, 0, false]
+        },
+        "apis_credvoc": {
+            "6": ["drones/vandal/6", 59, 0, false]
+        },
+        "zeus_credvoc": {
+            "6": ["drones/vandal/6", 59, 0, false]
+        }
+    },
+    "engines": {
+        "0": ["engines/standard", 37, 0, true],
+        "1": ["engines/santa", 39, 0, false],
+        "2": ["engines/gold", 15, 0, false]
+    },
+    "rings": {
+        "ring": ["rings/ring", 0, 0],
+        "crown": ["rings/crown", 0, 0]
+    },
+    "npcLasers": {
+        "1": ["npcLasersn/laser1", 0, 0],
+        "2": ["npcLasersn/laser2", 0, 0],
+        "3": ["npcLasersn/laser3", 0, 0],
+        "4": ["npcLasersn/laser4", 0, 0],
+        "5": ["npcLasersn/laser5", 0, 0],
+        "6": ["npcLasersn/laser6", 0, 0],
+        "7": ["npcLasersn/laser7", 0, 0],
+        "8": ["npcLasersn/laser8", 0, 0],
+        "9": ["npcLasersn/laser9", 0, 0],
+        "10": ["npcLasersn/laser10", 0, 0],
+        "11": ["npcLasersn/laser11", 0, 0]
+    },
+    "missile": {
+        "1": ["rocketsn/1", 0, 0],
+        "2": ["rocketsn/2", 0, 0],
+        "3": ["rocketsn/3", 0, 0],
+        "4": ["rocketsn/4", 0, 0],
+        "5": ["rocketsn/5", 0, 0],
+        "6": ["rocketsn/6", 0, 0],
+        "8": ["rocketsn/8", 0, 0],
+        "9": ["rocketsn/9", 0, 0]
+    },
+    "rlmissile": {
+        "1": ["rlmissilesn/1", 0, 0],
+        "2": ["rlmissilesn/2", 0, 0],
+        "3": ["rlmissilesn/3", 0, 0],
+        "4": ["rlmissilesn/4", 0, 0],
+        "5": ["rlmissilesn/5", 0, 0],
+        "6": ["rlmissilesn/6", 0, 0]
+    },
+    "lasers": {
+        "sar": {
+            "sar1": ["lasers/laserSar1", 0, 0],
+            "sar2": ["lasers/laserSar2", 0, 0]
+        },
+        "classic": {
+            "std": {
+                "0": ["lasers/modernn/laser0", 0, 0],
+                "beam0": ["lasers/modernn/laser0Beam", 0, 0],
+                "1": ["lasers/modernn/laser1", 0, 0],
+                "beam1": ["lasers/modernn/laser1Beam", 0, 0],
+                "2": ["lasers/modernn/laser2", 0, 0],
+                "beam2": ["lasers/modernn/laser2Beam", 0, 0],
+                "3": ["lasers/modernn/laser3", 0, 0],
+                "beam3": ["lasers/modernn/laser3Beam", 0, 0],
+                "4": ["lasers/modernn/laser4", 0, 0],
+                "beam4": ["lasers/modernn/laser4Beam", 0, 0],
+                "5": ["lasers/modernn/laser5", 0, 0],
+                "beam5": ["lasers/modernn/laser5Beam", 0, 0],
+                "6": ["lasers/modernn/laser6", 0, 0],
+                "beam6": ["lasers/modernn/laser6Beam", 0, 0],
+                "7": ["lasers/modernn/laser7", 0, 0],
+                "beam7": ["lasers/modernn/laser7Beam", 0, 0],
+                "8": ["lasers/modernn/laser9", 0, 0],
+                "beam8": ["lasers/modernn/laser9Beam", 0, 0],
+                "leech": ["lasers/modernn/laserLeech", 0, 0]
+            },
+            "big": {
+                "0": ["lasers/modernn/bigLaser0", 0, 0],
+                "beam0": ["lasers/modernn/bigLaser0Beam", 0, 0],
+                "1": ["lasers/modernn/bigLaser1", 0, 0],
+                "beam1": ["lasers/modernn/bigLaser1Beam", 0, 0],
+                "2": ["lasers/modernn/bigLaser2", 0, 0],
+                "beam2": ["lasers/modernn/bigLaser2Beam", 0, 0],
+                "3": ["lasers/modernn/bigLaser3", 0, 0],
+                "beam3": ["lasers/modernn/bigLaser3Beam", 0, 0],
+                "4": ["lasers/modernn/bigLaser4", 0, 0],
+                "beam4": ["lasers/modernn/bigLaser4Beam", 0, 0],
+                "5": ["lasers/modernn/bigLaser5", 0, 0],
+                "beam5": ["lasers/modernn/bigLaser5Beam", 0, 0],
+                "6": ["lasers/modernn/bigLaser6", 0, 0],
+                "beam6": ["lasers/modernn/bigLaser6Beam", 0, 0],
+                "7": ["lasers/modernn/bigLaser7", 0, 0],
+                "beam7": ["lasers/modernn/bigLaser7Beam", 0, 0],
+                "8": ["lasers/modernn/bigLaser9", 0, 0],
+                "beam8": ["lasers/modernn/bigLaser9Beam", 0, 0],
+                "leech": ["lasers/modernn/laserLeech", 0, 0]
+            }
+        }
+    },
+    "mines": {
+        "0": ["mines/basicmine", 1, 1],
+        "1": ["mines/empmine", 1, 1],
+        "2": ["mines/sdmine", 1, 1],
+        "3": ["mines/ddmine", 1, 1],
+        "4": ["mines/slowmine", 16, 1]
+    },
+    "collectables": {
+        "0": ["collectables/firework", 1, 1, true],
+        "1": ["collectables/boxn", 31, 1, true],
+        "2": ["collectables/greenBoxn", 31, 1, true],
+        "3": ["collectables/goldBoxn", 31, 1, true],
+        "11": ["collectables/goldBoxSpecial", 31, 1, false],
+        "4": ["collectables/redBoxn", 31, 1, true],
+        "5": ["collectables/blueBoxn", 31, 1, true],
+        "6": ["collectables/cargoBoxn", 31, 1, true],
+        "8": ["collectables/petBox", 1, 1, false],
+        "9": ["collectables/cargoBoxn", 31, 1, true],
+        "10": ["collectables/spacecupBox", 32, 1, false],
+        "13": ["collectables/cobalt", 32, 1, false],
+        "14": ["collectables/nickel", 0, 0, false],
+        "15": ["collectables/palladium", 32, 1, false],
+        "16": ["collectables/ree", 32, 1, false],
+        "17": ["collectables/selenite", 32, 1, false],
+        "18": ["collectables/pumpkin", 1, 1, false],
+        "19": ["collectables/jackolanterium", 1, 1, false],
+        "20": ["collectables/prismium", 0, 0, false],
+        "22": ["collectables/heartBoxAnimated", 0, 0, true],
+        "23": ["collectables/cake", 0, 0, false],
+        "24": ["collectables/eggBoxSm", 0, 0, true],
+        "25": ["collectables/eggBox", 0, 0, true],
+        "26": ["collectables/pirateBox", 31, 1, false]
+    },
+    "beams": {
+        "0": ["effects/beam", 59, 0, false]
+    },
+    "repairBeam": {
+        "0": ["effects/robotRepairBeam", 44, 1, true],
+        "1": ["effects/robotRepairBeamAdvanced", 44, 1, true],
+        "2": ["effects/robotRepairBeamBattle", 44, 1, true]
+    },
+    "collection": {
+        "0": ["ui/collection", 0, 0]
+    },
+    "fields": {
+        "0": ["fields/0", 0,0,false, true, true, true],
+        "1": ["fields/1", 0,0,false, true, true, true],
+        "2": ["fields/tile", 0,0,false, true, true, true],
+        "simple": ["fields/simple", 0,0,false, true, true, true]
+    }
+}

@@ -1,0 +1,281 @@
+:root {
+    --font-xs: 8px;
+    --font-sm: 10px;
+    --font-base: 12px;
+    --font-md: 14px;
+    --font-lg: 16px;
+    --font-xl: 18px;
+    --font-2xl: 20px;
+    --font-3xl: 22px;
+    --font-4xl: 24px;
+    --font-5xl: 26px;
+    --font-6xl: 30px;
+    --font-7xl: 32px;
+    --font-8xl: 36px;
+    --font-9xl: 40px;
+    --font-10xl: 50px;
+    --font-huge: 72px;
+}
+
+.font-info {
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.font-header {
+    font-family: "orbitron", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-btn {
+    font-family: "orbitron", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: rgb(55 55 55) 1px 1px 3px;
+}
+.font-soft {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+  
+@font-face {
+    font-family: "BebasNeue";
+    src: url("./spacemap/fonts/BebasNeue-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Orbitron";
+    src: url("./spacemap/fonts/Orbitron.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RajReg";
+    src: url("./spacemap/fonts/Rajdhani-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "RajBold";
+    src: url("./spacemap/fonts/Rajdhani-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Exo2'; /* your custom alias */
+    src: url("./spacemap/fonts/Exo2-VariableFont_wght.ttf") format('truetype');
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.cairo {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    &.regular {
+        font-weight: 300;
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+
+.mina-regular {
+    font-family: "Mina", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.mina-bold {
+    font-family: "Mina", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+
+.saira {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    &.regular {
+        font-weight: 300;
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+.exo {
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    &.regular {
+        font-weight: 300;
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+.aldrich {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.oxanium {
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    &.regular {
+        font-weight: 300;
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+.quantico {
+    font-family: "Quantico", sans-serif;
+    font-style: normal;
+
+    &.regular {
+        font-weight: 400;
+    }
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.titillium {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    &.extralight {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      &.light {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      &.semibold {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      &.bold {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      &.black {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      &.extralight-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      &.light-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      &.regular-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      &.semibold-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      &.bold-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+}  
+
+
+/* Utility classes for font sizes */
+.font-xs { font-size: var(--font-xs) !important; }
+.font-sm { font-size: var(--font-sm) !important; }
+.font-base { font-size: var(--font-base) !important; }
+.font-md { font-size: var(--font-md) !important; }
+.font-lg { font-size: var(--font-lg) !important; }
+.font-xl { font-size: var(--font-xl) !important; }
+.font-2xl { font-size: var(--font-2xl) !important; }
+.font-3xl { font-size: var(--font-3xl) !important; }
+.font-4xl { font-size: var(--font-4xl) !important; }
+.font-5xl { font-size: var(--font-5xl) !important; }
+.font-6xl { font-size: var(--font-6xl) !important; }
+.font-7xl { font-size: var(--font-7xl) !important; }
+.font-8xl { font-size: var(--font-8xl) !important; }
+.font-9xl { font-size: var(--font-9xl) !important; }
+.font-10xl { font-size: var(--font-10xl) !important; }
+.font-huge { font-size: var(--font-huge) !important; }
+
+body.mobile {
+    --font-xs: clamp(6px, 1vw, 8px);      /* For very small text */
+    --font-sm: clamp(8px, 1.5vw, 10px);   /* Small text */
+    --font-base: clamp(10px, 2vw, 12px);  /* Default body text */
+    --font-md: clamp(12px, 2.5vw, 14px);  /* Medium text */
+    --font-lg: clamp(14px, 3vw, 16px);    /* Slightly larger text */
+    --font-xl: clamp(16px, 3.5vw, 18px);  /* Headings, etc. */
+    --font-2xl: clamp(18px, 4vw, 20px);   /* Larger headings */
+    --font-3xl: clamp(20px, 4.5vw, 22px); /* Even larger headings */
+    --font-4xl: clamp(22px, 5vw, 24px);   /* Hero text */
+    --font-5xl: clamp(24px, 5.5vw, 26px); /* Big bold text */
+    --font-6xl: clamp(28px, 6vw, 30px);   /* Section titles */
+    --font-7xl: clamp(30px, 6.5vw, 32px); /* Larger section titles */
+    --font-8xl: clamp(34px, 7vw, 36px);   /* Very large text */
+    --font-9xl: clamp(38px, 7.5vw, 40px); /* Hero banners */
+    --font-10xl: clamp(48px, 8vw, 50px);  /* Big display text */
+    --font-huge: clamp(60px, 10vw, 72px); /* Massive titles */
+}
+  
+  
