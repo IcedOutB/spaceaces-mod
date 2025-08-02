@@ -3,11 +3,13 @@ export async function onRequest({ request }) {
   const origin = request.headers.get("origin") || "";
   const allowedHost = "https://boc-vanilla.com";
 
-  // If neither Referer nor Origin header starts with the allowed host, deny access
   if (!referer.startsWith(allowedHost) && !origin.startsWith(allowedHost)) {
     return new Response("Access Denied", { status: 403 });
   }
 
-  // Allow request to pass through to the page
   return await fetch(request);
+  
+  export async function onRequest() {
+  return new Response("Middleware active!", { status: 200 });
+}
 }
