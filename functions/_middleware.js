@@ -1,25 +1,16 @@
-export async function onRequest(context) {
-  const { request, env } = context;
-  const url = new URL(request.url);
-  const path = url.pathname;
+export async function onRequest({ request, env }) {
+  const cookie = request.headers.get("cookie") || "";
+  const match = cookie.match(/discordId=([^;]+)/);
+  const discordId = match?.[1];
 
-  // Read cookies
-  const cookieHeader = request.headers.get("Cookie") || "";
-  const match = cookieHeader.match(/discordId=(\d+)/);
-  const discordId = match ? match[1] : null;
-
-  if (discordId) {
-    const isWhitelisted = await env.ALLOWED_USERS.get(discordId);
-    if (isWhitelisted) {
-      return context.next(); // ✅ User is allowed, continue to requested resource
-    }
+  if (!discordId) {
+    return new Response("Access denied: Not logged in", { status: 403 });
   }
 
-  // ⛔ Deny access if no cookie or not whitelisted
-  return new Response("Access Denied", {
-    status: 403,
-    headers: {
-      "Content-Type": "text/plain"
-    }
-  });
+  const isAllowed = await env.ALLOWED_USERS.get(discordId);
+  if (!isAllowed) {
+    return new Response("Access denied: You are not whitelisted", { status: 403 });
+  }
+
+  return; // Allow request
 }
