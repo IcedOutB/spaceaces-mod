@@ -293,7 +293,7 @@ body {
   overflow-y: clip;
   overflow-x: clip;
   position: relative;
-  background: url("https://boc-vanilla.com/spacemap/welcome_standard_hd.jpg"), var(--faction-bg);
+  background: url("https://boc-vanilla.com/spacemap/welcome_standard_hd.webp"), var(--faction-bg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
