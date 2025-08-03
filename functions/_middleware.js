@@ -14,6 +14,5 @@ export async function onRequest(context) {
     return new Response("Access denied: not whitelisted.", { status: 403 });
   }
 
-  // ✅ Allowed, continue to requested resource
   return await next();
 }
