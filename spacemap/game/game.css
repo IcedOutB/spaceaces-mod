@@ -2251,34 +2251,34 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   z-index: 2;
 }
 .minimap-threat {
-  padding-right: none !important;
-  border-right: none !important;
+  padding-right: 2px;
+  border-right: 3px solid var(--default-text-blue);
 }
 .minimap-wrapper.tactical {
   .minimap-threat {
-    none !important;
+    margin-right: 2%;
   }
 }
 .minimap-threat[data-threat-level="1"] .threat[data-threat-index="1"] {
-  visibility: hidden;
+  visibility: visible;
 }
 .minimap-threat[data-threat-level="2"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="2"] .threat[data-threat-index="2"] {
-  visibility: hidden;
+  visibility: visible;
 }
 .minimap-threat[data-threat-level="3"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="3"] {
-  visibility: hidden;
+  visibility: visible;
 }
 .minimap-threat[data-threat-level="4"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="3"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="4"] {
-  visibility: hidden;
+  visibility: visible;
 }
 .minimap-threat[data-threat-level="5"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="5"] .threat[data-threat-index="2"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="3"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="4"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="5"] {
-  visibility: hidden;
+  visibility: visible;
 }
 .minimap-threat .divider {
-  width: none !important;
-  background-color: none !important;
-  height: none !important;
-  margin-right: none !important;
+  width: 4px;
+  background-color: var(--default-text-blue);
+  height: 4px;
+  margin-right: -2px;
 }
 /* shipinfo el */
 .wrapper_main_shipinfo,
