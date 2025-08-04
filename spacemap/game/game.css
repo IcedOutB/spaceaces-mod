@@ -2209,12 +2209,20 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
 }
 /* */
 #minimap {
-  border: 1px solid grey;
-  border-radius: 3px;
-  cursor: pointer;
-  background-color: transparent;
-  background-size: cover;
-  background-color: #000;
+  position: relative; /* Required to anchor ::before absolutely inside it */
+}
+#minimap::before {
+  content: "";
+  position: absolute; /* ⬅️ this must be absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://boc-vanilla.com/spacemap/minimap/grid.png");
+  background-size: 100% 100%; /* Stretches to fill the minimap exactly */
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 10;
 }
 .minimap-wrapper {
   position: relative;
