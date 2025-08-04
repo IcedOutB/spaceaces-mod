@@ -2253,13 +2253,14 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
 div.minimap-threat,
 div.minimap-threat .threat,
 div.minimap-threat .divider {
+  all: unset !important;
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
   width: 0 !important;
   height: 0 !important;
-  background: transparent !important;
   pointer-events: none !important;
+  background: transparent !important;
 }
 /* shipinfo el */
 .wrapper_main_shipinfo,
