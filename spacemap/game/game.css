@@ -2215,7 +2215,6 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   background-color: transparent;
   background-size: cover;
   background-color: #000;
-  background-image: url("https://boc-vanilla.com/spacemap/minimap/grid.png") !important;
 }
 .minimap-wrapper {
   position: relative;
@@ -2228,7 +2227,6 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   justify-content: end;
   padding-left: 2.5%;
   padding-top: 3%;
-  background-image: url("https://boc-vanilla.com/spacemap/minimap/gridmark.png") !important;
 }
 .minimap-planet {
   position: absolute;
