@@ -2250,16 +2250,23 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   position: absolute;
   z-index: 2;
 }
-.minimap-threat,
-.minimap-threat[style],
-.minimap-threat .threat,
-.minimap-threat .divider {
+.minimap-wrapper .minimap-threat {
+  all: unset !important;
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
   width: 0 !important;
   height: 0 !important;
-  background: transparent !important;
+  pointer-events: none !important;
+}
+.minimap-wrapper .minimap-threat .threat,
+.minimap-wrapper .minimap-threat .divider {
+  all: unset !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
   pointer-events: none !important;
 }
 /* shipinfo el */
