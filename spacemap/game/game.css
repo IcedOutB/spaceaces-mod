@@ -2250,19 +2250,21 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   position: absolute;
   z-index: 2;
 }
-.minimap-threat,
-.minimap-threat .threat,
-.minimap-threat .divider {
-  display: none !important;
-  visibility: hidden !important;
-  width: 0 !important;
-  height: 0 !important;
-  opacity: 0 !important;
-  border: none !important;
-  background: transparent !important;
+.minimap-threat .threat {
+  width: 100%;
+  height: 20%;
+  background-color: #ff0707;
+  visibility: hidden;
+}
+.minimap-threat {
+  display: none;
+  padding-right: 2px;
+  border-right: 3px solid var(--default-text-blue);
 }
 .minimap-wrapper.tactical {
-  display: none !important;
+  .minimap-threat {
+    margin-right: 2%;
+  }
 }
 .minimap-threat[data-threat-level="1"] .threat[data-threat-index="1"] {
   visibility: visible;
