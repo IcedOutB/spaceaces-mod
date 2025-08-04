@@ -2209,31 +2209,31 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
 }
 /* */
 #minimap {
-    border: 1px solid grey;
-    border-radius: 3px;
-    cursor: pointer;
-    background-color: #000;
-    background-size: cover;
-    position: relative; /* ✅ Required for ::before to anchor inside */
-}
-#minimap::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://boc-vanilla.com/spacemap/minimap/grid.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity: 1;
-    pointer-events: none;
-    z-index: 10;
+  border: 1px solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: transparent;
+  background-size: cover;
+  background-color: #000;
 }
 .minimap-wrapper {
   position: relative;
   border-radius: 3px;
   background-size: cover;
+}
+.minimap-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://boc-vanilla.com/spacemap/minimap/grid.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 9999;
 }
 .minimap-wrapper.tactical {
   display: flex;
