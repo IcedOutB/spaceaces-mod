@@ -4410,7 +4410,7 @@ textarea.custom-input {
 .clan .clan-switch-hint::before, .clan .clan-switch-hint::after {
   position: absolute;
   left: 5px;
-  content: none !important;
+  content: "<";
   color: rgb(230, 220, 179) !important;
   text-shadow: 0px 0px 5px#f78b39;
   font-size: var(--font-8xl);
@@ -4418,7 +4418,7 @@ textarea.custom-input {
 .clan .clan-switch-hint::after {
   left: unset;
   right: 5px;
-  content: none !important;
+  content: ">";
 }
 .clan .faction-main .faction-name {
   margin: auto 0;
