@@ -3417,17 +3417,17 @@ body dialog .btn-options .btn-dialog.confirm:hover, .boxed-popup .btn-options .b
 }
 
 body[hero-faction="1"] .hangar-info-wrapper {
-  background-image: url("./spacemap/equipment/hangar/dockbg.png");
+  background-image: url("https://boc-vanilla.com/spacemap/equipment/hangar/dockbg.png");
   background-size: cover;
   background-clip: border-box;
 }
 body[hero-faction="2"] .hangar-info-wrapper {
-  background-image: url("./spacemap/equipment/hangar/dockbg.png");
+  background-image: url("https://boc-vanilla.com/spacemap/equipment/hangar/dockbg.png");
   background-size: cover;
   background-clip: border-box;
 }
 body[hero-faction="3"] .hangar-info-wrapper {
-  background-image: url("./spacemap/equipment/hangar/dockbg.png");
+  background-image: url("https://boc-vanilla.com/spacemap/equipment/hangar/dockbg.png");
   background-size: cover;
   background-clip: border-box;
 }
@@ -8372,7 +8372,7 @@ body[data-pro-mode] {
     }
 
     .eq-slot-item {
-        background-image: url("./spacemap/equipment/itemBg.png");
+        background-image: url("https://boc-vanilla.com/spacemap/equipment/itemBg.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
