@@ -2220,6 +2220,9 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   position: relative;
   border-radius: 3px;
   background-size: cover;
+  gap: 0;
+  margin: 0;
+  padding: 0;
 }
 .minimap-wrapper::before {
   content: "";
@@ -2239,8 +2242,8 @@ body[data-ui-dragger-img-bg="false"] .btn_actionbar_move_pos i, body[data-ui-dra
   display: flex;
   align-items: end;
   justify-content: end;
-  padding-left: 2.5%;
-  padding-top: 3%;
+  padding-left: 0;
+  padding-top: 0;
 }
 .minimap-planet {
   position: absolute;
