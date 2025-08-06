@@ -766,13 +766,13 @@ body[ui-window-bg="true"] .shop.header {
   box-shadow: inset 2px 2px 34px -5px rgb(220 103 20);
 }
 .shop-items .shop-aval-item[is-elite="true"] .elite-icon {
-  display: block !important; 
+ /* display: block !important; */
 }
 .shop-items .shop-aval-item[is-tl="true"] .time-limited-icon {
   display: block !important;
 }
 .shop .shop-sel-item[is-elite="true"] .elite-icon {
-  display: block !important;
+ /* display: block !important; */
 }
 .shop .shop-sel-item[is-tm="true"] .time-limited-icon {
   display: block !important;
