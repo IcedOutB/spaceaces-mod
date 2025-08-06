@@ -697,7 +697,7 @@ body[ui-window-bg="true"] .shop.header {
   height: 100px;
   border: 1px solid transparent;
   position: relative;
-  background-image: url("https://boc-vanilla.com/image/shopImg/item-bg.jpg");
+  background-image: url("https://boc-vanilla.com/spacemap/image/shopImg/item-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1031,19 +1031,19 @@ body[ui-window-bg="true"] .shop.header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr 1fr;
-  background-image: url("https://boc-vanilla.com/image/shopImg/smallelement4.png"), url("https://boc-vanilla.com/image/shopImg/smallelement5.png");
+  background-image: url("https://boc-vanilla.com/spacemap/image/shopImg/smallelement4.png"), url("https://boc-vanilla.com/spacemap/image/shopImg/smallelement5.png");
   background-position: left center, right center;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
 }
 .shop .price-info {
-  background-image: url("https://boc-vanilla.com/image/shopImg/divider10.png");
+  background-image: url("https://boc-vanilla.com/spacemap/image/shopImg/divider10.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10px;
 }
 .shop .buy-wrapper {
-  background-image: url("https://boc-vanilla.com/image/shopImg/divider11.png");
+  background-image: url("https://boc-vanilla.com/spacemap/image/shopImg/divider11.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 10px;
@@ -8292,7 +8292,7 @@ body[data-pro-mode] {
         justify-content: center;
         color: rgb(191 122 15);
         text-shadow: 0px 0px 5px #f78b39;
-        background-image: url("https://boc-vanilla.com/image/shopImg/elite-icon.png");
+        background-image: url("https://boc-vanilla.com/spacemap/image/shopImg/elite-icon.png");
         background-size: contain;
     }
 
