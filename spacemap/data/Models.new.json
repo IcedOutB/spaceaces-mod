@@ -1897,7 +1897,7 @@
         },
         "explosion": {
             "0": ["pyroEffects/explosion0", 59, 0, true],
-            "SmartBomb": ["pyroEffects/smartBomb", 213, 0, true],
+            "SmartBomb": ["pyroEffects/smartBomb", 60, 0, true],
             "1": ["pyroEffects/playerExplosion", 49, 0, true],
             "3": ["pyroEffects/snowExplosion", 59, 0, true],
             "4": ["pyroEffects/heartShockwave", 80, 0, true],
