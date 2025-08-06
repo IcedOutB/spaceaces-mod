@@ -1889,7 +1889,7 @@
             "3": ["pyroEffects/iceLauncherDetonation", 38, 0, true]
         },
         "disrupt": {
-            "0": ["pyroEffects/disrupt", 180, 0, true]
+            "0": ["pyroEffects/disrupt", 90, 0, true]
         },
         "laser": {
             "1": ["pyroEffects/laserExplosion1", 30, 1, true],
@@ -1897,7 +1897,7 @@
         },
         "explosion": {
             "0": ["pyroEffects/explosion0", 59, 0, true],
-            "SmartBomb": ["pyroEffects/smartBomb", 120, 0, true],
+            "SmartBomb": ["pyroEffects/smartBomb", 213, 0, true],
             "1": ["pyroEffects/playerExplosion", 49, 0, true],
             "3": ["pyroEffects/snowExplosion", 59, 0, true],
             "4": ["pyroEffects/heartShockwave", 80, 0, true],
@@ -1911,7 +1911,7 @@
         },
         "firework": {
             "1": ["vfx/firework1n", 96, 0, true],
-        "2": ["vfx/firework2n", 96, 0, true],
+			"2": ["vfx/firework2n", 96, 0, true],
             "3": ["vfx/firework3n", 96, 0, true],
             "4": ["vfx/firework4", 96, 0, true],
             "5": ["vfx/firework5", 96, 0, true]
