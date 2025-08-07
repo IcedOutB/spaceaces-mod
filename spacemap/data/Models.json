@@ -1540,8 +1540,8 @@
         "bottom": ["ui/qc/bgBottom", 0, 0,false, true, true, true]
     },
     "statusEffect": {
-        "1": ["ui/effect/weaponDisrupt", 0, 0, false, true, true, true],
-        "2": ["ui/effect/slowdown", 0, 0, false, true, true, true],
+        "1": ["ui/effect/weaponDisrupt", 0, 0, false, false, true, true],
+        "2": ["ui/effect/slowdown", 0, 0, false, false, true, true],
         "3": ["ui/effect/invertedMovement", 0, 0, false, true, true, true]
     },
     "ranks": {
