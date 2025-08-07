@@ -1935,8 +1935,8 @@
         "instaShield":{"path":"shields/instaShield","end":329,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
         "barrier":{"path":"shields/barrier","end":11,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
         "shieldRecharge":{"path":"shields/shieldRecharge","end":60,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
-        "invincibilityShield":{"path":"shields/invincibilityShield","end":130,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
-        "jumpShield":{"path":"shields/jumpShield","end":40,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
+        "invincibilityShield":{"path":"shields/invincibilityShield","end":51,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false, "preloadSize": ["300", "200"]},
+        "jumpShield":{"path":"shields/jumpShield","end":139,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
     },
     "vfx": {
         "leech":{"path":"vfx/leech","end":109,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
