@@ -1540,8 +1540,8 @@
         "bottom": ["ui/qc/bgBottom", 0, 0,false, true, true, true]
     },
     "statusEffect": {
-        "1": ["ui/effect/weaponDisrupt", 0, 0],
-        "2": ["ui/effect/slowdown", 0, 0],
+        "1": ["ui/effect/weaponDisrupt","end":0,"start":0,"isWebp":false,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": false}
+        "2": ["ui/effect/slowdown","end":0,"start":0,"isWebp":false,"preload":true,"unload":true,"isSingleFile":true,"customExtension":null,"useAtlas":false, "holdImage": false}
         "3": ["ui/effect/invertedMovement", 0, 0, false, true, true, true]
     },
     "ranks": {
