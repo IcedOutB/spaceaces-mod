@@ -1524,9 +1524,9 @@
         "0": ["smokes/engineSmoke", 59, 0, false],
         "1": ["smokes/santaSmoke", 59, 0, false],
         "2": ["smokes/goldSmoke", 57, 0, false],
-        "rocketSmokeAdvanced": ["smokes/rocketSmokeAdvanced", 59, 0, false],
-        "rocketSmokeHitech": ["smokes/rocketSmokeHitech", 59, 0, false],
-        "rocketSmokeStandard": ["smokes/rocketSmokeStandard", 59, 0, false],
+        "rocketSmokeAdvanced": ["smokes/rocketSmokeAdvanced", 18, 0, false],
+        "rocketSmokeHitech": ["smokes/rocketSmokeHitech", 18, 0, false],
+        "rocketSmokeStandard": ["smokes/rocketSmokeStandard", 18, 0, false],
         "trail": ["smokes/trailLong", 70, 0, false],
         "rageTrail": ["smokes/rageTrail", 70, 0, false]
     },
