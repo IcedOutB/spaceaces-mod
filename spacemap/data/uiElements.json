@@ -1877,7 +1877,29 @@
                     {"id": 3, "label": "vru"}
                 ],
                 "possibleClanUpgrades": [
-                    {"id": 1, "icon": "ep", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 1, "icon": "https://boc-vanilla.com/spacemap/image/assembly/bonus/ep.png", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},ddddddddddd
+                        "2": {"uri": 0, "credits": 2000000},
+                        "3": {"uri": 0, "credits": 4000000},
+                        "4": {"uri": 0, "credits": 6000000},
+                        "5": {"uri": 0, "credits": 10000000},
+                        "6": {"uri": 50000, "credits": 10000000},
+                        "7": {"uri": 55000, "credits": 12000000},
+                        "8": {"uri": 62500, "credits": 14000000},
+                        "9": {"uri": 70000, "credits": 16000000},
+                        "10": {"uri": 80000, "credits": 20000000},
+                        "11": {"uri": 100000, "credits": 40000000},
+                        "12": {"uri": 120000, "credits": 60000000},
+                        "13": {"uri": 140000, "credits": 80000000},
+                        "14": {"uri": 160000, "credits": 100000000},
+                        "15": {"uri": 200000, "credits": 140000000},
+                        "16": {"uri": 250000, "credits": 180000000},
+                        "17": {"uri": 300000, "credits": 220000000},
+                        "18": {"uri": 350000, "credits": 260000000},
+                        "19": {"uri": 400000, "credits": 300000000},
+                        "20": {"uri": 500000, "credits": 400000000}
+                    }},
+                    {"id": 2, "icon": "fa-trophy", "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1899,29 +1921,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 2, "icon": "hon", "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
-                        "1": {"uri": 0, "credits": 1000000},
-                        "2": {"uri": 0, "credits": 2000000},
-                        "3": {"uri": 0, "credits": 4000000},
-                        "4": {"uri": 0, "credits": 6000000},
-                        "5": {"uri": 0, "credits": 10000000},
-                        "6": {"uri": 50000, "credits": 10000000},
-                        "7": {"uri": 55000, "credits": 12000000},
-                        "8": {"uri": 62500, "credits": 14000000},
-                        "9": {"uri": 70000, "credits": 16000000},
-                        "10": {"uri": 80000, "credits": 20000000},
-                        "11": {"uri": 100000, "credits": 40000000},
-                        "12": {"uri": 120000, "credits": 60000000},
-                        "13": {"uri": 140000, "credits": 80000000},
-                        "14": {"uri": 160000, "credits": 100000000},
-                        "15": {"uri": 200000, "credits": 140000000},
-                        "16": {"uri": 250000, "credits": 180000000},
-                        "17": {"uri": 300000, "credits": 220000000},
-                        "18": {"uri": 350000, "credits": 260000000},
-                        "19": {"uri": 400000, "credits": 300000000},
-                        "20": {"uri": 500000, "credits": 400000000}
-                    }},
-                    {"id": 3, "icon": "booster", "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
+                    {"id": 3, "icon": "fa-bolt", "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
                         "1": {"uri": 100000, "credits": 40000000},
                         "2": {"uri": 120000, "credits": 60000000},
                         "3": {"uri": 140000, "credits": 80000000},
@@ -1955,7 +1955,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 5, "icon": "structure", "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 5, "icon": "fa-star-of-life", "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1977,7 +1977,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 6, "icon": "superModule", "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 6, "icon": "fa-space-station-moon", "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
