@@ -1877,7 +1877,7 @@
                     {"id": 3, "label": "vru"}
                 ],
                 "possibleClanUpgrades": [
-                    {"id": 1, "icon": "fa-award", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 1, "icon": "ep", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1899,7 +1899,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 2, "icon": "fa-trophy", "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 2, "icon": "hon", "type": "hon", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1921,7 +1921,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 3, "icon": "fa-bolt", "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
+                    {"id": 3, "icon": "booster", "type": "booster", "maxLvl": 10, "bonusPerLvl": 0.1, "costs": {
                         "1": {"uri": 100000, "credits": 40000000},
                         "2": {"uri": 120000, "credits": 60000000},
                         "3": {"uri": 140000, "credits": 80000000},
@@ -1955,7 +1955,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 5, "icon": "fa-star-of-life", "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 5, "icon": "structure", "type": "structure", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
@@ -1977,7 +1977,7 @@
                         "19": {"uri": 400000, "credits": 300000000},
                         "20": {"uri": 500000, "credits": 400000000}
                     }},
-                    {"id": 6, "icon": "fa-space-station-moon", "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 6, "icon": "superModule", "type": "superModule", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
