@@ -1877,7 +1877,7 @@
                     {"id": 3, "label": "vru"}
                 ],
                 "possibleClanUpgrades": [
-                    {"id": 1, "icon": "https://boc-vanilla.com/spacemap/image/assembly/ep.png", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                    {"id": 1, "icon": "fa-award", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
                         "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
