@@ -1946,8 +1946,8 @@
         "loveCharge":{"path":"vfx/loveCharge","end":44,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
         "nanoRepair":{"path":"vfx/nanoRepair","end":40,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300", "200"]},
         "prismaShield":{"path":"vfx/prismaShield","end":43,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
-        "singularity":{"path":"vfx/singularity","end":79,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
-        "weakShield":{"path":"vfx/weakShield","end":26,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300", "200"]},
+        "singularity":{"path":"vfx/singularity","end":79,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "weakShield":{"path":"vfx/weakShield","end":63,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300", "200"]},
         "turbo":{"path":"vfx/turbo","end":39,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
         "rapidFire":{"path":"vfx/rapidFire","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
         "emergencyRepair":{"path":"vfx/emergencyRepair","end":35,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null}
