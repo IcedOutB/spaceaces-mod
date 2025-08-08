@@ -1877,8 +1877,8 @@
                     {"id": 3, "label": "vru"}
                 ],
                 "possibleClanUpgrades": [
-                    {"id": 1, "icon": "https://boc-vanilla.com/spacemap/image/assembly/bonus/ep.png", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
-                        "1": {"uri": 0, "credits": 1000000},ddddddddddd
+                    {"id": 1, "icon": "https://boc-vanilla.com/spacemap/image/assembly/ep.png", "type": "ep", "maxLvl": 20, "bonusPerLvl": 0.5, "costs": {
+                        "1": {"uri": 0, "credits": 1000000},
                         "2": {"uri": 0, "credits": 2000000},
                         "3": {"uri": 0, "credits": 4000000},
                         "4": {"uri": 0, "credits": 6000000},
