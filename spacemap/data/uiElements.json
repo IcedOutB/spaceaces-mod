@@ -1386,7 +1386,7 @@
             {
                 "name": "SHD",
                 "isBar": true,
-                "color": "#0000FF",
+                "color": "#49BE40",
                 "icon": "shield",
                 "isFontIcon": true,
                 "popover": {
