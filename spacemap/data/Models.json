@@ -1935,7 +1935,7 @@
         "jumpShield":{"path":"shields/jumpShield","end":139,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
     },
     "vfx": {
-        "leech":{"path":"vfx/leech","end":109,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
+        "leech":{"path":"vfx/leech","end":31,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null},
         "fortress":{"path":"vfx/fortress","end":60,"start":1,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
         "particleCharge":{"path":"vfx/particleCharge","end":80,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
         "particleChargeElegant":{"path":"vfx/particleChargeElegant","end":80,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null, "preloadSize": ["300"]},
