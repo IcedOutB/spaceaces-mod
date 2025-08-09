@@ -728,7 +728,7 @@
             "useAtlas": false
         },
         "56": {
-            "path": "ships/scorcher",
+            "path": "ships/scorcherNew",
             "end": 31,
             "start": 0,
             "isWebp": true,
@@ -739,7 +739,7 @@
             "useAtlas": false
         },
         "57": {
-            "path": "ships/melter",
+            "path": "ships/melterNew",
             "end": 31,
             "start": 0,
             "isWebp": true,
