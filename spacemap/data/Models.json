@@ -750,7 +750,7 @@
             "useAtlas": false
         },
         "58": {
-            "path": "ships/havoc",
+            "path": "ships/havocNew",
             "end": 15,
             "start": 0,
             "isWebp": false,
